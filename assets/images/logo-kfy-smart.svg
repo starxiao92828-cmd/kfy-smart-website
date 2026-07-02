@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="120" viewBox="0 0 520 120" role="img" aria-label="KFY SMART logo">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0A4B8F"/>
+      <stop offset="1" stop-color="#1688E8"/>
+    </linearGradient>
+  </defs>
+  <rect width="520" height="120" rx="22" fill="none"/>
+  <g transform="translate(20,18)">
+    <path d="M22 69 C58 22, 118 22, 154 69" fill="none" stroke="url(#g)" stroke-width="10" stroke-linecap="round"/>
+    <path d="M50 69 H158" stroke="#1B2B3A" stroke-width="10" stroke-linecap="round"/>
+    <circle cx="168" cy="68" r="12" fill="#1688E8"/>
+    <text x="0" y="48" font-size="36" font-family="Inter, Arial, sans-serif" font-weight="800" fill="#0B2D4D">KFY</text>
+    <text x="182" y="48" font-size="34" font-family="Inter, Arial, sans-serif" font-weight="800" fill="#0A4B8F">SMART</text>
+    <text x="182" y="78" font-size="16" font-family="Inter, Arial, sans-serif" font-weight="500" fill="#5D6B7A">Smart Living & Sleep Solutions</text>
+  </g>
+</svg>

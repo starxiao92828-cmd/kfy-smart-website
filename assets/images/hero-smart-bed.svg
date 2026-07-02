@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" width="1200" height="760" role="img" aria-label="Modern smart adjustable bed in business blue style">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#EAF5FF"/><stop offset="1" stop-color="#F7FBFF"/></linearGradient>
+    <linearGradient id="wall" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#FFFFFF"/><stop offset="1" stop-color="#D9E9F7"/></linearGradient>
+    <linearGradient id="bed" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#F5F7FA"/><stop offset="1" stop-color="#C5D0DA"/></linearGradient>
+    <linearGradient id="navy" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#0B2D4D"/><stop offset="1" stop-color="#0E62BA"/></linearGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="26" stdDeviation="28" flood-color="#0B2D4D" flood-opacity="0.18"/></filter>
+  </defs>
+  <rect width="1200" height="760" fill="url(#bg)"/>
+  <path d="M0 0H1200V290H0z" fill="url(#wall)"/>
+  <g opacity="0.35">
+    <rect x="90" y="70" width="170" height="310" rx="4" fill="#fff"/>
+    <rect x="285" y="70" width="170" height="310" rx="4" fill="#fff"/>
+    <rect x="480" y="70" width="170" height="310" rx="4" fill="#fff"/>
+    <line x1="175" y1="70" x2="175" y2="380" stroke="#8FBCE5"/>
+    <line x1="370" y1="70" x2="370" y2="380" stroke="#8FBCE5"/>
+    <line x1="565" y1="70" x2="565" y2="380" stroke="#8FBCE5"/>
+  </g>
+  <g transform="translate(140,180)" filter="url(#shadow)">
+    <path d="M110 420h840c54 0 92-33 100-81l15-92c6-36-26-70-68-70H279c-64 0-121 37-144 93L87 388c-7 17 5 32 23 32z" fill="#BAC5CF"/>
+    <path d="M282 161c162-108 298-124 409-45l174 124H213l69-79z" fill="url(#bed)"/>
+    <path d="M210 241h748c30 0 51 23 45 49l-16 70c-8 37-40 62-78 62H103c-17 0-29-17-22-32l45-96c16-33 47-53 84-53z" fill="#E8EDF3"/>
+    <path d="M248 262h300c22 0 40 18 40 40v58H208l19-65c4-20 12-33 21-33z" fill="#C7D1DB"/>
+    <path d="M621 262h252c37 0 59 27 52 60l-9 38H621z" fill="#CFD8E2"/>
+    <path d="M206 370h715" stroke="#8092A4" stroke-width="8" stroke-linecap="round"/>
+    <rect x="120" y="421" width="830" height="58" rx="18" fill="url(#navy)"/>
+    <rect x="180" y="448" width="96" height="20" rx="6" fill="#EAF5FF" opacity="0.45"/>
+    <text x="480" y="457" fill="#fff" font-family="Arial" font-size="24" font-weight="800">KFY SMART</text>
+    <g fill="#0B2D4D"><rect x="180" y="480" width="24" height="80" rx="8"/><rect x="860" y="480" width="24" height="80" rx="8"/></g>
+  </g>
+  <g transform="translate(760,460)">
+    <rect x="0" y="0" width="300" height="190" rx="26" fill="#FFFFFF" opacity="0.94" stroke="#B9D8F3"/>
+    <text x="28" y="42" font-family="Arial" font-size="20" font-weight="700" fill="#0B2D4D">Smart Control</text>
+    <circle cx="52" cy="82" r="21" fill="#EAF5FF"/><path d="M42 82h20M52 72v20" stroke="#0E62BA" stroke-width="4" stroke-linecap="round"/>
+    <text x="84" y="89" font-family="Arial" font-size="16" fill="#3E5266">App / Remote / Voice</text>
+    <rect x="30" y="122" width="238" height="36" rx="18" fill="#0E62BA" opacity="0.12"/>
+    <path d="M46 140c36-34 64 29 98 0s54-18 104 2" fill="none" stroke="#0E62BA" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

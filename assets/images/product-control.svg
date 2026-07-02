@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 460" width="700" height="460" role="img" aria-label="Smart Control System">
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#E8F2FF"/><stop offset="1" stop-color="#FFFFFF"/></linearGradient><filter id="s"><feDropShadow dx="0" dy="16" stdDeviation="18" flood-color="#0B2D4D" flood-opacity=".14"/></filter></defs>
+  <rect width="700" height="460" rx="28" fill="url(#g)"/>
+  <circle cx="575" cy="85" r="92" fill="#1688E8" opacity=".08"/>
+  <circle cx="110" cy="360" r="120" fill="#1688E8" opacity=".06"/>
+  <g transform="translate(92,140)" filter="url(#s)">
+    <path d="M70 170h445c36 0 62-20 70-52l15-62c5-23-15-45-43-45H195c-40 0-76 23-91 58L54 154c-5 9 4 16 16 16z" fill="#C6D0DA"/>
+    <path d="M184 12c93-46 189-51 275-15l92 72H120l64-57z" fill="#F5F7FA"/>
+    <path d="M114 80h410c18 0 32 15 28 32l-10 45H66l28-55c5-13 9-22 20-22z" fill="#E8EEF5"/>
+    <path d="M80 168h455" stroke="#9BACBD" stroke-width="7" stroke-linecap="round"/>
+    <rect x="85" y="185" width="420" height="38" rx="16" fill="#1688E8"/>
+    <text x="210" y="210" font-family="Arial" font-size="22" font-weight="800" fill="#fff">KFY SMART</text>
+  </g>
+  <text x="46" y="64" font-family="Arial" font-size="30" font-weight="800" fill="#0B2D4D">Smart Control System</text>
+  <text x="46" y="96" font-family="Arial" font-size="17" fill="#53697D">Original visual placeholder for B2B smart home website.</text>
+</svg>

@@ -1,0 +1,9 @@
+KFY SMART Demo Catalog Placeholder
+
+Replace this file with your final PDF catalog, product datasheets, manuals and certification files.
+Suggested R2 structure:
+/downloads/catalogs/kfy-smart-product-catalog.pdf
+/downloads/datasheets/w-series-smart-mattress.pdf
+/downloads/datasheets/e-series-adjustable-base.pdf
+/downloads/manuals/remote-control-guide.pdf
+/downloads/certifications/
