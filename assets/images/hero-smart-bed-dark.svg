@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="620" viewBox="0 0 920 620" role="img" aria-label="Smart adjustable bed dark tech visual">
+  <defs>
+    <linearGradient id="frame" x1="120" y1="180" x2="780" y2="430" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F5FBFF"/>
+      <stop offset="0.5" stop-color="#8DDAFF"/>
+      <stop offset="1" stop-color="#1D92FF"/>
+    </linearGradient>
+    <linearGradient id="mattress" x1="180" y1="180" x2="760" y2="410" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#EAF8FF"/>
+      <stop offset="1" stop-color="#6BCBFF"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="74%" r="44%">
+      <stop stop-color="#25B6FF" stop-opacity="0.42"/>
+      <stop offset="1" stop-color="#25B6FF" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="soft" x="-20%" y="-40%" width="140%" height="180%">
+      <feGaussianBlur stdDeviation="12"/>
+    </filter>
+  </defs> 
+  <rect width="920" height="620" fill="none"/>
+  <ellipse cx="470" cy="474" rx="350" ry="82" fill="url(#glow)"/>
+  <path d="M130 444 C280 386 652 386 802 444" fill="none" stroke="#25B6FF" stroke-opacity="0.22" stroke-width="2"/>
+  <path d="M172 454 H760" stroke="#25B6FF" stroke-opacity="0.48" stroke-width="4" stroke-linecap="round" filter="url(#soft)"/>
+  <g transform="translate(80 30)">
+    <path d="M104 382 H720" stroke="url(#frame)" stroke-width="24" stroke-linecap="round"/>
+    <path d="M148 346 C232 244 348 235 458 328" fill="none" stroke="url(#mattress)" stroke-width="54" stroke-linecap="round"/>
+    <path d="M452 329 C538 286 650 300 722 350" fill="none" stroke="#B8ECFF" stroke-width="54" stroke-linecap="round"/>
+    <path d="M150 383 L132 432 M710 383 L736 432" stroke="#6BD8FF" stroke-width="16" stroke-linecap="round"/>
+    <rect x="196" y="392" width="474" height="34" rx="17" fill="#153A63" stroke="#43C6FF" stroke-opacity="0.7"/>
+    <path d="M222 294 C278 250 350 252 410 306" fill="none" stroke="#FFFFFF" stroke-opacity="0.55" stroke-width="5" stroke-linecap="round"/>
+    <path d="M492 306 C564 276 638 286 694 326" fill="none" stroke="#FFFFFF" stroke-opacity="0.45" stroke-width="5" stroke-linecap="round"/>
+  </g>
+  <circle cx="226" cy="158" r="4" fill="#67D8FF"/>
+  <circle cx="724" cy="172" r="4" fill="#67D8FF"/>
+  <circle cx="784" cy="438" r="4" fill="#67D8FF"/>
+  <path d="M226 158 L308 284 M724 172 L646 294 M784 438 L692 406" fill="none" stroke="#67D8FF" stroke-opacity="0.45" stroke-width="2"/>
+</svg>
