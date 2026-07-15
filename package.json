@@ -1,0 +1,10 @@
+{
+  "name": "kfy-smart-v3",
+  "version": "3.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "npx serve . -l 3000",
+    "check": "node scripts/check-site.mjs"
+  }
+}

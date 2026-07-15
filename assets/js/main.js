@@ -1,27 +1,17 @@
-(function(){
-  const toggle=document.querySelector('[data-menu-toggle]');
-  const links=document.querySelector('[data-nav-links]');
-  if(toggle&&links){
-    toggle.addEventListener('click',()=>{links.classList.toggle('open');toggle.setAttribute('aria-expanded',links.classList.contains('open')?'true':'false')});
-  }
 
-  document.querySelectorAll('[data-hero-slider]').forEach(slider=>{
-    const slides=[...slider.querySelectorAll('.hero-slider__slide')];
-    const dots=[...slider.querySelectorAll('[data-hero-dot]')];
-    if(!slides.length) return;
-    let current=0;
-    const show=index=>{
-      current=(index+slides.length)%slides.length;
-      slides.forEach((slide,i)=>slide.classList.toggle('is-active',i===current));
-      dots.forEach((dot,i)=>dot.classList.toggle('is-active',i===current));
-    };
-    dots.forEach((dot,i)=>dot.addEventListener('click',()=>show(i)));
-    setInterval(()=>show(current+1),5000);
-  });
-  document.querySelectorAll('[data-rfq-form]').forEach(form=>{
-    form.addEventListener('submit',e=>{
-      e.preventDefault();
-      alert('Thank you. Your inquiry draft is ready. For faster response, please contact us by WhatsApp or email.');
-    });
-  });
+(()=>{
+  const cfg=window.KFY_CONFIG||{};
+  const body=document.body;
+  const toggle=document.querySelector('[data-menu-toggle]');
+  const nav=document.querySelector('[data-nav-links]');
+  if(toggle&&nav){toggle.addEventListener('click',()=>{const open=nav.classList.toggle('open');toggle.setAttribute('aria-expanded',String(open));body.classList.toggle('menu-open',open)});nav.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{nav.classList.remove('open');body.classList.remove('menu-open')}));}
+
+  const carousel=document.querySelector('[data-carousel]');
+  if(carousel){const slides=[...carousel.querySelectorAll('[data-slide]')],dots=[...carousel.querySelectorAll('[data-dot]')],prev=carousel.querySelector('[data-prev]'),next=carousel.querySelector('[data-next]'),pause=carousel.querySelector('[data-pause]');let index=0,timer=null,paused=false;const reduced=matchMedia('(prefers-reduced-motion: reduce)').matches;const show=i=>{index=(i+slides.length)%slides.length;slides.forEach((s,n)=>{const active=n===index;s.classList.toggle('active',active);s.setAttribute('aria-hidden',String(!active))});dots.forEach((d,n)=>d.classList.toggle('active',n===index));};const stop=()=>{clearInterval(timer);timer=null};const start=()=>{if(reduced||paused)return;stop();timer=setInterval(()=>show(index+1),6000)};prev?.addEventListener('click',()=>{show(index-1);start()});next?.addEventListener('click',()=>{show(index+1);start()});dots.forEach((d,n)=>d.addEventListener('click',()=>{show(n);start()}));pause?.addEventListener('click',()=>{paused=!paused;pause.textContent=paused?'▶':'Ⅱ';pause.setAttribute('aria-label',paused?'Resume carousel':'Pause carousel');paused?stop():start()});carousel.addEventListener('mouseenter',stop);carousel.addEventListener('mouseleave',start);carousel.addEventListener('focusin',stop);carousel.addEventListener('focusout',start);carousel.addEventListener('keydown',e=>{if(e.key==='ArrowLeft')show(index-1);if(e.key==='ArrowRight')show(index+1)});let sx=0;carousel.addEventListener('touchstart',e=>sx=e.touches[0].clientX,{passive:true});carousel.addEventListener('touchend',e=>{const dx=e.changedTouches[0].clientX-sx;if(Math.abs(dx)>45)show(index+(dx<0?1:-1));start()},{passive:true});start();}
+
+  document.querySelectorAll('.product-gallery').forEach(g=>{const imgs=[...g.querySelectorAll('[data-gallery-image]')],thumbs=[...g.querySelectorAll('[data-gallery-thumb]')];thumbs.forEach((t,i)=>t.addEventListener('click',()=>{imgs.forEach((x,n)=>x.classList.toggle('active',n===i));thumbs.forEach((x,n)=>x.classList.toggle('active',n===i))}))});
+
+  const filters=[...document.querySelectorAll('[data-filter]')];const news=[...document.querySelectorAll('[data-news-category]')];filters.forEach(b=>b.addEventListener('click',()=>{filters.forEach(x=>x.classList.remove('active'));b.classList.add('active');const f=b.dataset.filter;news.forEach(card=>card.hidden=f!=='all'&&card.dataset.newsCategory!==f)}));
+
+  const form=document.querySelector('[data-inquiry-form]'),disabled=document.querySelector('[data-form-disabled]');if(form){if(cfg.inquiryFormEnabled){form.hidden=false;if(disabled)disabled.hidden=true;const qs=new URLSearchParams(location.search);if(qs.get('product')){const select=form.elements.interestedProduct;const p=qs.get('product');const map={E:'Adjustable Bed Bases',S:'Smart Beds',W:'Smart Mattresses'};if(map[p[0]])select.value=map[p[0]]}form.addEventListener('submit',async e=>{e.preventDefault();const status=form.querySelector('[data-form-status]');const btn=form.querySelector('button[type="submit"]');btn.disabled=true;status.textContent='Submitting…';const payload=Object.fromEntries(new FormData(form));try{const res=await fetch('/api/inquiry',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({...payload,sourcePage:location.pathname,submissionTime:new Date().toISOString()})});const data=await res.json();if(!res.ok)throw new Error(data.error||'Submission failed');status.textContent='Thank you for your inquiry. Our team will contact you by email or WhatsApp shortly.';form.reset()}catch(err){status.textContent='We could not submit your inquiry. Please try again or contact us directly by WhatsApp or email.'}finally{btn.disabled=false}})}else{form.hidden=true;if(disabled)disabled.hidden=false}}
 })();

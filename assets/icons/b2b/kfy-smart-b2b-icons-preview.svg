@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 420">
+  <rect width="1600" height="420" fill="#061120"/>
+  <text x="60" y="56" fill="#ffffff" font-family="Arial, sans-serif" font-size="30" font-weight="700">KFY SMART B2B Scenario Icons</text>
+  <text x="60" y="90" fill="#7bdcff" font-family="Arial, sans-serif" font-size="18">Ice-blue line icons for homepage partner scenarios</text>
+  <image href="kfy-smart-icon-furniture-brands.svg" x="70" y="120" width="220" height="220"/>
+  <text x="180" y="372" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="18" font-weight="700">Furniture Brands</text>
+  <image href="kfy-smart-icon-mattress-companies.svg" x="370" y="120" width="220" height="220"/>
+  <text x="480" y="372" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="18" font-weight="700">Mattress Companies</text>
+  <image href="kfy-smart-icon-hotels-apartments.svg" x="670" y="120" width="220" height="220"/>
+  <text x="780" y="372" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="18" font-weight="700">Hotels & Apartments</text>
+  <image href="kfy-smart-icon-senior-care.svg" x="970" y="120" width="220" height="220"/>
+  <text x="1080" y="372" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="18" font-weight="700">Senior Care</text>
+  <image href="kfy-smart-icon-distributors.svg" x="1270" y="120" width="220" height="220"/>
+  <text x="1380" y="372" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="18" font-weight="700">Distributors</text>
+</svg>
