@@ -1,0 +1,2002 @@
+[
+  {
+    "file": ".env.example",
+    "bytes": 132,
+    "sha256": "2d1a71ddca3dbf81fb379b74f45932f68e88dd9c13948df4851b9cf467550dd1"
+  },
+  {
+    "file": ".gitignore",
+    "bytes": 49,
+    "sha256": "20673faeb74718f143d54c8cf85c606b65168a88d8ccc76d2d766ca1fc88870d"
+  },
+  {
+    "file": ".vercelignore",
+    "bytes": 17,
+    "sha256": "ce2dd476aa0b56b069f04c39cc79b59f961330e69888ada1953ec384f01d181e"
+  },
+  {
+    "file": "404.html",
+    "bytes": 5209,
+    "sha256": "862b4c7591f36ae018d02e9fe8f7144f5f88dd22c4f939050dab8b101640fe5e"
+  },
+  {
+    "file": "CODEX_DEPLOYMENT_INSTRUCTIONS.md",
+    "bytes": 769,
+    "sha256": "4d5117d83f6570bb645c39e251269b416935c91a1ca5f961ec892ff8c40ccc39"
+  },
+  {
+    "file": "README.md",
+    "bytes": 990,
+    "sha256": "0a5fc9c2283a1b2f3049e793c1d09a80900feb713796eb3afaa2c23143ea21f9"
+  },
+  {
+    "file": "about/index.html",
+    "bytes": 8424,
+    "sha256": "26614bd0feca4ab821cf84dc540fdb848b19946e58009aece62c1221b9c28b74"
+  },
+  {
+    "file": "api/inquiry.js",
+    "bytes": 2574,
+    "sha256": "a062f154851ce9dce907484fa621aed764d5c9b4df4e346664994e51ce22a422"
+  },
+  {
+    "file": "assets/css/styles.css",
+    "bytes": 20388,
+    "sha256": "284295a835455540ed14d51e6c793da5605e720bb07a4c74217be1001ec1e8b1"
+  },
+  {
+    "file": "assets/icons/b2b/kfy-smart-icon-distributors.svg",
+    "bytes": 2278,
+    "sha256": "f89151b1a2113e873d30340d18ec2fb55be3bbc164ba81b2bc362d9a970272bd"
+  },
+  {
+    "file": "assets/icons/b2b/kfy-smart-icon-furniture-brands.svg",
+    "bytes": 2206,
+    "sha256": "e7a09c3e08fc9256f70f4a871ffd17bc49b8e202ad8d29170c967f2548ee124a"
+  },
+  {
+    "file": "assets/icons/b2b/kfy-smart-icon-hotels-apartments.svg",
+    "bytes": 2302,
+    "sha256": "c463aeccd9400a234f805a07d4f8b678a60315db63c8c8d912d4c7a9c018f776"
+  },
+  {
+    "file": "assets/icons/b2b/kfy-smart-icon-mattress-companies.svg",
+    "bytes": 2261,
+    "sha256": "2e30fe01fb91cfa14e99dc8e3be0c4ead0bbf4a775b5bda3983ce38d614915b2"
+  },
+  {
+    "file": "assets/icons/b2b/kfy-smart-icon-senior-care.svg",
+    "bytes": 2342,
+    "sha256": "b52b1a6e34c07419d54b948a1e853e9dd78e494d9f58e27f6d3978a093bc9792"
+  },
+  {
+    "file": "assets/icons/control/app-control.svg",
+    "bytes": 405,
+    "sha256": "5fc802097240b7b6090795941a6e11670986e2812ad34aa9bd77f3e69840960a"
+  },
+  {
+    "file": "assets/icons/control/lighting-options.svg",
+    "bytes": 367,
+    "sha256": "8e52f7ee6f49d382bb58647f1bbe2cc4fcc8a207d8dd53c3cf687db9349fb71e"
+  },
+  {
+    "file": "assets/icons/control/motor-drive.svg",
+    "bytes": 415,
+    "sha256": "1793c29a568275d392e3b8e33c216f6372ea2bac15b2eae72d54338f18aa2d32"
+  },
+  {
+    "file": "assets/icons/control/oem-integration.svg",
+    "bytes": 382,
+    "sha256": "ceaaa0a541a28930b21b671136f66248aa594a02c9937ab4a3d75b45906b2e67"
+  },
+  {
+    "file": "assets/icons/control/remote-control.svg",
+    "bytes": 431,
+    "sha256": "ee6cf1f97a1d504ecb4931f586305bd8f00cd397b75dc4668dec6758adb616d7"
+  },
+  {
+    "file": "assets/icons/control/usb-bluetooth.svg",
+    "bytes": 385,
+    "sha256": "d9ec1ff66630279dfc85b4c330d38700b19bd469533daf48ac084a02e325a491"
+  },
+  {
+    "file": "assets/icons/customization/control-options.svg",
+    "bytes": 371,
+    "sha256": "ad36b294f2f55987c2f896dec502b417be80f0d5689960000747b775f71e0c04"
+  },
+  {
+    "file": "assets/icons/customization/fabric-color.svg",
+    "bytes": 238,
+    "sha256": "d788497682d330f9b1c65915063585799ae671b99b3ea5df3a0d71103f8dab14"
+  },
+  {
+    "file": "assets/icons/customization/packaging.svg",
+    "bytes": 254,
+    "sha256": "ef9a3deb8455b86fe3c348ef7a6a42609c34f674885d0dfada892bdf1207050f"
+  },
+  {
+    "file": "assets/icons/customization/plug-voltage.svg",
+    "bytes": 253,
+    "sha256": "7cefe513d1b84b065b5003a0f09c83bddea3accdea043a0a54ebcc9ca6eab9ae"
+  },
+  {
+    "file": "assets/icons/customization/private-label.svg",
+    "bytes": 258,
+    "sha256": "e2c7d27a8226a8624e52e5140f92dfc0d453cda126261fac0345137d805de734"
+  },
+  {
+    "file": "assets/icons/customization/size-options.svg",
+    "bytes": 265,
+    "sha256": "5984562a38fac3969fba3a66bfd38bd02d74def973272581ae3a32240173d304"
+  },
+  {
+    "file": "assets/images/about/kfy-smart-about-flexible-b2b-cooperation-1920x600.webp",
+    "bytes": 101766,
+    "sha256": "1c7b04bcbc4f882788f07b06cc70ae02b934f4a6f8b49d97e768b56039cdeddd"
+  },
+  {
+    "file": "assets/images/about/kfy-smart-about-how-we-work-1920x600.webp",
+    "bytes": 116854,
+    "sha256": "3341fd2a40807fb3a71833bd1918775793ba30b1620155a343b40ddb4fea6b6b"
+  },
+  {
+    "file": "assets/images/about/kfy-smart-about-page-hero-1920x720.webp",
+    "bytes": 176872,
+    "sha256": "281c1529eb3fa223ff45877cf6c858d798c78060319a062ed713c562822702c9"
+  },
+  {
+    "file": "assets/images/home/control/kfy-smart-control-integration-options-bg-1280x400.webp",
+    "bytes": 23874,
+    "sha256": "1086656aa705aab051880d4a155168274f164547d5cbec1e80bcec47cd6843b8"
+  },
+  {
+    "file": "assets/images/home/control/kfy-smart-control-integration-options-bg-1920x600.webp",
+    "bytes": 51710,
+    "sha256": "043bf7fec1eb4111da12076ce2153a437c367ebdf3ab35bf4e64d351731e60c5"
+  },
+  {
+    "file": "assets/images/home/control/kfy-smart-control-integration-options-bg-768x480.webp",
+    "bytes": 14460,
+    "sha256": "03ffc4bba1047d1a5b818e6c60e16a8efee5e98b500c32fc9b34bd2adee8ba31"
+  },
+  {
+    "file": "assets/images/home/hero/desktop/kfy-smart-home-hero-slide-1-2560x1200.webp",
+    "bytes": 194914,
+    "sha256": "86f8fb5e6793fedb51785909fe86718c05a2b1f68ea47ea4ff9b354a3a4b1cbf"
+  },
+  {
+    "file": "assets/images/home/hero/desktop/kfy-smart-home-hero-slide-2-2560x1200.webp",
+    "bytes": 205378,
+    "sha256": "0b5f8573d268559dca8914d0ad0fa1774a370ea5c16b570895cc4b6a52a0b6cd"
+  },
+  {
+    "file": "assets/images/home/hero/desktop/kfy-smart-home-hero-slide-3-2560x1200.webp",
+    "bytes": 142672,
+    "sha256": "01043d00b4fdda62d05e08a826e623b4e0a3939b4b4e60669879dbb1980a0ad8"
+  },
+  {
+    "file": "assets/images/home/hero/mobile/kfy-smart-home-hero-slide-1-768x960.webp",
+    "bytes": 60470,
+    "sha256": "8d9f503447693d47acfac257b2a275bac099f37fab4abbc4abed44def7e614d7"
+  },
+  {
+    "file": "assets/images/home/hero/mobile/kfy-smart-home-hero-slide-2-768x960.webp",
+    "bytes": 70370,
+    "sha256": "9f07bff0b25d43c5d3f4dac567324dddfd24e8b2f8d1dc416797e1092cd9a8d3"
+  },
+  {
+    "file": "assets/images/home/hero/mobile/kfy-smart-home-hero-slide-3-768x960.webp",
+    "bytes": 63912,
+    "sha256": "98f1e8b8f35151ef87073dc2ecd499485f40803b6ce3a776d9c65482af97e722"
+  },
+  {
+    "file": "assets/images/home/hero/tablet/kfy-smart-home-hero-slide-1-1280x720.webp",
+    "bytes": 78946,
+    "sha256": "3ac97ec0089ab1b94f79c0c47ba17b1d873af90e9bf2eed87afcbf0313c3468a"
+  },
+  {
+    "file": "assets/images/home/hero/tablet/kfy-smart-home-hero-slide-2-1280x720.webp",
+    "bytes": 84878,
+    "sha256": "95aefdd83a7cfb0d16874098c553830e4d8f94719979ad706b15da29637acb1e"
+  },
+  {
+    "file": "assets/images/home/hero/tablet/kfy-smart-home-hero-slide-3-1280x720.webp",
+    "bytes": 61072,
+    "sha256": "20e4f0ce1c691cea2b84f6201e8014ae80d7f4163a88cdbd84e673da6af835de"
+  },
+  {
+    "file": "assets/images/home/kfy-smart-global-b2b-supply-network-bg-1920x600.webp",
+    "bytes": 150314,
+    "sha256": "949457d5e7a2c6f2dca6d28a0690d6e61ffd678be2dbf1627e363dc357acce63"
+  },
+  {
+    "file": "assets/images/home/product-matrix/kfy-smart-home-product-matrix-adjustable-bed-bases-1200x750.webp",
+    "bytes": 72634,
+    "sha256": "cb37b0cb151e84f6343f4572bd8ac02b846c39e646bf91886e97ea97358fe5c6"
+  },
+  {
+    "file": "assets/images/home/product-matrix/kfy-smart-home-product-matrix-adjustable-bed-bases-1600x1000.webp",
+    "bytes": 120956,
+    "sha256": "1acfe380b2761043a5c9743c7e50c8459e99ba9a02dbedc92477a625a1a48f4f"
+  },
+  {
+    "file": "assets/images/home/product-matrix/kfy-smart-home-product-matrix-adjustable-bed-bases-800x500.webp",
+    "bytes": 33036,
+    "sha256": "7eaee46dbfe9faf0b0c81ea6ecab63f3fb55d6cbad707ecab4e5f6b74b43b778"
+  },
+  {
+    "file": "assets/images/home/product-matrix/kfy-smart-home-product-matrix-smart-beds-1200x750.webp",
+    "bytes": 96930,
+    "sha256": "12efae32174ac42d0a1d5103f59fbbc25f3b749ee9adb24d9b3f175de2419a20"
+  },
+  {
+    "file": "assets/images/home/product-matrix/kfy-smart-home-product-matrix-smart-beds-1600x1000.webp",
+    "bytes": 160996,
+    "sha256": "6529928432b034cabc6c3c77626e8035f0e1f48873b90b636bdddce6a2c9d22c"
+  },
+  {
+    "file": "assets/images/home/product-matrix/kfy-smart-home-product-matrix-smart-beds-800x500.webp",
+    "bytes": 44080,
+    "sha256": "411fd486d2627368d26c4701e741415a2ec223ed8ef8d1597b3f62bc9bc6b65f"
+  },
+  {
+    "file": "assets/images/home/product-matrix/kfy-smart-home-product-matrix-smart-mattresses-1200x750.webp",
+    "bytes": 93050,
+    "sha256": "059fb38614e7bb9250fda979f264e2da3a225638720e795db13b7047b360031e"
+  },
+  {
+    "file": "assets/images/home/product-matrix/kfy-smart-home-product-matrix-smart-mattresses-1600x1000.webp",
+    "bytes": 160760,
+    "sha256": "2041a3d803d9fc834cc9cd91569b353afb13d67a92ed0473f52cea9a6689984f"
+  },
+  {
+    "file": "assets/images/home/product-matrix/kfy-smart-home-product-matrix-smart-mattresses-800x500.webp",
+    "bytes": 40306,
+    "sha256": "8aeb14c2ec13a2fabb07a792048185c933ba85c33c8911f3b08435aaec1903a6"
+  },
+  {
+    "file": "assets/images/news/kfy-smart-news-card-industry-insights-1600x900.webp",
+    "bytes": 104218,
+    "sha256": "a8ab55389d1d9c7d3377f76ff311de84ea846b5af249e58fda757f3083a1b29d"
+  },
+  {
+    "file": "assets/images/news/kfy-smart-news-card-kfy-updates-1600x900.webp",
+    "bytes": 103520,
+    "sha256": "b38a60b8f2f75dd63cd8d92c0e2611435c18bb4412037618641d3c3783069d31"
+  },
+  {
+    "file": "assets/images/news/kfy-smart-news-card-trade-shows-events-1600x900.webp",
+    "bytes": 94270,
+    "sha256": "2f39768ba0b5bef87ec008355a3042f392c3bd364910e4c4b807f76c4b77df4c"
+  },
+  {
+    "file": "assets/images/news/kfy-smart-news-featured-article-template-1600x1000.webp",
+    "bytes": 185214,
+    "sha256": "4698609fde0a368ca2bf651812cea0d0b9c32255d85074f6e563fe1bb02e6846"
+  },
+  {
+    "file": "assets/images/news/kfy-smart-news-page-hero-1920x720.webp",
+    "bytes": 177928,
+    "sha256": "af60de5e26153462fa57af347e96bfa7e87a66d4aa91e4baf11796b733623296"
+  },
+  {
+    "file": "assets/images/products/adjustable-bed-bases/e1/detail/kfy-smart-e1-detail-01-overview-1200.webp",
+    "bytes": 149458,
+    "sha256": "3d195b33351deb35d89e0b915d88f2d9ff265baddee81e0d3d6e472fe8bb4484"
+  },
+  {
+    "file": "assets/images/products/adjustable-bed-bases/e1/detail/kfy-smart-e1-detail-01-overview-1600.webp",
+    "bytes": 226450,
+    "sha256": "f14fca5a18d6cb1031cda6e772963b81cf270e0d249c924e2fc29ad68acdeee2"
+  },
+  {
+    "file": "assets/images/products/adjustable-bed-bases/e1/detail/kfy-smart-e1-detail-01-overview-800.webp",
+    "bytes": 84750,
+    "sha256": "4c76befb3439a7ebc9443fbfd55f4bec422e55053cbc9a16d76d8fb84b414a37"
+  },
+  {
+    "file": "assets/images/products/adjustable-bed-bases/e1/detail/kfy-smart-e1-detail-02-features-1200.webp",
+    "bytes": 43738,
+    "sha256": "e3a26c0f0989c7b6a914b77ef5adffeeed4bf5b488fd2438d607f5c317084f0a"
+  },
+  {
+    "file": "assets/images/products/adjustable-bed-bases/e1/detail/kfy-smart-e1-detail-02-features-1600.webp",
+    "bytes": 64906,
+    "sha256": "5ad7f954a6c7c2d504b508330b780f4f09e35ec16cd2b9a5167b0040250a5255"
+  },
+  {
+    "file": "assets/images/products/adjustable-bed-bases/e1/detail/kfy-smart-e1-detail-02-features-800.webp",
+    "bytes": 24792,
+    "sha256": "f97fe22d1bc6a90ff8a3fd0fc1ab766e724e3c7567fc3b399c7180a126b2d73a"
+  },
+  {
+    "file": "assets/images/products/adjustable-bed-bases/e1/detail/kfy-smart-e1-detail-03-specifications-1200.webp",
+    "bytes": 26564,
+    "sha256": "2d93f315755822ebc6a2f3a11ef42e8483da1654c3a381dcf5dce7da4a00da6c"
+  },
+  {
+    "file": "assets/images/products/adjustable-bed-bases/e1/detail/kfy-smart-e1-detail-03-specifications-1600.webp",
+    "bytes": 37538,
+    "sha256": "1dc66d73b896f0e65120c6f409148970502be03b1dc343488414d5c41a03524a"
+  },
+  {
+    "file": "assets/images/products/adjustable-bed-bases/e1/detail/kfy-smart-e1-detail-03-specifications-800.webp",
+    "bytes": 16052,
+    "sha256": "d7aea2513f0871cccb1a3305f7373c307f1ecf867d232117b3013537b0872b88"
+  },
+  {
+    "file": "assets/images/products/adjustable-bed-bases/e1/main/kfy-smart-e1-01-flat-position-1280.webp",
+    "bytes": 68862,
+    "sha256": "62f8e59ef21355d35cd279deae8c4e80cd98d0519e17e8ee043d1a64b5018c75"
+  },
+  {
+    "file": "assets/images/products/adjustable-bed-bases/e1/main/kfy-smart-e1-01-flat-position-1600.webp",
+    "bytes": 88432,
+    "sha256": "713b1955c7e5f150c6ca003401be62bbb491b83c5c125379e04c8768669ce2fe"
+  },
+  {
+    "file": "assets/images/products/adjustable-bed-bases/e1/main/kfy-smart-e1-01-flat-position-640.webp",
+    "bytes": 28178,
+    "sha256": "cd4e1b140c8427f62eb142ade3655e8ef9b4517d5e44224f94a9279786a93280"
+  },
+  {
+    "file": "assets/images/products/adjustable-bed-bases/e1/main/kfy-smart-e1-01-flat-position-960.webp",
+    "bytes": 49018,
+    "sha256": "7df0f67de2e65704e0179c20c7616a642b89f490d3e1563ab4ef307e7d1dfeea"
+  },
+  {
+    "file": "assets/images/products/adjustable-bed-bases/e1/main/kfy-smart-e1-02-head-up-1280.webp",
+    "bytes": 53036,
+    "sha256": "792171eaed90082e2c89b346a99290ee380b7a24d9f58e3306a1e94d30ac3dd8"
+  },
+  {
+    "file": "assets/images/products/adjustable-bed-bases/e1/main/kfy-smart-e1-02-head-up-1600.webp",
+    "bytes": 69754,
+    "sha256": "f1c1383538abe6a3c43324711e7837cbda27b4e2999d56694f0fb01b1665daaf"
+  },
+  {
+    "file": "assets/images/products/adjustable-bed-bases/e1/main/kfy-smart-e1-02-head-up-640.webp",
+    "bytes": 21670,
+    "sha256": "7daa2ec5cba92854d19bfaddcec0765f3959794036aebda6d3afd595c9b0f92d"
+  },
+  {
+    "file": "assets/images/products/adjustable-bed-bases/e1/main/kfy-smart-e1-02-head-up-960.webp",
+    "bytes": 37096,
+    "sha256": "b9c0141c8317fcc2fdea9d8974850bb31884464b2ff5e109cdf031854fc66938"
+  },
+  {
+    "file": "assets/images/products/adjustable-bed-bases/e1/main/kfy-smart-e1-03-head-foot-up-1280.webp",
+    "bytes": 67354,
+    "sha256": "956c0a9421b3d609c7f6d14471f949eab264f82ffe2d654b8d29a0da6d68dd45"
+  },
+  {
+    "file": "assets/images/products/adjustable-bed-bases/e1/main/kfy-smart-e1-03-head-foot-up-1600.webp",
+    "bytes": 87158,
+    "sha256": "04859d59d37f2bb0def4fd2ba676cb93bd26e70237c5408d1283358a3a34280e"
+  },
+  {
+    "file": "assets/images/products/adjustable-bed-bases/e1/main/kfy-smart-e1-03-head-foot-up-640.webp",
+    "bytes": 26934,
+    "sha256": "3c5e73c541288821419bbeb906907e015593f36748ce708a5457716dff6475a0"
+  },
+  {
+    "file": "assets/images/products/adjustable-bed-bases/e1/main/kfy-smart-e1-03-head-foot-up-960.webp",
+    "bytes": 48514,
+    "sha256": "b22f207577a6bc6f7d75de907f6f8d15965aaa9fc981093bbda06bd08fe82ada"
+  },
+  {
+    "file": "assets/images/products/adjustable-bed-bases/e1/main/kfy-smart-e1-04-lifestyle-1280.webp",
+    "bytes": 59406,
+    "sha256": "ee32c7c4dad4f062e2fc901bb47fadf6c514bc1f03b60a354f6a2fdac2ce3c6f"
+  },
+  {
+    "file": "assets/images/products/adjustable-bed-bases/e1/main/kfy-smart-e1-04-lifestyle-1600.webp",
+    "bytes": 77186,
+    "sha256": "421053e100bb88d21754a1ebec4ccb49744c6797c24840fb03cf0a2a4d862537"
+  },
+  {
+    "file": "assets/images/products/adjustable-bed-bases/e1/main/kfy-smart-e1-04-lifestyle-640.webp",
+    "bytes": 23826,
+    "sha256": "e1750b88c6717b98fa4752cff6c4f0d798bb41178316383ab32ec1f90d33aec3"
+  },
+  {
+    "file": "assets/images/products/adjustable-bed-bases/e1/main/kfy-smart-e1-04-lifestyle-960.webp",
+    "bytes": 41854,
+    "sha256": "8d2d5467b234652eb6ff40ee7a8a5eb9ef5e2204add28f9527f75267fb91258e"
+  },
+  {
+    "file": "assets/images/products/adjustable-bed-bases/e2/detail/kfy-smart-e2-detail-01-overview-1200.webp",
+    "bytes": 147620,
+    "sha256": "c67422aa3f47010fd75975544f2082dfe4677f86b55d6b4180fb69180ad252ee"
+  },
+  {
+    "file": "assets/images/products/adjustable-bed-bases/e2/detail/kfy-smart-e2-detail-01-overview-1600.webp",
+    "bytes": 220226,
+    "sha256": "75b0266e5ca3d351e5f3853b22c6b2a4aff04a8289c94663c1aebf75e7c6e5dd"
+  },
+  {
+    "file": "assets/images/products/adjustable-bed-bases/e2/detail/kfy-smart-e2-detail-01-overview-800.webp",
+    "bytes": 85694,
+    "sha256": "99df8b91d0ad51c723bd206e8a841d5a51c874a375d7b216aee594941cb82b90"
+  },
+  {
+    "file": "assets/images/products/adjustable-bed-bases/e2/detail/kfy-smart-e2-detail-02-features-1200.webp",
+    "bytes": 48212,
+    "sha256": "4ccc7cb9eea9bd3e88a1964551a06c5a327ff3af61ffbd081b1ece16b5644c05"
+  },
+  {
+    "file": "assets/images/products/adjustable-bed-bases/e2/detail/kfy-smart-e2-detail-02-features-1600.webp",
+    "bytes": 70008,
+    "sha256": "1aa39619d0010baacc771886bf917459116c7527cafceb76d1994c4729bff42b"
+  },
+  {
+    "file": "assets/images/products/adjustable-bed-bases/e2/detail/kfy-smart-e2-detail-02-features-800.webp",
+    "bytes": 27086,
+    "sha256": "9a1354c07ff5307b2f98c0bb686d8735f994edc4902d34ee122889e432ff2505"
+  },
+  {
+    "file": "assets/images/products/adjustable-bed-bases/e2/detail/kfy-smart-e2-detail-03-specifications-1200.webp",
+    "bytes": 31732,
+    "sha256": "9c0fac37f5c2a4511c89d22bee1f915738110ec8d26af080b30011beb20c2f96"
+  },
+  {
+    "file": "assets/images/products/adjustable-bed-bases/e2/detail/kfy-smart-e2-detail-03-specifications-1600.webp",
+    "bytes": 43928,
+    "sha256": "55a975e6403cbfff5bdea9a6f8991edb6eb040e5cd74687d82f2782c6a8fa1bd"
+  },
+  {
+    "file": "assets/images/products/adjustable-bed-bases/e2/detail/kfy-smart-e2-detail-03-specifications-800.webp",
+    "bytes": 18288,
+    "sha256": "990f3a92fdfa79360f09eefc0d7b8630df16fcd793d4faaab1d7b02cefe2982b"
+  },
+  {
+    "file": "assets/images/products/adjustable-bed-bases/e2/main/kfy-smart-e2-01-flat-position-1280.webp",
+    "bytes": 40130,
+    "sha256": "832065358a8f5c9ed02a32caeea87d7bcef0694d59ca0a7f16cdb3ce83074b93"
+  },
+  {
+    "file": "assets/images/products/adjustable-bed-bases/e2/main/kfy-smart-e2-01-flat-position-1600.webp",
+    "bytes": 53434,
+    "sha256": "9cc2e96490f5e5740793c121f18c607e6a8b2849e7d32bd2e0b182279542eec3"
+  },
+  {
+    "file": "assets/images/products/adjustable-bed-bases/e2/main/kfy-smart-e2-01-flat-position-640.webp",
+    "bytes": 18158,
+    "sha256": "2c608f69478e8006e289b02aa09d7706a99a5770b33204ece98da17c37c1c836"
+  },
+  {
+    "file": "assets/images/products/adjustable-bed-bases/e2/main/kfy-smart-e2-01-flat-position-960.webp",
+    "bytes": 30006,
+    "sha256": "01a2909b76074e9bc2d6551ab62a7cf64a6d8fce04dcfd828bfb74ec53b365a6"
+  },
+  {
+    "file": "assets/images/products/adjustable-bed-bases/e2/main/kfy-smart-e2-02-head-up-1280.webp",
+    "bytes": 47504,
+    "sha256": "e69cd416d11209bd73e8ab6536e0db38f7e12cc0e6a9e29c19d85558c6445d10"
+  },
+  {
+    "file": "assets/images/products/adjustable-bed-bases/e2/main/kfy-smart-e2-02-head-up-1600.webp",
+    "bytes": 60850,
+    "sha256": "572c688e8f49337ee945b4ea1940f666a7bbb82f341cb06c07be8cf8a1927786"
+  },
+  {
+    "file": "assets/images/products/adjustable-bed-bases/e2/main/kfy-smart-e2-02-head-up-640.webp",
+    "bytes": 20912,
+    "sha256": "469463704dac13346314ca829cafe8ca3a1033d0a873abb3fd894cabac606a4c"
+  },
+  {
+    "file": "assets/images/products/adjustable-bed-bases/e2/main/kfy-smart-e2-02-head-up-960.webp",
+    "bytes": 34730,
+    "sha256": "4df3829cfe2f5275553fc02610b854ac4026e025d0e6c8e21d7b9aaa957ad98c"
+  },
+  {
+    "file": "assets/images/products/adjustable-bed-bases/e2/main/kfy-smart-e2-03-head-foot-up-1280.webp",
+    "bytes": 41646,
+    "sha256": "dea6d1bd102ccbc3f0db7424ca75782124bd4965120aaa912b4905593958849e"
+  },
+  {
+    "file": "assets/images/products/adjustable-bed-bases/e2/main/kfy-smart-e2-03-head-foot-up-1600.webp",
+    "bytes": 54502,
+    "sha256": "36f237bbf2261cd86d566f81ae7f348e0da898ce14e6d91c0a6075f1211f5a9f"
+  },
+  {
+    "file": "assets/images/products/adjustable-bed-bases/e2/main/kfy-smart-e2-03-head-foot-up-640.webp",
+    "bytes": 18774,
+    "sha256": "569d65637296b0e23c55a9fe70547dd767ee50c4268c88adc9e161a7cb50c605"
+  },
+  {
+    "file": "assets/images/products/adjustable-bed-bases/e2/main/kfy-smart-e2-03-head-foot-up-960.webp",
+    "bytes": 31116,
+    "sha256": "35099e4c52d9f4ecbc05cdaf95fb43a8b34075e80d52027fceb14dd6ad010343"
+  },
+  {
+    "file": "assets/images/products/adjustable-bed-bases/e2/main/kfy-smart-e2-04-lifestyle-1280.webp",
+    "bytes": 47476,
+    "sha256": "e2d157ef5cc06b56e4c68c616dfe6918494128b7733e09a3786c6a9f6d2a9655"
+  },
+  {
+    "file": "assets/images/products/adjustable-bed-bases/e2/main/kfy-smart-e2-04-lifestyle-1600.webp",
+    "bytes": 63182,
+    "sha256": "f86dbe791e48f976199e9f9c4560a5468afa4eea086e3aaa974364bdb982b52c"
+  },
+  {
+    "file": "assets/images/products/adjustable-bed-bases/e2/main/kfy-smart-e2-04-lifestyle-640.webp",
+    "bytes": 21526,
+    "sha256": "18164dabcd5b0f5a77008b8dde10cc3209b7024c7c11f8ce2c034abe6b9edf0f"
+  },
+  {
+    "file": "assets/images/products/adjustable-bed-bases/e2/main/kfy-smart-e2-04-lifestyle-960.webp",
+    "bytes": 35560,
+    "sha256": "26c169c81f8b405110f34648a20d288eaefe40ed96e23f732af3e236e1fbec87"
+  },
+  {
+    "file": "assets/images/products/adjustable-bed-bases/e3/detail/kfy-smart-e3-detail-01-overview-1200.webp",
+    "bytes": 154356,
+    "sha256": "b09d43b856de1bb19a05db27ae3744f2a8d7fa719157797a736b47bca0e99bc5"
+  },
+  {
+    "file": "assets/images/products/adjustable-bed-bases/e3/detail/kfy-smart-e3-detail-01-overview-1600.webp",
+    "bytes": 227972,
+    "sha256": "a35e39a0b1145528dd3244c35b7262294d523007f089039755390bd18c9dc42b"
+  },
+  {
+    "file": "assets/images/products/adjustable-bed-bases/e3/detail/kfy-smart-e3-detail-01-overview-800.webp",
+    "bytes": 89654,
+    "sha256": "b9d80598ac3623d4ae34e64efe5a447b8d401798e727cf78e5b1f9fa2eef145b"
+  },
+  {
+    "file": "assets/images/products/adjustable-bed-bases/e3/detail/kfy-smart-e3-detail-02-features-1200.webp",
+    "bytes": 51244,
+    "sha256": "0b3c1142061e680603346e0b4801c27f76f69fb6c2e8abd77438485146d69176"
+  },
+  {
+    "file": "assets/images/products/adjustable-bed-bases/e3/detail/kfy-smart-e3-detail-02-features-1600.webp",
+    "bytes": 74728,
+    "sha256": "6c1bf19a2cebb99305b66350633f9652e065666b46b424094477375a2c601bc8"
+  },
+  {
+    "file": "assets/images/products/adjustable-bed-bases/e3/detail/kfy-smart-e3-detail-02-features-800.webp",
+    "bytes": 28932,
+    "sha256": "44c997685ef63288094cc7f86e88ea6f3b22af1382f112a3a4c0ab70d9c64f1c"
+  },
+  {
+    "file": "assets/images/products/adjustable-bed-bases/e3/detail/kfy-smart-e3-detail-03-specifications-1200.webp",
+    "bytes": 29084,
+    "sha256": "bc203a5084bc877d9a9e68f8445e623a01d57b569a617c858afdff7a846963ef"
+  },
+  {
+    "file": "assets/images/products/adjustable-bed-bases/e3/detail/kfy-smart-e3-detail-03-specifications-1600.webp",
+    "bytes": 41096,
+    "sha256": "f1b6289c9920e61ee94feab8b76a167cc3a883ad7cb3f5c6d768592157ed889a"
+  },
+  {
+    "file": "assets/images/products/adjustable-bed-bases/e3/detail/kfy-smart-e3-detail-03-specifications-800.webp",
+    "bytes": 17326,
+    "sha256": "488d4541c1a9505aa87dcb0cc5a77be64781eb0ad5fa082de53f045aaa28ae1b"
+  },
+  {
+    "file": "assets/images/products/adjustable-bed-bases/e3/main/kfy-smart-e3-01-flat-position-1280.webp",
+    "bytes": 47478,
+    "sha256": "2b76d0ad1612ce52747d93309d3038d06ab7b067bc415a8709c9ccdb9d0a02a5"
+  },
+  {
+    "file": "assets/images/products/adjustable-bed-bases/e3/main/kfy-smart-e3-01-flat-position-1600.webp",
+    "bytes": 62686,
+    "sha256": "2cac5574dad2b6da5d83b50ab2353d2c82dc8be3e8d6a9bc1d44c9ce2ec1e960"
+  },
+  {
+    "file": "assets/images/products/adjustable-bed-bases/e3/main/kfy-smart-e3-01-flat-position-640.webp",
+    "bytes": 20988,
+    "sha256": "5017b71b1de90e827bda6d40b8398e839fd3b0b4afe244a765c69fc0b3ca005f"
+  },
+  {
+    "file": "assets/images/products/adjustable-bed-bases/e3/main/kfy-smart-e3-01-flat-position-960.webp",
+    "bytes": 34636,
+    "sha256": "efacf421e635234a20644cab427c0853771b525a547ccd5be2712ace313de75b"
+  },
+  {
+    "file": "assets/images/products/adjustable-bed-bases/e3/main/kfy-smart-e3-02-head-up-1280.webp",
+    "bytes": 47276,
+    "sha256": "7a96267d0b8d421e6584088250315e11225112378c7ad36f8e218fa0e03561a2"
+  },
+  {
+    "file": "assets/images/products/adjustable-bed-bases/e3/main/kfy-smart-e3-02-head-up-1600.webp",
+    "bytes": 63056,
+    "sha256": "1b56e916d4f54acdf34558860cd50e27815f2695bcdbf8b3a2c5503ee6cadb3c"
+  },
+  {
+    "file": "assets/images/products/adjustable-bed-bases/e3/main/kfy-smart-e3-02-head-up-640.webp",
+    "bytes": 21064,
+    "sha256": "030f545219c4d8620337a6e148c676c9b2ac6f1cac9dee62136f56e757361e30"
+  },
+  {
+    "file": "assets/images/products/adjustable-bed-bases/e3/main/kfy-smart-e3-02-head-up-960.webp",
+    "bytes": 34348,
+    "sha256": "3dbf185b41655d606a3d00baf0d2c5a0d569b5c560af02321dfd5ff5971a0efb"
+  },
+  {
+    "file": "assets/images/products/adjustable-bed-bases/e3/main/kfy-smart-e3-03-head-foot-up-1280.webp",
+    "bytes": 45526,
+    "sha256": "eea8923b5a973e9b5262ab5dcf41e291f59e047deba8f07e6cd274ab7d356c84"
+  },
+  {
+    "file": "assets/images/products/adjustable-bed-bases/e3/main/kfy-smart-e3-03-head-foot-up-1600.webp",
+    "bytes": 60432,
+    "sha256": "0e8085baea568fdef4c64338fdc6587abe4f7bc5acdfc9b1a952f45ff4e227e6"
+  },
+  {
+    "file": "assets/images/products/adjustable-bed-bases/e3/main/kfy-smart-e3-03-head-foot-up-640.webp",
+    "bytes": 20356,
+    "sha256": "1d1e3583377229d308eb39ceb016112c99d6d718eccf4d27e29fefaba881111e"
+  },
+  {
+    "file": "assets/images/products/adjustable-bed-bases/e3/main/kfy-smart-e3-03-head-foot-up-960.webp",
+    "bytes": 32870,
+    "sha256": "03d04f3548f564454fb1b4a38e2fcd2519c0cfc62dc219966392ef5121c77309"
+  },
+  {
+    "file": "assets/images/products/adjustable-bed-bases/e3/main/kfy-smart-e3-04-lifestyle-1280.webp",
+    "bytes": 49756,
+    "sha256": "b2956cf6d4e4020cc7feb03810a291aee27f0d66316aeb3ef702fb238e673aeb"
+  },
+  {
+    "file": "assets/images/products/adjustable-bed-bases/e3/main/kfy-smart-e3-04-lifestyle-1600.webp",
+    "bytes": 64862,
+    "sha256": "3df31fd6535c72b6638d07a057c00232e771a3fcb804b2bcaa0eaeea7960d22f"
+  },
+  {
+    "file": "assets/images/products/adjustable-bed-bases/e3/main/kfy-smart-e3-04-lifestyle-640.webp",
+    "bytes": 22476,
+    "sha256": "b7395fd4e69bc3c85475687ac70400d3d8e1d4f67f3a2753aad4547f11855d7f"
+  },
+  {
+    "file": "assets/images/products/adjustable-bed-bases/e3/main/kfy-smart-e3-04-lifestyle-960.webp",
+    "bytes": 36508,
+    "sha256": "370538b635ecef7bd52e3300b0099fe35b62c427076bee78ac7b8e16c9e80e07"
+  },
+  {
+    "file": "assets/images/products/adjustable-bed-bases/e4/detail/kfy-smart-e4-detail-01-overview-1200.webp",
+    "bytes": 134774,
+    "sha256": "7dfcd129293d3a205218f32e7233ba84c6111f1cb3abc9c70f3d6069a20b6127"
+  },
+  {
+    "file": "assets/images/products/adjustable-bed-bases/e4/detail/kfy-smart-e4-detail-01-overview-1600.webp",
+    "bytes": 214128,
+    "sha256": "2256c86eccd9f2c3733f552422bcdc030ecacf0906a41d37db14db9837bda7c2"
+  },
+  {
+    "file": "assets/images/products/adjustable-bed-bases/e4/detail/kfy-smart-e4-detail-01-overview-800.webp",
+    "bytes": 76864,
+    "sha256": "873ae1b8371ed98c65722d976d234ec6e9f5f925a67d6914871e50414f0efd05"
+  },
+  {
+    "file": "assets/images/products/adjustable-bed-bases/e4/detail/kfy-smart-e4-detail-02-features-1200.webp",
+    "bytes": 58536,
+    "sha256": "6df110a375a3786a08e0a52291e49dff4eacd0241b070b139a2b580bccb57713"
+  },
+  {
+    "file": "assets/images/products/adjustable-bed-bases/e4/detail/kfy-smart-e4-detail-02-features-1600.webp",
+    "bytes": 87752,
+    "sha256": "6db0a3f79a2977b69af1963ba2d2dd9812e6aaefaf23312d94d29ff0f85e529e"
+  },
+  {
+    "file": "assets/images/products/adjustable-bed-bases/e4/detail/kfy-smart-e4-detail-02-features-800.webp",
+    "bytes": 32830,
+    "sha256": "3d888b5332c0f1742370350c4bf4cbe89735fa2e3b0968419dce01cbfe036ecd"
+  },
+  {
+    "file": "assets/images/products/adjustable-bed-bases/e4/detail/kfy-smart-e4-detail-03-specifications-1200.webp",
+    "bytes": 31084,
+    "sha256": "280c5ce32fa29c96602feb4e92d6d07ada542eb177e1b8e0ffc462b57f426268"
+  },
+  {
+    "file": "assets/images/products/adjustable-bed-bases/e4/detail/kfy-smart-e4-detail-03-specifications-1600.webp",
+    "bytes": 43436,
+    "sha256": "a9b274e8e6cabdc3a9702dab32b3d6411c85735b0e3d1252dc1764463d7baa56"
+  },
+  {
+    "file": "assets/images/products/adjustable-bed-bases/e4/detail/kfy-smart-e4-detail-03-specifications-800.webp",
+    "bytes": 18454,
+    "sha256": "1268783a9fd9a2c869705dbe8ec9512423049c660b2f11fca18abd9ec00c482f"
+  },
+  {
+    "file": "assets/images/products/adjustable-bed-bases/e4/main/kfy-smart-e4-01-premium-main-1280.webp",
+    "bytes": 49348,
+    "sha256": "63fa2cf171632b89ca0e24331978b915df22857fc55b5f66e35d7d2bc96367b1"
+  },
+  {
+    "file": "assets/images/products/adjustable-bed-bases/e4/main/kfy-smart-e4-01-premium-main-1600.webp",
+    "bytes": 73778,
+    "sha256": "734386c5876134a5780869fa37a08cb3e6fe35ff13da1948a9de38fdf6d7798e"
+  },
+  {
+    "file": "assets/images/products/adjustable-bed-bases/e4/main/kfy-smart-e4-01-premium-main-640.webp",
+    "bytes": 18188,
+    "sha256": "6ed4478c71f4a6b063e673c84bbab46f3acda8051ade11d32c21a3f55225edfa"
+  },
+  {
+    "file": "assets/images/products/adjustable-bed-bases/e4/main/kfy-smart-e4-01-premium-main-960.webp",
+    "bytes": 32418,
+    "sha256": "6a3670950339b77583dabe54902692c202c3ec3cbb4f203225116777614f2207"
+  },
+  {
+    "file": "assets/images/products/adjustable-bed-bases/e4/main/kfy-smart-e4-02-premium-bedroom-1280.webp",
+    "bytes": 68950,
+    "sha256": "624bdba9387b917285da13559df623c211577a26927a340302e3dd6a75524e4c"
+  },
+  {
+    "file": "assets/images/products/adjustable-bed-bases/e4/main/kfy-smart-e4-02-premium-bedroom-1600.webp",
+    "bytes": 104380,
+    "sha256": "f2294b78dbda272e8c5c51595a15d6310f2054d0533e76759ca99f18e59fe132"
+  },
+  {
+    "file": "assets/images/products/adjustable-bed-bases/e4/main/kfy-smart-e4-02-premium-bedroom-640.webp",
+    "bytes": 21538,
+    "sha256": "92a1e4bbab141479f6996f3acbbcb45b7f004c75fe1938f477b9eff653056be5"
+  },
+  {
+    "file": "assets/images/products/adjustable-bed-bases/e4/main/kfy-smart-e4-02-premium-bedroom-960.webp",
+    "bytes": 42470,
+    "sha256": "dedcd7cda5c84a1715aad9c7e743f7e6ed1b7ac69b4bc8c3d33354e28d82fad9"
+  },
+  {
+    "file": "assets/images/products/adjustable-bed-bases/e4/main/kfy-smart-e4-03-futuristic-motion-1280.webp",
+    "bytes": 71246,
+    "sha256": "0a64c4fcebeb07353c52128c09ddadd923b9dbffe748fc400140b4e9c60be7b7"
+  },
+  {
+    "file": "assets/images/products/adjustable-bed-bases/e4/main/kfy-smart-e4-03-futuristic-motion-1600.webp",
+    "bytes": 115254,
+    "sha256": "f7cf4fa7ce916c3dbad741286422e48fb24d0c68aa1fd6367455295c7ee41053"
+  },
+  {
+    "file": "assets/images/products/adjustable-bed-bases/e4/main/kfy-smart-e4-03-futuristic-motion-640.webp",
+    "bytes": 21334,
+    "sha256": "64fcdce56e28d591bc109fed8b8b4c8445df5654e4858040c72eb1c87907b5eb"
+  },
+  {
+    "file": "assets/images/products/adjustable-bed-bases/e4/main/kfy-smart-e4-03-futuristic-motion-960.webp",
+    "bytes": 41002,
+    "sha256": "9aa674b4c6884fef3a3967bb5f10222cfd2f071780ac3c5f547bf4ed674853cb"
+  },
+  {
+    "file": "assets/images/products/adjustable-bed-bases/e4/main/kfy-smart-e4-04-flagship-visual-1280.webp",
+    "bytes": 46270,
+    "sha256": "65f508a78d4e8539d923b222fdaee361ec090d4999a09ac581ea22d5f151ca33"
+  },
+  {
+    "file": "assets/images/products/adjustable-bed-bases/e4/main/kfy-smart-e4-04-flagship-visual-1600.webp",
+    "bytes": 65186,
+    "sha256": "5b49e03ab434cccac3245fd8ce534a8f2d78fd28ad64dddf8dd482551fdd774e"
+  },
+  {
+    "file": "assets/images/products/adjustable-bed-bases/e4/main/kfy-smart-e4-04-flagship-visual-640.webp",
+    "bytes": 18036,
+    "sha256": "de3ee9be533388d06343c7e27b0ab2f605b9bc9f91a9a4d03f8f2bfc4b05d864"
+  },
+  {
+    "file": "assets/images/products/adjustable-bed-bases/e4/main/kfy-smart-e4-04-flagship-visual-960.webp",
+    "bytes": 30954,
+    "sha256": "0591a0059d77288cdb061251008d59f27ef67b6f4870483bcf4f85a6e035d342"
+  },
+  {
+    "file": "assets/images/products/categories/kfy-smart-products-adjustable-bed-bases-1600x1000.webp",
+    "bytes": 309868,
+    "sha256": "29896c26209d911d3e57b228a852a64715b5e15d835c9c81c8e91f5e3cd8e3d8"
+  },
+  {
+    "file": "assets/images/products/categories/kfy-smart-products-smart-beds-1600x1000.webp",
+    "bytes": 508498,
+    "sha256": "7179f38cc65c267e112bed0b368aa793b647acd40ebaa06e1c3037526371dfa2"
+  },
+  {
+    "file": "assets/images/products/categories/kfy-smart-products-smart-mattresses-1600x1000.webp",
+    "bytes": 490124,
+    "sha256": "afdab5d30772b0b6e405c028cf02e6de15720fabad5e5ee58f6930c759d33dea"
+  },
+  {
+    "file": "assets/images/products/overview/kfy-smart-products-page-hero-1920x720.webp",
+    "bytes": 88498,
+    "sha256": "0953887526695b7af089430b4356ff0872920cdb9631ce056f6d0f4c7de47061"
+  },
+  {
+    "file": "assets/images/products/smart-beds/s1/detail/kfy-smart-s1-detail-01-overview-1200.webp",
+    "bytes": 109320,
+    "sha256": "555c0e49e4aed35d89d0acf6fd23e835c66bb679ce1803b0bd0c1bca8bdd8fd8"
+  },
+  {
+    "file": "assets/images/products/smart-beds/s1/detail/kfy-smart-s1-detail-01-overview-1600.webp",
+    "bytes": 156736,
+    "sha256": "bd0338b841939dfd281b2a28f7bf4a4b38bc8bc776bac003d11dfb930859e4fa"
+  },
+  {
+    "file": "assets/images/products/smart-beds/s1/detail/kfy-smart-s1-detail-01-overview-800.webp",
+    "bytes": 66228,
+    "sha256": "b65b7e19953e1759829c97d5befc56fc42179d240e871b308594bc98cbba3d12"
+  },
+  {
+    "file": "assets/images/products/smart-beds/s1/detail/kfy-smart-s1-detail-02-features-1200.webp",
+    "bytes": 116656,
+    "sha256": "9a3f0d16b0998f3b88ffa3f72efc84b6e707ce99a34a9da834591b1c88802d41"
+  },
+  {
+    "file": "assets/images/products/smart-beds/s1/detail/kfy-smart-s1-detail-02-features-1600.webp",
+    "bytes": 166210,
+    "sha256": "c5c6a130b34607daabfc3fd888cad25dc2e35a432123f9386169d8a01590db55"
+  },
+  {
+    "file": "assets/images/products/smart-beds/s1/detail/kfy-smart-s1-detail-02-features-800.webp",
+    "bytes": 71358,
+    "sha256": "f96309a6bf07efdfba2b186940502068daf2e9726575537cc0f85f598b176e00"
+  },
+  {
+    "file": "assets/images/products/smart-beds/s1/detail/kfy-smart-s1-detail-03-specifications-1200.webp",
+    "bytes": 87350,
+    "sha256": "57eb2e8a4a30234767a8d160bf9925b76af7c985453d7c7ed96043c4350ed375"
+  },
+  {
+    "file": "assets/images/products/smart-beds/s1/detail/kfy-smart-s1-detail-03-specifications-1600.webp",
+    "bytes": 126076,
+    "sha256": "d21f7b228367ab3ec03799dc13bed03c37b9d8a0816a964d8ca721762b66ebfd"
+  },
+  {
+    "file": "assets/images/products/smart-beds/s1/detail/kfy-smart-s1-detail-03-specifications-800.webp",
+    "bytes": 54146,
+    "sha256": "5e65ea57b62a61ddfbbd43beeaf09021005db357226bb32120380bbb22cdf85e"
+  },
+  {
+    "file": "assets/images/products/smart-beds/s1/main/kfy-smart-s1-01-flat-position-1280.webp",
+    "bytes": 59448,
+    "sha256": "ab695f4ec3af19ea29178cb2cec9b51e8af00caa5598bd688ee53d4c46bfb2d1"
+  },
+  {
+    "file": "assets/images/products/smart-beds/s1/main/kfy-smart-s1-01-flat-position-1600.webp",
+    "bytes": 78496,
+    "sha256": "75798701bc72bcf75b9f11ff182b9a744a2394244ce915c3e962ecb164914784"
+  },
+  {
+    "file": "assets/images/products/smart-beds/s1/main/kfy-smart-s1-01-flat-position-640.webp",
+    "bytes": 26482,
+    "sha256": "3b1afd7037f93742eebdf113b7d58f60eeb7114bb537140d2055eae42b42b324"
+  },
+  {
+    "file": "assets/images/products/smart-beds/s1/main/kfy-smart-s1-01-flat-position-960.webp",
+    "bytes": 43722,
+    "sha256": "a11e11522acc2cde707271352ce7469c33c8700cdab9d881a5809dca1c7108df"
+  },
+  {
+    "file": "assets/images/products/smart-beds/s1/main/kfy-smart-s1-02-front-view-1280.webp",
+    "bytes": 42100,
+    "sha256": "17ffde26f6b48a0812613b6cd8aff8b06bb08eb6693bbe15ba5003b0ad0c3a35"
+  },
+  {
+    "file": "assets/images/products/smart-beds/s1/main/kfy-smart-s1-02-front-view-1600.webp",
+    "bytes": 56388,
+    "sha256": "ae3520c5e572ce6f29f19c900f93c3993d2c84a7802d17b671ad4ed3f7a5a0ce"
+  },
+  {
+    "file": "assets/images/products/smart-beds/s1/main/kfy-smart-s1-02-front-view-640.webp",
+    "bytes": 18112,
+    "sha256": "07731f2062ee04c50aa685a3fbae077a5a46cd556ca371c775f6d6ac357f11af"
+  },
+  {
+    "file": "assets/images/products/smart-beds/s1/main/kfy-smart-s1-02-front-view-960.webp",
+    "bytes": 30392,
+    "sha256": "7680e503cc99e0cbeb102217f05bd70b18119682be06841a981da84e27ade8d1"
+  },
+  {
+    "file": "assets/images/products/smart-beds/s1/main/kfy-smart-s1-03-adjustable-position-1280.webp",
+    "bytes": 52126,
+    "sha256": "1955a266c9e3895d46f0e2c179823dec3b9ea2de3b7944ec2a91685bc3de1c7e"
+  },
+  {
+    "file": "assets/images/products/smart-beds/s1/main/kfy-smart-s1-03-adjustable-position-1600.webp",
+    "bytes": 67706,
+    "sha256": "1651b1619347cd247fadcdfdd120b86b78f7c412e2552dd6d6ed105db4f89f3d"
+  },
+  {
+    "file": "assets/images/products/smart-beds/s1/main/kfy-smart-s1-03-adjustable-position-640.webp",
+    "bytes": 23380,
+    "sha256": "204b8e80bf0e9e6dc20d87733b0c44795983849f323e4a4ce8915b81a64f1751"
+  },
+  {
+    "file": "assets/images/products/smart-beds/s1/main/kfy-smart-s1-03-adjustable-position-960.webp",
+    "bytes": 37192,
+    "sha256": "0881e668bcf2258300ba1f58301b63c94bfcc1481d0dbfdbcf621b5bc93ea99e"
+  },
+  {
+    "file": "assets/images/products/smart-beds/s1/main/kfy-smart-s1-04-smart-functions-1280.webp",
+    "bytes": 48176,
+    "sha256": "79037851e3f157bc3f8966b0a9e26f41e74b4ee9730fbe73434ee8689068fe8e"
+  },
+  {
+    "file": "assets/images/products/smart-beds/s1/main/kfy-smart-s1-04-smart-functions-1600.webp",
+    "bytes": 62204,
+    "sha256": "1e763f13ba21741df8f48bcfcd25a7757a38ce9a3f11d6f88ac41dfeb266d63a"
+  },
+  {
+    "file": "assets/images/products/smart-beds/s1/main/kfy-smart-s1-04-smart-functions-640.webp",
+    "bytes": 21418,
+    "sha256": "de4d686e82cc2b9be7e292de0d794ca13d0307fff804d972fed3026e7ca4128b"
+  },
+  {
+    "file": "assets/images/products/smart-beds/s1/main/kfy-smart-s1-04-smart-functions-960.webp",
+    "bytes": 34564,
+    "sha256": "28db5f7e69ad28ea574b7cb415bd0de03e6eea3a1a6812de3c72194aa86490a6"
+  },
+  {
+    "file": "assets/images/products/smart-beds/s2/detail/kfy-smart-s2-detail-01-overview-1200.webp",
+    "bytes": 114558,
+    "sha256": "b96517deb32a88994c4edbd3f37251dc86c4a0248034edb88c2bcb15addbeb07"
+  },
+  {
+    "file": "assets/images/products/smart-beds/s2/detail/kfy-smart-s2-detail-01-overview-1600.webp",
+    "bytes": 151234,
+    "sha256": "62afa78e1ce7168ce6bb4a9d8df0cb459e8802ac03811a09486bf9d15b0b8764"
+  },
+  {
+    "file": "assets/images/products/smart-beds/s2/detail/kfy-smart-s2-detail-01-overview-800.webp",
+    "bytes": 68864,
+    "sha256": "6b751e68a1aad29599bcc3a3397ee800b64ad425d60dd80de76316904ada256a"
+  },
+  {
+    "file": "assets/images/products/smart-beds/s2/detail/kfy-smart-s2-detail-02-features-1200.webp",
+    "bytes": 117420,
+    "sha256": "25d0677dc39c10d498dc948a909cd9fc7185576510ccf92999aa7ad4216ab6a3"
+  },
+  {
+    "file": "assets/images/products/smart-beds/s2/detail/kfy-smart-s2-detail-02-features-1600.webp",
+    "bytes": 168380,
+    "sha256": "b56670f29e36522702f939a5957b8293820330b553a746ca916aeb54adc39a7d"
+  },
+  {
+    "file": "assets/images/products/smart-beds/s2/detail/kfy-smart-s2-detail-02-features-800.webp",
+    "bytes": 71648,
+    "sha256": "73d4c0ab4e1f09041a6013a10ea603b6cf7028736b8855c3080eb62952ff5426"
+  },
+  {
+    "file": "assets/images/products/smart-beds/s2/detail/kfy-smart-s2-detail-03-specifications-1200.webp",
+    "bytes": 89082,
+    "sha256": "7aba08bd96f7bc97deace810d384d140e1b2b7465f663346f6d657a892845fa1"
+  },
+  {
+    "file": "assets/images/products/smart-beds/s2/detail/kfy-smart-s2-detail-03-specifications-1600.webp",
+    "bytes": 123978,
+    "sha256": "0b2f24a1350f12e3df28056d08504be6525505594fbeb65d413026c7f7169eb9"
+  },
+  {
+    "file": "assets/images/products/smart-beds/s2/detail/kfy-smart-s2-detail-03-specifications-800.webp",
+    "bytes": 53682,
+    "sha256": "445b125cc21139c94cac33052fbdcae20e699508b8843f9cdb50885fe7c476f1"
+  },
+  {
+    "file": "assets/images/products/smart-beds/s2/main/kfy-smart-s2-01-flat-position-1280.webp",
+    "bytes": 68170,
+    "sha256": "6771fb23e445578e241119719512977d00932d686416d655df222a5c476ef44c"
+  },
+  {
+    "file": "assets/images/products/smart-beds/s2/main/kfy-smart-s2-01-flat-position-1600.webp",
+    "bytes": 89540,
+    "sha256": "b057b3abe2ae53a525e3270600822bc87f52ad0d15c8cda985dae1c2b25f36d5"
+  },
+  {
+    "file": "assets/images/products/smart-beds/s2/main/kfy-smart-s2-01-flat-position-640.webp",
+    "bytes": 29806,
+    "sha256": "bcce90c21c549990595ac53bfc7d5c6ff0f0333e02d3ccce08abde11cb252aca"
+  },
+  {
+    "file": "assets/images/products/smart-beds/s2/main/kfy-smart-s2-01-flat-position-960.webp",
+    "bytes": 48688,
+    "sha256": "4f20a30ab070a5795c21fe06bba7d75d0edb6c0c08ae457f96f0f574f6a8e55d"
+  },
+  {
+    "file": "assets/images/products/smart-beds/s2/main/kfy-smart-s2-02-front-view-1280.webp",
+    "bytes": 39868,
+    "sha256": "7babd9119ab9a8512bbcb1a3e0628ed37ba1023f15222a72ad5a26933bb221e0"
+  },
+  {
+    "file": "assets/images/products/smart-beds/s2/main/kfy-smart-s2-02-front-view-1600.webp",
+    "bytes": 53572,
+    "sha256": "c4c7ef67521f8271ed4555263d08f2f965ed8472d11e608b8507feae3c300685"
+  },
+  {
+    "file": "assets/images/products/smart-beds/s2/main/kfy-smart-s2-02-front-view-640.webp",
+    "bytes": 17226,
+    "sha256": "400c95bd1f382caf5143646c3a8e2d05c597c896d79fcd09afb633b83f29c2a6"
+  },
+  {
+    "file": "assets/images/products/smart-beds/s2/main/kfy-smart-s2-02-front-view-960.webp",
+    "bytes": 27896,
+    "sha256": "f1ead817235082d094c4a073929843175de1a40d1cd7a573e058dd297755225a"
+  },
+  {
+    "file": "assets/images/products/smart-beds/s2/main/kfy-smart-s2-03-adjustable-position-1280.webp",
+    "bytes": 56700,
+    "sha256": "3ed35e4c0f27be73e903b6c8c6e7aff4428e6899864fd9fadc844eb841f01edb"
+  },
+  {
+    "file": "assets/images/products/smart-beds/s2/main/kfy-smart-s2-03-adjustable-position-1600.webp",
+    "bytes": 74814,
+    "sha256": "06dc251d7551da4581024f02f735e6169b675ad1b61e6f1a15ee9f7123a36b60"
+  },
+  {
+    "file": "assets/images/products/smart-beds/s2/main/kfy-smart-s2-03-adjustable-position-640.webp",
+    "bytes": 25092,
+    "sha256": "2fc1323e84016316abdd558ec37727064671d30abf0e08e0b98cd0152f575520"
+  },
+  {
+    "file": "assets/images/products/smart-beds/s2/main/kfy-smart-s2-03-adjustable-position-960.webp",
+    "bytes": 40774,
+    "sha256": "0e93ef40d610a75c5089d8df6cc4feea405b71cdfd09934f81e3b9723c499db5"
+  },
+  {
+    "file": "assets/images/products/smart-beds/s2/main/kfy-smart-s2-04-smart-functions-1280.webp",
+    "bytes": 51066,
+    "sha256": "b0ef6efc98e4de63a82dea45d6e174b0c107d06db18a5c4841c0dbeff22b7a78"
+  },
+  {
+    "file": "assets/images/products/smart-beds/s2/main/kfy-smart-s2-04-smart-functions-1600.webp",
+    "bytes": 67132,
+    "sha256": "39f7ef2f6b14d0c12316f8f2181af6db4f98ec4a6d20178fd1d35db32b586171"
+  },
+  {
+    "file": "assets/images/products/smart-beds/s2/main/kfy-smart-s2-04-smart-functions-640.webp",
+    "bytes": 23242,
+    "sha256": "b33caac594a013c722f950adf49770e46ce0deff2b2a11316e58bc14a67dc412"
+  },
+  {
+    "file": "assets/images/products/smart-beds/s2/main/kfy-smart-s2-04-smart-functions-960.webp",
+    "bytes": 36524,
+    "sha256": "387d67476b5cd41ff4c49431d292b39007ce3c563b5441c317a014dadd5c273e"
+  },
+  {
+    "file": "assets/images/products/smart-beds/s3/detail/kfy-smart-s3-detail-01-overview-1200.webp",
+    "bytes": 119374,
+    "sha256": "fbffc946e92bce8615671ecc90e782193a8987608d62fa47e887764233ac34ae"
+  },
+  {
+    "file": "assets/images/products/smart-beds/s3/detail/kfy-smart-s3-detail-01-overview-1600.webp",
+    "bytes": 169078,
+    "sha256": "c10539eeb9d87e3411b1f8fd617a414809df204cae15a180e5f2cdc9f507d465"
+  },
+  {
+    "file": "assets/images/products/smart-beds/s3/detail/kfy-smart-s3-detail-01-overview-800.webp",
+    "bytes": 71408,
+    "sha256": "6022f1dee89e335cc03df315cf3fde7aed612ee48b4a1498b60f5f7eba754562"
+  },
+  {
+    "file": "assets/images/products/smart-beds/s3/detail/kfy-smart-s3-detail-02-features-1200.webp",
+    "bytes": 122196,
+    "sha256": "163487828462f47aa2b3c0dd113496e51e978303146707c47fea049e8e34da4a"
+  },
+  {
+    "file": "assets/images/products/smart-beds/s3/detail/kfy-smart-s3-detail-02-features-1600.webp",
+    "bytes": 175872,
+    "sha256": "22654cf6f618d7a7daf4d4e62c54e0546ac61107d8e409ac9379b76d7b65dfd2"
+  },
+  {
+    "file": "assets/images/products/smart-beds/s3/detail/kfy-smart-s3-detail-02-features-800.webp",
+    "bytes": 76354,
+    "sha256": "f2dca910d5bc398412d9b95256f620e47fe47d629eca4b9054630efb103cac1d"
+  },
+  {
+    "file": "assets/images/products/smart-beds/s3/detail/kfy-smart-s3-detail-03-specifications-1200.webp",
+    "bytes": 93130,
+    "sha256": "eafd12fedd2da1c2e8a86399810d25e1859ee050214c9c5739db62cf7b8cca6b"
+  },
+  {
+    "file": "assets/images/products/smart-beds/s3/detail/kfy-smart-s3-detail-03-specifications-1600.webp",
+    "bytes": 132380,
+    "sha256": "f5d37113a4614043c8ae84d115f1b7b666bbd5097eb5d3271bcb6af9e8d21c74"
+  },
+  {
+    "file": "assets/images/products/smart-beds/s3/detail/kfy-smart-s3-detail-03-specifications-800.webp",
+    "bytes": 58148,
+    "sha256": "2441b4d3fba7fbbc66d7132763cfcd8a6618431adf7b69ad675ce24cfddfd20f"
+  },
+  {
+    "file": "assets/images/products/smart-beds/s3/main/kfy-smart-s3-01-flat-position-1280.webp",
+    "bytes": 71332,
+    "sha256": "8f28886533acdb1f59a66b2a9b734747cd41df82385c4aead9e3fde6b626d6da"
+  },
+  {
+    "file": "assets/images/products/smart-beds/s3/main/kfy-smart-s3-01-flat-position-1600.webp",
+    "bytes": 95998,
+    "sha256": "00c260fb85ccbf56d0dc248ba207601723468d4b36c9914d32ffb7af805109e1"
+  },
+  {
+    "file": "assets/images/products/smart-beds/s3/main/kfy-smart-s3-01-flat-position-640.webp",
+    "bytes": 33788,
+    "sha256": "8d65825240718ab4e30ef6a3a67812869a8fbd50b757f8bdefecd8b070ad14e5"
+  },
+  {
+    "file": "assets/images/products/smart-beds/s3/main/kfy-smart-s3-01-flat-position-960.webp",
+    "bytes": 51438,
+    "sha256": "5afc36633edecacf1e6583c57fec1b7de6b78ec5ff02c5f4172d1eedee419d3f"
+  },
+  {
+    "file": "assets/images/products/smart-beds/s3/main/kfy-smart-s3-02-front-view-1280.webp",
+    "bytes": 50058,
+    "sha256": "1a673df08c10b3f00002dc48962d302fc2ca517b09061811624a369f32553f62"
+  },
+  {
+    "file": "assets/images/products/smart-beds/s3/main/kfy-smart-s3-02-front-view-1600.webp",
+    "bytes": 67702,
+    "sha256": "91663eaed55285e8812b0d1881a5984d8d3b85da655dd8399f15399ca3365b94"
+  },
+  {
+    "file": "assets/images/products/smart-beds/s3/main/kfy-smart-s3-02-front-view-640.webp",
+    "bytes": 21730,
+    "sha256": "37af573c6c0b8da97d3f0476c93fb75e83ce70fd0d219652a16d649dfb43b40b"
+  },
+  {
+    "file": "assets/images/products/smart-beds/s3/main/kfy-smart-s3-02-front-view-960.webp",
+    "bytes": 35652,
+    "sha256": "8d7061fc9f9f60bbf152d2c63e265bb064e239efca4441b7aaaa1dac9f213b3c"
+  },
+  {
+    "file": "assets/images/products/smart-beds/s3/main/kfy-smart-s3-03-adjustable-position-1280.webp",
+    "bytes": 59748,
+    "sha256": "7a52bfe49fa525b0ff2e414f7832206efe611382c673676abc153cc742e83fe3"
+  },
+  {
+    "file": "assets/images/products/smart-beds/s3/main/kfy-smart-s3-03-adjustable-position-1600.webp",
+    "bytes": 78606,
+    "sha256": "bc230eae2aa29b7f5949ca2b81338ad4d4bbd704a1315aa989980f53f6fd8dad"
+  },
+  {
+    "file": "assets/images/products/smart-beds/s3/main/kfy-smart-s3-03-adjustable-position-640.webp",
+    "bytes": 26928,
+    "sha256": "9586bafcd8ec9cdce55ef0b481944f936ed981e83d8c716d195d92232b7200c9"
+  },
+  {
+    "file": "assets/images/products/smart-beds/s3/main/kfy-smart-s3-03-adjustable-position-960.webp",
+    "bytes": 42806,
+    "sha256": "383d2e5b0832bd461ddc33384b52fd681b61a25a4a7b8431435d4535f44b52d0"
+  },
+  {
+    "file": "assets/images/products/smart-beds/s3/main/kfy-smart-s3-04-smart-functions-1280.webp",
+    "bytes": 58070,
+    "sha256": "c79cf873865bf9773dcb040b2021e26a51cc13617a7915077a71d88d638f4783"
+  },
+  {
+    "file": "assets/images/products/smart-beds/s3/main/kfy-smart-s3-04-smart-functions-1600.webp",
+    "bytes": 75630,
+    "sha256": "0c36a73e1336540a5cbcb59ae2965eeed23ea998228388b9743dcd98e51f2c17"
+  },
+  {
+    "file": "assets/images/products/smart-beds/s3/main/kfy-smart-s3-04-smart-functions-640.webp",
+    "bytes": 25666,
+    "sha256": "2989ed55d449824d8a472eecc73ce33b287ff8f26e7ae3c470160f0b2648634e"
+  },
+  {
+    "file": "assets/images/products/smart-beds/s3/main/kfy-smart-s3-04-smart-functions-960.webp",
+    "bytes": 40604,
+    "sha256": "0ce27c4754640615590f3ac193876619c7f691dc611a4373572d2946ba97e870"
+  },
+  {
+    "file": "assets/images/products/smart-beds/s4/detail/kfy-smart-s4-detail-01-overview-1200.webp",
+    "bytes": 124402,
+    "sha256": "f2435a0cc094506867b477a3b894bc6046d463455b8ee44d3b4013ed1971bc1d"
+  },
+  {
+    "file": "assets/images/products/smart-beds/s4/detail/kfy-smart-s4-detail-01-overview-1600.webp",
+    "bytes": 174284,
+    "sha256": "003a4e73e11e74d1a8f4cf6eb33d1896d42dc74f755fd2d09432f88edf5ba2c3"
+  },
+  {
+    "file": "assets/images/products/smart-beds/s4/detail/kfy-smart-s4-detail-01-overview-800.webp",
+    "bytes": 73694,
+    "sha256": "e442ac15a9b7f37bb4bb183bb929fbef64328376f7778f0652c984bf4486daa0"
+  },
+  {
+    "file": "assets/images/products/smart-beds/s4/detail/kfy-smart-s4-detail-02-features-1200.webp",
+    "bytes": 131806,
+    "sha256": "0738ebef6d2fb8a8b15989a4ef47d73630e6b324112b9abf367aaa6da052c54f"
+  },
+  {
+    "file": "assets/images/products/smart-beds/s4/detail/kfy-smart-s4-detail-02-features-1600.webp",
+    "bytes": 185184,
+    "sha256": "ceb58c09f7a8095a182aa2626f595c662135b47aeea1116006288ef4eb95adf1"
+  },
+  {
+    "file": "assets/images/products/smart-beds/s4/detail/kfy-smart-s4-detail-02-features-800.webp",
+    "bytes": 81606,
+    "sha256": "e32b71eea9377fd34c36e8528198c9eab87b932d86cb607ffa3541853d6b9bf6"
+  },
+  {
+    "file": "assets/images/products/smart-beds/s4/detail/kfy-smart-s4-detail-03-specifications-1200.webp",
+    "bytes": 98986,
+    "sha256": "b60484c0e23a32777b835f1d67b302e2ac26adc3e5a87e3298ee08dc83787b38"
+  },
+  {
+    "file": "assets/images/products/smart-beds/s4/detail/kfy-smart-s4-detail-03-specifications-1600.webp",
+    "bytes": 141358,
+    "sha256": "4e0aee225f537a5af0ea4fe4a237a1c453338ab618514bfc8371f45c119724d9"
+  },
+  {
+    "file": "assets/images/products/smart-beds/s4/detail/kfy-smart-s4-detail-03-specifications-800.webp",
+    "bytes": 60852,
+    "sha256": "aca9de117d65fccbdf94374168d7ee6727ebf2cf7367f458e64e95211071d02e"
+  },
+  {
+    "file": "assets/images/products/smart-beds/s4/main/kfy-smart-s4-01-flat-position-1280.webp",
+    "bytes": 65010,
+    "sha256": "55164de5fad8b82d2fb174798626d75ceb76a7637e4b1dfe5c8b3aeb868a8693"
+  },
+  {
+    "file": "assets/images/products/smart-beds/s4/main/kfy-smart-s4-01-flat-position-1600.webp",
+    "bytes": 85440,
+    "sha256": "a2b140452be4d609819dd3a6b2b784d0f7d10ccb80c3dd7e77636eb25a00604e"
+  },
+  {
+    "file": "assets/images/products/smart-beds/s4/main/kfy-smart-s4-01-flat-position-640.webp",
+    "bytes": 29666,
+    "sha256": "9eacc5d394c61b781cba959dc8a0a4ea1e837df55e03fc45f66dc82252184158"
+  },
+  {
+    "file": "assets/images/products/smart-beds/s4/main/kfy-smart-s4-01-flat-position-960.webp",
+    "bytes": 46692,
+    "sha256": "6e457f4dc58114f7ae663d1f5ee2c24158930e83c4d16abeb065671dbea7c47c"
+  },
+  {
+    "file": "assets/images/products/smart-beds/s4/main/kfy-smart-s4-02-front-view-1280.webp",
+    "bytes": 39538,
+    "sha256": "fa6b12c550947636de030a4b485c1371968be93d60af7fc6765dce6d0f2e9d52"
+  },
+  {
+    "file": "assets/images/products/smart-beds/s4/main/kfy-smart-s4-02-front-view-1600.webp",
+    "bytes": 53240,
+    "sha256": "6e4bc7a13947e80b16839a99d1062f53ad08b09588ef10f6bbf68ff837368ecf"
+  },
+  {
+    "file": "assets/images/products/smart-beds/s4/main/kfy-smart-s4-02-front-view-640.webp",
+    "bytes": 17026,
+    "sha256": "af03877327172c47412f308ab18b4de645cf41af51b3b246aa67618a5c4cd0f5"
+  },
+  {
+    "file": "assets/images/products/smart-beds/s4/main/kfy-smart-s4-02-front-view-960.webp",
+    "bytes": 27672,
+    "sha256": "6040193897e119ccb366db30ba80bded328207c22fdb85bbb47655cb5736c0b1"
+  },
+  {
+    "file": "assets/images/products/smart-beds/s4/main/kfy-smart-s4-03-adjustable-position-1280.webp",
+    "bytes": 61224,
+    "sha256": "0781ded026e0fbf3e484d644a3c8df878956b19e1851b32e7802acfe4fcb5f9e"
+  },
+  {
+    "file": "assets/images/products/smart-beds/s4/main/kfy-smart-s4-03-adjustable-position-1600.webp",
+    "bytes": 81374,
+    "sha256": "d389ad368e7d3248050029cb73d7787a9f4070124f7154af3da642518abc9801"
+  },
+  {
+    "file": "assets/images/products/smart-beds/s4/main/kfy-smart-s4-03-adjustable-position-640.webp",
+    "bytes": 27410,
+    "sha256": "a8550a4df217c2ac6a80cfb9e66a1861536a068a31270ba248d070972eb5436d"
+  },
+  {
+    "file": "assets/images/products/smart-beds/s4/main/kfy-smart-s4-03-adjustable-position-960.webp",
+    "bytes": 43770,
+    "sha256": "acf89e13e1438853e8ad761bd46cd526092be9fee10747ce61d9299a41175d7f"
+  },
+  {
+    "file": "assets/images/products/smart-beds/s4/main/kfy-smart-s4-04-smart-functions-1280.webp",
+    "bytes": 51208,
+    "sha256": "782101480b88874fa3cff6f2b456c633ff17c1fdcec5a5d6c727b24037a43ee8"
+  },
+  {
+    "file": "assets/images/products/smart-beds/s4/main/kfy-smart-s4-04-smart-functions-1600.webp",
+    "bytes": 68390,
+    "sha256": "d51db362086d8f7b9ca6ba0a679a2bcdb9f2160a9e3e6a578103f3bf78ec7037"
+  },
+  {
+    "file": "assets/images/products/smart-beds/s4/main/kfy-smart-s4-04-smart-functions-640.webp",
+    "bytes": 22426,
+    "sha256": "d1419b8c6aa992ce9bdd74cb22ad79f8e849b7d1f2bf9fc83c2d71563fc0f6b6"
+  },
+  {
+    "file": "assets/images/products/smart-beds/s4/main/kfy-smart-s4-04-smart-functions-960.webp",
+    "bytes": 36462,
+    "sha256": "573b8848a0a0d98014a9d419be2a5f3fefadf93e5d3221b3bd0c518db81a898b"
+  },
+  {
+    "file": "assets/images/products/smart-mattresses/w1/detail/kfy-smart-w1-detail-01-overview-1200.webp",
+    "bytes": 131642,
+    "sha256": "012ae641b8201f4a800a502ebe8a8b79c9b44d9f95e1798ee7013cb04367c09e"
+  },
+  {
+    "file": "assets/images/products/smart-mattresses/w1/detail/kfy-smart-w1-detail-01-overview-1600.webp",
+    "bytes": 184338,
+    "sha256": "c9ef1165066b4a7ef7779440f8f28eeff24a5fef986fb50e2040edaf31d5141e"
+  },
+  {
+    "file": "assets/images/products/smart-mattresses/w1/detail/kfy-smart-w1-detail-01-overview-800.webp",
+    "bytes": 81942,
+    "sha256": "e7abe3e4ce16bffdf01cba9634c273a384021a12b7323d3c0105b2487314be43"
+  },
+  {
+    "file": "assets/images/products/smart-mattresses/w1/detail/kfy-smart-w1-detail-02-features-1200.webp",
+    "bytes": 115454,
+    "sha256": "ee6494122d298f2427fcdb5c1b314bc0a18a268fa00fc857aaaee5e0791e5a72"
+  },
+  {
+    "file": "assets/images/products/smart-mattresses/w1/detail/kfy-smart-w1-detail-02-features-1600.webp",
+    "bytes": 160836,
+    "sha256": "b82753efa0a55595e68d916db4abb1d266512cc337f62eedec3fb6f92c2a1b78"
+  },
+  {
+    "file": "assets/images/products/smart-mattresses/w1/detail/kfy-smart-w1-detail-02-features-800.webp",
+    "bytes": 71572,
+    "sha256": "7303451d19cea2265696c56d6a8d9cd2fdac06d4ef6f8e9cbeefc412720a8dfc"
+  },
+  {
+    "file": "assets/images/products/smart-mattresses/w1/detail/kfy-smart-w1-detail-03-specifications-1200.webp",
+    "bytes": 102102,
+    "sha256": "69397c0f60f8ac9849926a597cb3fc5598b104d00e3ec4de37cc4de39f16b56f"
+  },
+  {
+    "file": "assets/images/products/smart-mattresses/w1/detail/kfy-smart-w1-detail-03-specifications-1600.webp",
+    "bytes": 146104,
+    "sha256": "7471b8fc00731d805a543b5213a47b3b65d7e96cf290585552725e23c6d6a827"
+  },
+  {
+    "file": "assets/images/products/smart-mattresses/w1/detail/kfy-smart-w1-detail-03-specifications-800.webp",
+    "bytes": 62344,
+    "sha256": "5823f0a90eab94ea2c22e2b2eb7dcb8844bf4f262b1a2d725b524813fc68f210"
+  },
+  {
+    "file": "assets/images/products/smart-mattresses/w1/main/kfy-smart-w1-01-flat-position-1280.webp",
+    "bytes": 53340,
+    "sha256": "434b8149ff55c75161d16fa81b80f9500005d8fbdff501125780764f18e294d3"
+  },
+  {
+    "file": "assets/images/products/smart-mattresses/w1/main/kfy-smart-w1-01-flat-position-1600.webp",
+    "bytes": 69298,
+    "sha256": "607a1bd8f6a497620ed8f05d078542bd0afafe87b1c1c1f6681f8064c9edcedc"
+  },
+  {
+    "file": "assets/images/products/smart-mattresses/w1/main/kfy-smart-w1-01-flat-position-640.webp",
+    "bytes": 23236,
+    "sha256": "206cdff411b0664c497f99b01dadccf6b3c48d5046851e4f65e08b03595dd902"
+  },
+  {
+    "file": "assets/images/products/smart-mattresses/w1/main/kfy-smart-w1-01-flat-position-960.webp",
+    "bytes": 37734,
+    "sha256": "0e403152a700853c5d26919c633855830e2fbef44310bd2c9504179453953d5c"
+  },
+  {
+    "file": "assets/images/products/smart-mattresses/w1/main/kfy-smart-w1-02-perspective-view-1280.webp",
+    "bytes": 52658,
+    "sha256": "ea56091b40f75b4d3770a71ef68263a640b66f77c4cbf783d669b5710c1e85ab"
+  },
+  {
+    "file": "assets/images/products/smart-mattresses/w1/main/kfy-smart-w1-02-perspective-view-1600.webp",
+    "bytes": 67712,
+    "sha256": "9cd783812729fb58d7059374c8a51871662ab9aabca8e59740fc550c0b5edc21"
+  },
+  {
+    "file": "assets/images/products/smart-mattresses/w1/main/kfy-smart-w1-02-perspective-view-640.webp",
+    "bytes": 22458,
+    "sha256": "d687cc6ea57c5d79d95480aa06f80f20b89c87122fb6b5dae2238e8ee806c600"
+  },
+  {
+    "file": "assets/images/products/smart-mattresses/w1/main/kfy-smart-w1-02-perspective-view-960.webp",
+    "bytes": 37384,
+    "sha256": "68b32ddaff3225ee12b04fab2399d83abf12069484b02e7ca16dba18559dc8f0"
+  },
+  {
+    "file": "assets/images/products/smart-mattresses/w1/main/kfy-smart-w1-03-product-structure-1280.webp",
+    "bytes": 54278,
+    "sha256": "6d347933fa6621ea61be5c304bddc5c8cb5e831eeabbb30851a7ea0ff45324d5"
+  },
+  {
+    "file": "assets/images/products/smart-mattresses/w1/main/kfy-smart-w1-03-product-structure-1600.webp",
+    "bytes": 69072,
+    "sha256": "204ba15c911c2fe5abac8af82e87f9277025fbce6ffcf93f8c6ccd349e2ce6f5"
+  },
+  {
+    "file": "assets/images/products/smart-mattresses/w1/main/kfy-smart-w1-03-product-structure-640.webp",
+    "bytes": 24186,
+    "sha256": "dd8fdff79b7678107c9838bb680df3b9e9eb80f8a15d90e4f808a1094681558f"
+  },
+  {
+    "file": "assets/images/products/smart-mattresses/w1/main/kfy-smart-w1-03-product-structure-960.webp",
+    "bytes": 39398,
+    "sha256": "8d101b47c59cd5c390fb02142823d1e4916d3665802f2f542c54206cba464433"
+  },
+  {
+    "file": "assets/images/products/smart-mattresses/w1/main/kfy-smart-w1-04-fabric-close-up-1280.webp",
+    "bytes": 62108,
+    "sha256": "75168e2b29acef6b43792601d4a3f54ed8664005a1c8e68efe1be4c0453c9c43"
+  },
+  {
+    "file": "assets/images/products/smart-mattresses/w1/main/kfy-smart-w1-04-fabric-close-up-1600.webp",
+    "bytes": 80264,
+    "sha256": "23baf8dd02056c08759da0daf6360d3a099348baf934d680827d8451756bffa7"
+  },
+  {
+    "file": "assets/images/products/smart-mattresses/w1/main/kfy-smart-w1-04-fabric-close-up-640.webp",
+    "bytes": 26248,
+    "sha256": "a69729309c4ca786f6c281a71269bcb61f1f16af022d43db07f7b777f90629f2"
+  },
+  {
+    "file": "assets/images/products/smart-mattresses/w1/main/kfy-smart-w1-04-fabric-close-up-960.webp",
+    "bytes": 43612,
+    "sha256": "38af00a7bfceeceb79da8b6a0beff75560ea08893bc07ae7a59f264015d0a318"
+  },
+  {
+    "file": "assets/images/products/smart-mattresses/w2/detail/kfy-smart-w2-detail-01-overview-1200.webp",
+    "bytes": 140250,
+    "sha256": "7462827c0c55d2a0708a2ff27df23069f4209981cf42194b19ee3fa080c27a6a"
+  },
+  {
+    "file": "assets/images/products/smart-mattresses/w2/detail/kfy-smart-w2-detail-01-overview-1600.webp",
+    "bytes": 203418,
+    "sha256": "67ac0e25e6610092712f50889543006097e0579b314bdf6b47034e26a39a2448"
+  },
+  {
+    "file": "assets/images/products/smart-mattresses/w2/detail/kfy-smart-w2-detail-01-overview-800.webp",
+    "bytes": 85106,
+    "sha256": "4f941645716f422815ec58ae2862e5e280c41ae36d71b53612c3a6333b18542c"
+  },
+  {
+    "file": "assets/images/products/smart-mattresses/w2/detail/kfy-smart-w2-detail-02-features-1200.webp",
+    "bytes": 166964,
+    "sha256": "fe06b9d608dccdebab1b737bae1b86207bc28d7eff19c9c45b3ca81b1dc7b440"
+  },
+  {
+    "file": "assets/images/products/smart-mattresses/w2/detail/kfy-smart-w2-detail-02-features-1600.webp",
+    "bytes": 236084,
+    "sha256": "20bd915125254b6d9d9c22c764f43b8a15ec9b1ee7c0212b4f52a1f1ac0d59ef"
+  },
+  {
+    "file": "assets/images/products/smart-mattresses/w2/detail/kfy-smart-w2-detail-02-features-800.webp",
+    "bytes": 105484,
+    "sha256": "7dbf97236f21ce59641bea71ec75cc641dece5a962d38975dbaae86019b6c022"
+  },
+  {
+    "file": "assets/images/products/smart-mattresses/w2/detail/kfy-smart-w2-detail-03-specifications-1200.webp",
+    "bytes": 141206,
+    "sha256": "cd9b91698bf4c7ad6e9cefb158437c82601d16a2053768750a2519ec8a599782"
+  },
+  {
+    "file": "assets/images/products/smart-mattresses/w2/detail/kfy-smart-w2-detail-03-specifications-1600.webp",
+    "bytes": 196646,
+    "sha256": "8ef7fd1fd76fd43574de007c9b37874d5472f7b049b67e077ee1f3f3b16d0dca"
+  },
+  {
+    "file": "assets/images/products/smart-mattresses/w2/detail/kfy-smart-w2-detail-03-specifications-800.webp",
+    "bytes": 85324,
+    "sha256": "d6bb0af5f01bb44aa4b57b293cd40bedd9a86af3ccee0593c6c84018758f5fbf"
+  },
+  {
+    "file": "assets/images/products/smart-mattresses/w2/main/kfy-smart-w2-01-flat-position-1280.webp",
+    "bytes": 62116,
+    "sha256": "17a953f99fe413eeda585918d3f99fc584c428735ce4eec0637f84d50503576f"
+  },
+  {
+    "file": "assets/images/products/smart-mattresses/w2/main/kfy-smart-w2-01-flat-position-1600.webp",
+    "bytes": 79576,
+    "sha256": "176077829c837a88aae255e2127ef38838c796f706abcf004f9828341d756d9d"
+  },
+  {
+    "file": "assets/images/products/smart-mattresses/w2/main/kfy-smart-w2-01-flat-position-640.webp",
+    "bytes": 27098,
+    "sha256": "a2d11fb674fae49c32b30ff6bba6ab83f81a1f0299812de6b25e9d30ad705586"
+  },
+  {
+    "file": "assets/images/products/smart-mattresses/w2/main/kfy-smart-w2-01-flat-position-960.webp",
+    "bytes": 44880,
+    "sha256": "f1b01a49a0522fe21de83c40c2ee434a60836ea48620c82bcf510b1c5ac239e1"
+  },
+  {
+    "file": "assets/images/products/smart-mattresses/w2/main/kfy-smart-w2-02-perspective-view-1280.webp",
+    "bytes": 58236,
+    "sha256": "0518a061f1eb3d9ee300a1f895340c251c1a6e11587262f6f224bb8c77a55857"
+  },
+  {
+    "file": "assets/images/products/smart-mattresses/w2/main/kfy-smart-w2-02-perspective-view-1600.webp",
+    "bytes": 72770,
+    "sha256": "53719658846083c97c955df6a2aa2e1e4ec2c8d532dd38c0f8404cab429ce365"
+  },
+  {
+    "file": "assets/images/products/smart-mattresses/w2/main/kfy-smart-w2-02-perspective-view-640.webp",
+    "bytes": 24362,
+    "sha256": "e2395ed9e322d9e024d9517b10aac7b886e40015017694c9a7b5b3bfc6220904"
+  },
+  {
+    "file": "assets/images/products/smart-mattresses/w2/main/kfy-smart-w2-02-perspective-view-960.webp",
+    "bytes": 40832,
+    "sha256": "8b85f33131abd01767f72103ac872362db0c48edfa10f82be747bb3623579d77"
+  },
+  {
+    "file": "assets/images/products/smart-mattresses/w2/main/kfy-smart-w2-03-product-structure-1280.webp",
+    "bytes": 59560,
+    "sha256": "fb395edb6c6c8dd97e717f7ddca2e75e04ceef18b279d4c317563c2c9a41d363"
+  },
+  {
+    "file": "assets/images/products/smart-mattresses/w2/main/kfy-smart-w2-03-product-structure-1600.webp",
+    "bytes": 75276,
+    "sha256": "37281b2ec4693f43e28f4829cf05580a62138c2bbf86072b5081c77219baf20b"
+  },
+  {
+    "file": "assets/images/products/smart-mattresses/w2/main/kfy-smart-w2-03-product-structure-640.webp",
+    "bytes": 25530,
+    "sha256": "1c300480fa37d2867f173d2024da436e09c85eb3bc80e503071bec89aaab509a"
+  },
+  {
+    "file": "assets/images/products/smart-mattresses/w2/main/kfy-smart-w2-03-product-structure-960.webp",
+    "bytes": 41832,
+    "sha256": "9b0945c2e47e2d107124123f5f89e740797946bddf1ac225a8280e2cd9684725"
+  },
+  {
+    "file": "assets/images/products/smart-mattresses/w2/main/kfy-smart-w2-04-fabric-close-up-1280.webp",
+    "bytes": 68120,
+    "sha256": "7d868e3e6c5b141fda3364566bfe620b24477f1e6a562388545706e60ad87e78"
+  },
+  {
+    "file": "assets/images/products/smart-mattresses/w2/main/kfy-smart-w2-04-fabric-close-up-1600.webp",
+    "bytes": 86734,
+    "sha256": "de8ef6ae9101ab1d056cd9d2247d620b9a7c8c01ba0596e65b0d851a18a641c3"
+  },
+  {
+    "file": "assets/images/products/smart-mattresses/w2/main/kfy-smart-w2-04-fabric-close-up-640.webp",
+    "bytes": 28924,
+    "sha256": "570f82c1e00b0d5430a0529f40d81c6696e1d219044a6f42c25d219a11b6239a"
+  },
+  {
+    "file": "assets/images/products/smart-mattresses/w2/main/kfy-smart-w2-04-fabric-close-up-960.webp",
+    "bytes": 48866,
+    "sha256": "c822ecf1d3f53aa3679ab45348c30e1c69cd37082bfcd230a1d2a7a02711ed1d"
+  },
+  {
+    "file": "assets/images/products/smart-mattresses/w3/detail/kfy-smart-w3-detail-01-overview-1200.webp",
+    "bytes": 152318,
+    "sha256": "b9747a4fe3d9f67e11d282225b4d39eb93ac1912b8bd90d676f65b280662094a"
+  },
+  {
+    "file": "assets/images/products/smart-mattresses/w3/detail/kfy-smart-w3-detail-01-overview-1600.webp",
+    "bytes": 212844,
+    "sha256": "381316dab025a87c76444be16c522cbb2196b02a514cc964b8ac761fbb13cc3f"
+  },
+  {
+    "file": "assets/images/products/smart-mattresses/w3/detail/kfy-smart-w3-detail-01-overview-800.webp",
+    "bytes": 91060,
+    "sha256": "c6cd36619d1a5e41e529c778540202f78c37b335b59ad3ae483b8234c9ee28f2"
+  },
+  {
+    "file": "assets/images/products/smart-mattresses/w3/detail/kfy-smart-w3-detail-02-features-1200.webp",
+    "bytes": 177686,
+    "sha256": "237e3d05d0541cea42994924a6891edd0a0bd704f902ae89285781a32681364a"
+  },
+  {
+    "file": "assets/images/products/smart-mattresses/w3/detail/kfy-smart-w3-detail-02-features-1600.webp",
+    "bytes": 255486,
+    "sha256": "4b9490adc3e75ecb1064ae80487c174e3f9cdfd717698fbdcf272f476d115ec6"
+  },
+  {
+    "file": "assets/images/products/smart-mattresses/w3/detail/kfy-smart-w3-detail-02-features-800.webp",
+    "bytes": 114576,
+    "sha256": "43d95a5b72a302ba868b5aadd21f50e3df76dc9c170ac214b23477ea27df045c"
+  },
+  {
+    "file": "assets/images/products/smart-mattresses/w3/detail/kfy-smart-w3-detail-03-specifications-1200.webp",
+    "bytes": 127374,
+    "sha256": "046ef2e7fd0ede72aad49b83018a686e956f19ed0b704608706778782689fd5c"
+  },
+  {
+    "file": "assets/images/products/smart-mattresses/w3/detail/kfy-smart-w3-detail-03-specifications-1600.webp",
+    "bytes": 180530,
+    "sha256": "a58fd922e4225afcb284ea092ba5b1f32123a9d31eff247162a4264e34b6ea56"
+  },
+  {
+    "file": "assets/images/products/smart-mattresses/w3/detail/kfy-smart-w3-detail-03-specifications-800.webp",
+    "bytes": 78900,
+    "sha256": "50f8de550aac9f617bb7285250d4e06429ee00c02a66e45073a21714651eaa72"
+  },
+  {
+    "file": "assets/images/products/smart-mattresses/w3/main/kfy-smart-w3-01-flat-position-1280.webp",
+    "bytes": 67314,
+    "sha256": "b35427e37c431eecba1549e1a49d8a5c3f44813dc4eafd5f9dd826a9d9345a3a"
+  },
+  {
+    "file": "assets/images/products/smart-mattresses/w3/main/kfy-smart-w3-01-flat-position-1600.webp",
+    "bytes": 86038,
+    "sha256": "11190d0475b37a1d65bd18b53452c106146fbbd90fe4ef87b42b578b3d6e6262"
+  },
+  {
+    "file": "assets/images/products/smart-mattresses/w3/main/kfy-smart-w3-01-flat-position-640.webp",
+    "bytes": 29898,
+    "sha256": "fdee5a8e98a83c3c785df8d9d993dfa79a2e2b5f7497d6b43f84e7aa8740fa93"
+  },
+  {
+    "file": "assets/images/products/smart-mattresses/w3/main/kfy-smart-w3-01-flat-position-960.webp",
+    "bytes": 48354,
+    "sha256": "eaea571c9818819de8f4986c5eda508083b8a38af38b36dea6ff54e061d66a25"
+  },
+  {
+    "file": "assets/images/products/smart-mattresses/w3/main/kfy-smart-w3-02-perspective-view-1280.webp",
+    "bytes": 60934,
+    "sha256": "f36e1b96fffc468ce677274af348cf545db5bad3f20aee2a088a66008e935dbc"
+  },
+  {
+    "file": "assets/images/products/smart-mattresses/w3/main/kfy-smart-w3-02-perspective-view-1600.webp",
+    "bytes": 76838,
+    "sha256": "0a26778d7e1d9f58e6667b95162e0a88fb2348e69a88e6d3b66e0f17ae0a3ebb"
+  },
+  {
+    "file": "assets/images/products/smart-mattresses/w3/main/kfy-smart-w3-02-perspective-view-640.webp",
+    "bytes": 26652,
+    "sha256": "c297f129212f9f01c84af94801a9b0d135886955bb42aa75fdae2d7f3660fe0b"
+  },
+  {
+    "file": "assets/images/products/smart-mattresses/w3/main/kfy-smart-w3-02-perspective-view-960.webp",
+    "bytes": 43212,
+    "sha256": "42aae2cea6e2ca40c22791b91f57722cb4737c119c9028bb0c508d89bd2c06cc"
+  },
+  {
+    "file": "assets/images/products/smart-mattresses/w3/main/kfy-smart-w3-03-product-structure-1280.webp",
+    "bytes": 61896,
+    "sha256": "a113592dc8e99329fd8875c7cab3d139ce4b89472c94501767c32eff667f35c1"
+  },
+  {
+    "file": "assets/images/products/smart-mattresses/w3/main/kfy-smart-w3-03-product-structure-1600.webp",
+    "bytes": 78528,
+    "sha256": "89ac621f18acb97c4ae8fa5910f26858b58004f24fd68d490a4515413b8b05e8"
+  },
+  {
+    "file": "assets/images/products/smart-mattresses/w3/main/kfy-smart-w3-03-product-structure-640.webp",
+    "bytes": 27152,
+    "sha256": "c3b9c10ff8035ac7256976e264e02515699a4ad82bd607ebddf2a3a2f525978a"
+  },
+  {
+    "file": "assets/images/products/smart-mattresses/w3/main/kfy-smart-w3-03-product-structure-960.webp",
+    "bytes": 44168,
+    "sha256": "97ec09f8a3215def1b4e585fae92f250a668fda5427f817c96fd78ffdf856b12"
+  },
+  {
+    "file": "assets/images/products/smart-mattresses/w3/main/kfy-smart-w3-04-fabric-close-up-1280.webp",
+    "bytes": 75884,
+    "sha256": "47763cebcfbceeae803b501427771111894518a5f55394720dec887d29363c45"
+  },
+  {
+    "file": "assets/images/products/smart-mattresses/w3/main/kfy-smart-w3-04-fabric-close-up-1600.webp",
+    "bytes": 96768,
+    "sha256": "9004a1a8cc1b5c46e23dc1a5c187e0730096b57669fe125012b292805a951c38"
+  },
+  {
+    "file": "assets/images/products/smart-mattresses/w3/main/kfy-smart-w3-04-fabric-close-up-640.webp",
+    "bytes": 32564,
+    "sha256": "468479508cd1e447cbc469592fbfa0b1fac3f591ede425e14789b77b879ecbc3"
+  },
+  {
+    "file": "assets/images/products/smart-mattresses/w3/main/kfy-smart-w3-04-fabric-close-up-960.webp",
+    "bytes": 54560,
+    "sha256": "036f118beb3e8ab81bf443a7b3b5aa123d6586ef24835c442e5b07c25aaa6aa2"
+  },
+  {
+    "file": "assets/images/products/smart-mattresses/w4/detail/kfy-smart-w4-detail-01-overview-1200.webp",
+    "bytes": 118240,
+    "sha256": "e357b895476882c80974eb85caeb8e343693b497a867eaea18be76b0cb10fd20"
+  },
+  {
+    "file": "assets/images/products/smart-mattresses/w4/detail/kfy-smart-w4-detail-01-overview-1600.webp",
+    "bytes": 168442,
+    "sha256": "4cb266b180bb5b101422ea1069c7e4020af7ae0b5d902f1aed2e8c7e08a42f56"
+  },
+  {
+    "file": "assets/images/products/smart-mattresses/w4/detail/kfy-smart-w4-detail-01-overview-800.webp",
+    "bytes": 72220,
+    "sha256": "78a7081eb8bc838b21543d36b3d2c82f588d8ac545157b7674338c33b2663588"
+  },
+  {
+    "file": "assets/images/products/smart-mattresses/w4/detail/kfy-smart-w4-detail-02-features-1200.webp",
+    "bytes": 183232,
+    "sha256": "22137edd8ec6f9e260b249b708928df4c0bf8f0de9e68f813e09892e36247c5b"
+  },
+  {
+    "file": "assets/images/products/smart-mattresses/w4/detail/kfy-smart-w4-detail-02-features-1600.webp",
+    "bytes": 250692,
+    "sha256": "3235f4e83beabd92fe61067fb8af83b03f70459cca80ef6d5db470567ddef8ac"
+  },
+  {
+    "file": "assets/images/products/smart-mattresses/w4/detail/kfy-smart-w4-detail-02-features-800.webp",
+    "bytes": 113668,
+    "sha256": "55fc565dac05356df848732be274e3b6b393d35d2f7e0bbee11738cc1132ccaa"
+  },
+  {
+    "file": "assets/images/products/smart-mattresses/w4/detail/kfy-smart-w4-detail-03-specifications-1200.webp",
+    "bytes": 118916,
+    "sha256": "4c80c29268f26028c235a5f8525b5d041240db6cb15336b99b1e693af79f0977"
+  },
+  {
+    "file": "assets/images/products/smart-mattresses/w4/detail/kfy-smart-w4-detail-03-specifications-1600.webp",
+    "bytes": 172748,
+    "sha256": "91561bb044eb42e9d3407ad82d5920c19be5f4ddf6f0c046454f6c6e68e47d44"
+  },
+  {
+    "file": "assets/images/products/smart-mattresses/w4/detail/kfy-smart-w4-detail-03-specifications-800.webp",
+    "bytes": 74076,
+    "sha256": "c4d89c9cc4ed37abea9b78403821ce0387c22a9daddf2edc5f39684660d48781"
+  },
+  {
+    "file": "assets/images/products/smart-mattresses/w4/main/kfy-smart-w4-01-flat-position-1280.webp",
+    "bytes": 61168,
+    "sha256": "3eebfa26bdebb719d504aab4794498c27a82455c32409c58371417657da11047"
+  },
+  {
+    "file": "assets/images/products/smart-mattresses/w4/main/kfy-smart-w4-01-flat-position-1600.webp",
+    "bytes": 77956,
+    "sha256": "059f3954309119432d0208ae3256c92c7ded69bf24e1cd68ae7a5196067f139b"
+  },
+  {
+    "file": "assets/images/products/smart-mattresses/w4/main/kfy-smart-w4-01-flat-position-640.webp",
+    "bytes": 27074,
+    "sha256": "ba3c41c7eedd0b887c2ee0605947d0e1f280edc6f7409d9225c25a7c7eda8422"
+  },
+  {
+    "file": "assets/images/products/smart-mattresses/w4/main/kfy-smart-w4-01-flat-position-960.webp",
+    "bytes": 44250,
+    "sha256": "79980940510aa8a1fa95a9a6edf76f066d3510011a2123da773fe6ecdda2bf62"
+  },
+  {
+    "file": "assets/images/products/smart-mattresses/w4/main/kfy-smart-w4-02-perspective-view-1280.webp",
+    "bytes": 54778,
+    "sha256": "434e05bf68d8274c5cf34138c2cd61d4ae7b7ec62bf87e92dc510a6868325b6a"
+  },
+  {
+    "file": "assets/images/products/smart-mattresses/w4/main/kfy-smart-w4-02-perspective-view-1600.webp",
+    "bytes": 68830,
+    "sha256": "015524dcae18572d270be3ad8869542ffec770a53ed4acba156bf1b44cd91932"
+  },
+  {
+    "file": "assets/images/products/smart-mattresses/w4/main/kfy-smart-w4-02-perspective-view-640.webp",
+    "bytes": 23436,
+    "sha256": "f81faca9c70d8a5e202bf65431744cb7300c54d9f962146b604b4068ea87c924"
+  },
+  {
+    "file": "assets/images/products/smart-mattresses/w4/main/kfy-smart-w4-02-perspective-view-960.webp",
+    "bytes": 38530,
+    "sha256": "58753dc5abb6ab05d0f4de38233baa3b4bf52ecbcdb8fa78c8a99bbf6aaa17b4"
+  },
+  {
+    "file": "assets/images/products/smart-mattresses/w4/main/kfy-smart-w4-03-product-structure-1280.webp",
+    "bytes": 61176,
+    "sha256": "f083d171cad949feea88e79e72bead8e2cdcaa67449d5bc86073b47283e15a6a"
+  },
+  {
+    "file": "assets/images/products/smart-mattresses/w4/main/kfy-smart-w4-03-product-structure-1600.webp",
+    "bytes": 77816,
+    "sha256": "d71f128171ffede9b7937e86e8540c74a0655ede6e3d99ba527deb2e7112a295"
+  },
+  {
+    "file": "assets/images/products/smart-mattresses/w4/main/kfy-smart-w4-03-product-structure-640.webp",
+    "bytes": 26940,
+    "sha256": "70c0d7b5beb62ea35bd72de5a4411afd8ba943f5f7c90979926f04752fcd77aa"
+  },
+  {
+    "file": "assets/images/products/smart-mattresses/w4/main/kfy-smart-w4-03-product-structure-960.webp",
+    "bytes": 43492,
+    "sha256": "3c0402915f0d00d2a7021f76914d0c10321dd1257292468e8abc943376c0cdae"
+  },
+  {
+    "file": "assets/images/products/smart-mattresses/w4/main/kfy-smart-w4-04-fabric-close-up-1280.webp",
+    "bytes": 79258,
+    "sha256": "ab58a656dab77571fd738eacfa160495e3dc9137d00ad8cce7b7345275664960"
+  },
+  {
+    "file": "assets/images/products/smart-mattresses/w4/main/kfy-smart-w4-04-fabric-close-up-1600.webp",
+    "bytes": 102556,
+    "sha256": "472b11451394e12051599e449d61c0c5f153db96cf15a617080813b4fb285ff0"
+  },
+  {
+    "file": "assets/images/products/smart-mattresses/w4/main/kfy-smart-w4-04-fabric-close-up-640.webp",
+    "bytes": 33526,
+    "sha256": "e4f5ce2616ed7eecfe97e1fb1bbaabbf26b20fa04bec58bc39dbdf45407796ce"
+  },
+  {
+    "file": "assets/images/products/smart-mattresses/w4/main/kfy-smart-w4-04-fabric-close-up-960.webp",
+    "bytes": 56348,
+    "sha256": "3013af92daad14cf8e310fa420cd30c2cbaf5e9c56a3bdcab13b6692bbc81a6e"
+  },
+  {
+    "file": "assets/js/main.js",
+    "bytes": 5286,
+    "sha256": "a7945dfab5f226585181fa9f2c3609801bed24b8320d6d55dae4ef69f57ff04b"
+  },
+  {
+    "file": "assets/js/site-config.js",
+    "bytes": 62,
+    "sha256": "b7315762c1216c11ab2c476bcd96a1d160fac735c842bba34e04845371cd905a"
+  },
+  {
+    "file": "assets/logo/favicon-180.png",
+    "bytes": 14238,
+    "sha256": "a7dffcaa32f9b80ca2b8b6c9bbed7d1a62cccb2270a467138ea3ac11354ec2e9"
+  },
+  {
+    "file": "assets/logo/favicon-32.png",
+    "bytes": 1814,
+    "sha256": "935415ea1fb4ded9c5831b7225b6f5953612e496ab57dcceaa67d2acb6dddeeb"
+  },
+  {
+    "file": "assets/logo/favicon-512.png",
+    "bytes": 46062,
+    "sha256": "095550c4bcc24a36ae41aaae6a2d788916d8b4487db6c526c5d35971dc0f6754"
+  },
+  {
+    "file": "assets/logo/favicon-64.png",
+    "bytes": 4483,
+    "sha256": "dba9fc8975b8a2daffbfd3e83eb8c21b6661c171d341987f9b3b4413530d96aa"
+  },
+  {
+    "file": "assets/logo/kfy-logo-icon-orange.png",
+    "bytes": 17592,
+    "sha256": "1e28d4bf245304ce217cc29ef70d7b69801b076c9e972ba52ce9129218897ffa"
+  },
+  {
+    "file": "assets/logo/kfy-logo-icon-white.png",
+    "bytes": 3719,
+    "sha256": "9106fb84ffb7fa061a49e6150aa609c46ce39990f5c971106547b6eb910e73a9"
+  },
+  {
+    "file": "contact/index.html",
+    "bytes": 8578,
+    "sha256": "43e5d7d5002b90bd495c2f21d2eeef9a60197fc496c1c7c2b27cb2d94cffe174"
+  },
+  {
+    "file": "data/news.json",
+    "bytes": 5201,
+    "sha256": "843338a1ebed1b9953e47b99e4a625957e420fab6fd37ed699a3686c8b6fde28"
+  },
+  {
+    "file": "data/products.json",
+    "bytes": 25276,
+    "sha256": "c6441eb41ccf8808958897388bd751d036665cf63b201937177dcdbdb49982f6"
+  },
+  {
+    "file": "index.html",
+    "bytes": 14978,
+    "sha256": "81403b3ab7fd4e3907f792383e3c3ab18f91e8eede4bcff2a00d2d4bbd12db19"
+  },
+  {
+    "file": "news/adjustable-bed-bases-add-value/index.html",
+    "bytes": 8586,
+    "sha256": "fbf6c18ac9b151344f0656d1a15563a321aca5734ab95e2cb89090170ac8997c"
+  },
+  {
+    "file": "news/index.html",
+    "bytes": 10687,
+    "sha256": "4ea2cfa8dc3d35d59fb5b3fa071cf71e9e3b51cf66b102b0e6d697706c3140c5"
+  },
+  {
+    "file": "news/kfy-smart-new-b2b-website/index.html",
+    "bytes": 8322,
+    "sha256": "68b80fa3525c351bc49c32446b8eb757e80a0f10454ea4ab3dd6511f45dc82f9"
+  },
+  {
+    "file": "news/smart-beds-vs-adjustable-bed-bases/index.html",
+    "bytes": 8794,
+    "sha256": "acda80c4fbbb66cd4a417f0682ba864661371b71914186417fccf3218313477b"
+  },
+  {
+    "file": "news/smart-sleep-hotels-senior-care/index.html",
+    "bytes": 8571,
+    "sha256": "1938bea2075eac574687f2a3b29687e17724420994b41420ba795661e2d62ecb"
+  },
+  {
+    "file": "news/three-core-product-lines/index.html",
+    "bytes": 8281,
+    "sha256": "b8278ca1222a271362dcef894410ef588a20412f1abb082805898c0b11149dbd"
+  },
+  {
+    "file": "package.json",
+    "bytes": 188,
+    "sha256": "7b6fd59da67af48b9a0bd47588c8915796b655ccbf414480a1f10252f0491d80"
+  },
+  {
+    "file": "products/adjustable-bed-bases/e1-british-style-slatted-bed-base/index.html",
+    "bytes": 20386,
+    "sha256": "f205b8ed88cade0efebe090e00216745ceb563484835ee6e92f7be5e5f426011"
+  },
+  {
+    "file": "products/adjustable-bed-bases/e2-american-style-adjustable-bed-base/index.html",
+    "bytes": 20501,
+    "sha256": "e2afd9bf219a934526f45dda55b780c087b5dfebb0ae8c17e6cec5cf24a29579"
+  },
+  {
+    "file": "products/adjustable-bed-bases/e3-foldable-adjustable-bed-base/index.html",
+    "bytes": 20468,
+    "sha256": "da206810b73133a654e65650c8727016ef67027739972d44487be34ac3d0b24d"
+  },
+  {
+    "file": "products/adjustable-bed-bases/e4-sliding-style-adjustable-bed-base/index.html",
+    "bytes": 20754,
+    "sha256": "3f8748ead80bf3bdb461c211778bff2c842b6a374128a6ddd32a4fd9cbc0ab2d"
+  },
+  {
+    "file": "products/adjustable-bed-bases/index.html",
+    "bytes": 17019,
+    "sha256": "eb8fa45f198ce2de17a3ec0eda438625f48076c8fd9a6cca9ff3ed650315cf55"
+  },
+  {
+    "file": "products/index.html",
+    "bytes": 9536,
+    "sha256": "bedb30284f5c76c693bd10f7b59bca1d38d967e9ef6501d0ab3e010d330be1eb"
+  },
+  {
+    "file": "products/smart-beds/index.html",
+    "bytes": 16621,
+    "sha256": "6715f16404d82b94e4e47dc3aae9a083f1871aa52835bad1f95b8d3bebf9aea2"
+  },
+  {
+    "file": "products/smart-beds/s1-iron-mesh-smart-bed/index.html",
+    "bytes": 20125,
+    "sha256": "8ae7c1d3fe7f7d4258027993efb11bbf8f01921d63a2ca50617789c21c2d8f62"
+  },
+  {
+    "file": "products/smart-beds/s2-wooden-bed-board-smart-bed/index.html",
+    "bytes": 20149,
+    "sha256": "e84164e5f1a0df196f3f7f7618696b8bc05f6fa1c8bd46c4f170274db5be7301"
+  },
+  {
+    "file": "products/smart-beds/s3-smart-bed-main-model/index.html",
+    "bytes": 20000,
+    "sha256": "23071bf59dfd62d6c25528c80b777e938dbce76ff7064575d3c946846a7c395b"
+  },
+  {
+    "file": "products/smart-beds/s4-smart-bed-with-border/index.html",
+    "bytes": 20046,
+    "sha256": "83f723b79eb6140891f92b1caa137b04fa21494b1ad56a1b47a59f4985a6dc42"
+  },
+  {
+    "file": "products/smart-mattresses/index.html",
+    "bytes": 16738,
+    "sha256": "c2844270b4c23b753cda0b232a6402c4e98da989cb7aba21c118bbd40bd75bf1"
+  },
+  {
+    "file": "products/smart-mattresses/w1-10-inch-smart-mattress/index.html",
+    "bytes": 20080,
+    "sha256": "756f80fed2cc96f2811f0e4c2ab1e1ee7dfca3846db1cefed2e48baef1566f29"
+  },
+  {
+    "file": "products/smart-mattresses/w2-10-inch-massage-smart-mattress/index.html",
+    "bytes": 20252,
+    "sha256": "05ca4aa4eb99ee67ce5f2fb1524a65ac521edf331b25005281c3952669cdf474"
+  },
+  {
+    "file": "products/smart-mattresses/w3-premium-11-inch-smart-mattress/index.html",
+    "bytes": 20429,
+    "sha256": "355af0daf4327b2a2f1238c7b934d532230f7e44828e605d6cd9d5b5a164aa04"
+  },
+  {
+    "file": "products/smart-mattresses/w4-integrated-care-smart-mattress/index.html",
+    "bytes": 20407,
+    "sha256": "55bb2569be0cfa5b35ef17696d27ba3be3b7a33d5c513e6cbad453ccfd2f5c37"
+  },
+  {
+    "file": "robots.txt",
+    "bytes": 69,
+    "sha256": "25e096335173106d3ad2e3ff04a7a1db8dbb25290a3a634208454ba479700849"
+  },
+  {
+    "file": "scripts/check-site.mjs",
+    "bytes": 1807,
+    "sha256": "30da82bc4db4a1b0b7641164fd09b06354b15b49a031527c2bff7c2d2b6a8b65"
+  },
+  {
+    "file": "sitemap.xml",
+    "bytes": 3129,
+    "sha256": "307ec431b680986cb20058b7778bc44dc0bf89333649ed340c2e5ff22a3555d0"
+  },
+  {
+    "file": "terms-of-use/index.html",
+    "bytes": 7184,
+    "sha256": "3c1f4c4a88dd17c0c694015d17a052136c7b7807b8405cbcd6679c08af9838e2"
+  },
+  {
+    "file": "vercel.json",
+    "bytes": 347,
+    "sha256": "ac2a810971f6274d1885ff711ea56bce8de7c923a00f4fbe9bbc29cee7b98304"
+  }
+]

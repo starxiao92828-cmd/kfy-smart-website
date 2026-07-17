@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="senior-care-title senior-care-desc">
+  <title id="senior-care-title">Senior Care and Home Care</title>
+  <desc id="senior-care-desc">Ice-blue line icon for senior care and home care smart bed solutions.</desc>
+  <defs>
+    <radialGradient id="senior-care-bg" cx="50%" cy="38%" r="70%">
+      <stop offset="0%" stop-color="#0b2a52"/>
+      <stop offset="52%" stop-color="#071b34"/>
+      <stop offset="100%" stop-color="#020b16"/>
+    </radialGradient>
+    <linearGradient id="senior-care-stroke" x1="90" y1="70" x2="425" y2="430" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#eaf8ff"/>
+      <stop offset="42%" stop-color="#7bdcff"/>
+      <stop offset="100%" stop-color="#1f8cff"/>
+    </linearGradient>
+    <filter id="senior-care-glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="512" height="512" rx="104" fill="url(#senior-care-bg)"/>
+  <circle cx="256" cy="256" r="184" fill="none" stroke="#63caff" stroke-opacity=".10" stroke-width="2"/>
+  <circle cx="256" cy="256" r="132" fill="none" stroke="#63caff" stroke-opacity=".08" stroke-width="1.5" stroke-dasharray="9 14"/>
+  <path d="M72 390 C150 356 212 420 292 382 S410 346 448 376" fill="none" stroke="#2499ff" stroke-opacity=".22" stroke-width="3"/>
+  <g fill="none" stroke="url(#senior-care-stroke)" stroke-width="18" stroke-linecap="round" stroke-linejoin="round" filter="url(#senior-care-glow)">
+    
+    <path d="M88 310h300c30 0 54 24 54 54v26H70v-62c0-10 8-18 18-18z"/>
+    <path d="M96 390v36M420 390v36"/>
+    <path d="M120 310l66-108c16-26 50-34 76-18l42 26"/>
+    <path d="M248 208l90 66"/>
+    <path d="M92 310h74"/>
+    <path d="M340 146c0-34 26-62 58-62 22 0 40 12 50 30 10-18 28-30 50-30" transform="translate(-92 0)"/>
+    <path d="M306 146c0-32 24-58 56-58 22 0 40 12 50 30 10-18 28-30 50-30 32 0 56 26 56 58 0 62-106 124-106 124S306 208 306 146z" transform="scale(.68) translate(130 30)"/>
+    <path d="M386 132v62M355 163h62" stroke-width="14"/>
+    <path d="M172 132c22-30 56-50 94-52" stroke-width="10" stroke-dasharray="2 28"/>
+    
+  </g>
+</svg>

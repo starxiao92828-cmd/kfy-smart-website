@@ -1,0 +1,558 @@
+[
+  {
+    "category": "adjustable-bed-bases",
+    "categoryName": "Adjustable Bed Bases",
+    "model": "E4",
+    "level": "Flagship",
+    "name": "Sliding Style Adjustable Bed Base",
+    "slug": "e4-sliding-style-adjustable-bed-base",
+    "summary": "A flagship sliding adjustable base designed for premium B2B product programs and project customization.",
+    "sizes": "90×200 / 120×200 / 150×200 / 180×200 cm",
+    "structure": "2 cm foam wrapping, anti-slip fabric, linen cover and 2 mm cold-drawn steel structure.",
+    "motor": "OKIN dual motors",
+    "features": [
+      "Independent head and foot lift",
+      "Synchronized lift",
+      "One-touch flat",
+      "Sliding mode",
+      "Zero gravity",
+      "Underbed light",
+      "Remote flashlight",
+      "Memory position"
+    ],
+    "controls": "Remote control with sliding-mode, lighting and memory functions.",
+    "customization": "Sizes, upholstery, legs, controls, packaging and branding subject to project confirmation.",
+    "application": "Premium mattress brands, furniture brands, hospitality and distribution projects.",
+    "mainBases": [
+      "kfy-smart-e4-01-premium-main",
+      "kfy-smart-e4-02-premium-bedroom",
+      "kfy-smart-e4-03-futuristic-motion",
+      "kfy-smart-e4-04-flagship-visual"
+    ],
+    "mainImages": [
+      "/assets/images/products/adjustable-bed-bases/e4/main/kfy-smart-e4-01-premium-main-1600.webp",
+      "/assets/images/products/adjustable-bed-bases/e4/main/kfy-smart-e4-02-premium-bedroom-1600.webp",
+      "/assets/images/products/adjustable-bed-bases/e4/main/kfy-smart-e4-03-futuristic-motion-1600.webp",
+      "/assets/images/products/adjustable-bed-bases/e4/main/kfy-smart-e4-04-flagship-visual-1600.webp"
+    ],
+    "detailBases": [
+      "kfy-smart-e4-detail-01-overview",
+      "kfy-smart-e4-detail-02-features",
+      "kfy-smart-e4-detail-03-specifications"
+    ],
+    "detailImages": [
+      "/assets/images/products/adjustable-bed-bases/e4/detail/kfy-smart-e4-detail-01-overview-1600.webp",
+      "/assets/images/products/adjustable-bed-bases/e4/detail/kfy-smart-e4-detail-02-features-1600.webp",
+      "/assets/images/products/adjustable-bed-bases/e4/detail/kfy-smart-e4-detail-03-specifications-1600.webp"
+    ]
+  },
+  {
+    "category": "adjustable-bed-bases",
+    "categoryName": "Adjustable Bed Bases",
+    "model": "E3",
+    "level": "High-end",
+    "name": "Foldable Adjustable Bed Base",
+    "slug": "e3-foldable-adjustable-bed-base",
+    "summary": "A foldable high-end adjustable base balancing logistics efficiency and flexible comfort functions.",
+    "sizes": "90×200 / 120×200 / 150×200 / 180×200 cm",
+    "structure": "Foldable structure, 3 cm foam wrapping, anti-slip fabric, linen cover and 2 mm cold-drawn steel.",
+    "motor": "OKIN dual motors",
+    "features": [
+      "Foldable structure",
+      "Head and foot lift",
+      "Zero gravity",
+      "One-touch flat",
+      "Child lock",
+      "Mobile App control"
+    ],
+    "controls": "Remote and mobile App control.",
+    "customization": "Sizes, fabrics, legs, controls, packaging and private-label coordination.",
+    "application": "Mattress brands, furniture companies and distributors seeking a foldable high-end base.",
+    "mainBases": [
+      "kfy-smart-e3-01-flat-position",
+      "kfy-smart-e3-02-head-up",
+      "kfy-smart-e3-03-head-foot-up",
+      "kfy-smart-e3-04-lifestyle"
+    ],
+    "mainImages": [
+      "/assets/images/products/adjustable-bed-bases/e3/main/kfy-smart-e3-01-flat-position-1600.webp",
+      "/assets/images/products/adjustable-bed-bases/e3/main/kfy-smart-e3-02-head-up-1600.webp",
+      "/assets/images/products/adjustable-bed-bases/e3/main/kfy-smart-e3-03-head-foot-up-1600.webp",
+      "/assets/images/products/adjustable-bed-bases/e3/main/kfy-smart-e3-04-lifestyle-1600.webp"
+    ],
+    "detailBases": [
+      "kfy-smart-e3-detail-01-overview",
+      "kfy-smart-e3-detail-02-features",
+      "kfy-smart-e3-detail-03-specifications"
+    ],
+    "detailImages": [
+      "/assets/images/products/adjustable-bed-bases/e3/detail/kfy-smart-e3-detail-01-overview-1600.webp",
+      "/assets/images/products/adjustable-bed-bases/e3/detail/kfy-smart-e3-detail-02-features-1600.webp",
+      "/assets/images/products/adjustable-bed-bases/e3/detail/kfy-smart-e3-detail-03-specifications-1600.webp"
+    ]
+  },
+  {
+    "category": "adjustable-bed-bases",
+    "categoryName": "Adjustable Bed Bases",
+    "model": "E2",
+    "level": "Mid-range",
+    "name": "American-Style Adjustable Bed Base",
+    "slug": "e2-american-style-adjustable-bed-base",
+    "summary": "A practical full-frame adjustable base for mainstream furniture, mattress and distribution programs.",
+    "sizes": "90×200 / 120×200 / 150×200 / 180×200 / 193×203 cm",
+    "structure": "American-style full-frame structure with 2 mm cold-drawn steel.",
+    "motor": "OKIN dual motors",
+    "features": [
+      "American-style full frame",
+      "Head and foot lift",
+      "Zero gravity",
+      "One-touch flat",
+      "Child lock",
+      "Mobile App control"
+    ],
+    "controls": "Remote and mobile App control.",
+    "customization": "Sizes, frame configuration, legs, controls, packaging and branding.",
+    "application": "Mainstream mattress and furniture programs for international distribution.",
+    "mainBases": [
+      "kfy-smart-e2-01-flat-position",
+      "kfy-smart-e2-02-head-up",
+      "kfy-smart-e2-03-head-foot-up",
+      "kfy-smart-e2-04-lifestyle"
+    ],
+    "mainImages": [
+      "/assets/images/products/adjustable-bed-bases/e2/main/kfy-smart-e2-01-flat-position-1600.webp",
+      "/assets/images/products/adjustable-bed-bases/e2/main/kfy-smart-e2-02-head-up-1600.webp",
+      "/assets/images/products/adjustable-bed-bases/e2/main/kfy-smart-e2-03-head-foot-up-1600.webp",
+      "/assets/images/products/adjustable-bed-bases/e2/main/kfy-smart-e2-04-lifestyle-1600.webp"
+    ],
+    "detailBases": [
+      "kfy-smart-e2-detail-01-overview",
+      "kfy-smart-e2-detail-02-features",
+      "kfy-smart-e2-detail-03-specifications"
+    ],
+    "detailImages": [
+      "/assets/images/products/adjustable-bed-bases/e2/detail/kfy-smart-e2-detail-01-overview-1600.webp",
+      "/assets/images/products/adjustable-bed-bases/e2/detail/kfy-smart-e2-detail-02-features-1600.webp",
+      "/assets/images/products/adjustable-bed-bases/e2/detail/kfy-smart-e2-detail-03-specifications-1600.webp"
+    ]
+  },
+  {
+    "category": "adjustable-bed-bases",
+    "categoryName": "Adjustable Bed Bases",
+    "model": "E1",
+    "level": "Budget",
+    "name": "British-Style Slatted Bed Base",
+    "slug": "e1-british-style-slatted-bed-base",
+    "summary": "A value-focused slatted adjustable base with essential motion and control functions.",
+    "sizes": "90×200 / 120×200 / 150×200 / 180×200 / 193×203 cm",
+    "structure": "British-style slatted structure with 2 mm cold-drawn steel.",
+    "motor": "OKIN dual motors",
+    "features": [
+      "British-style slatted structure",
+      "Head and foot lift",
+      "Zero gravity",
+      "One-touch flat",
+      "Child lock",
+      "Mobile App control"
+    ],
+    "controls": "Remote and mobile App control.",
+    "customization": "Sizes, slat configuration, legs, controls, packaging and branding.",
+    "application": "Budget-focused private-label and distribution projects.",
+    "mainBases": [
+      "kfy-smart-e1-01-flat-position",
+      "kfy-smart-e1-02-head-up",
+      "kfy-smart-e1-03-head-foot-up",
+      "kfy-smart-e1-04-lifestyle"
+    ],
+    "mainImages": [
+      "/assets/images/products/adjustable-bed-bases/e1/main/kfy-smart-e1-01-flat-position-1600.webp",
+      "/assets/images/products/adjustable-bed-bases/e1/main/kfy-smart-e1-02-head-up-1600.webp",
+      "/assets/images/products/adjustable-bed-bases/e1/main/kfy-smart-e1-03-head-foot-up-1600.webp",
+      "/assets/images/products/adjustable-bed-bases/e1/main/kfy-smart-e1-04-lifestyle-1600.webp"
+    ],
+    "detailBases": [
+      "kfy-smart-e1-detail-01-overview",
+      "kfy-smart-e1-detail-02-features",
+      "kfy-smart-e1-detail-03-specifications"
+    ],
+    "detailImages": [
+      "/assets/images/products/adjustable-bed-bases/e1/detail/kfy-smart-e1-detail-01-overview-1600.webp",
+      "/assets/images/products/adjustable-bed-bases/e1/detail/kfy-smart-e1-detail-02-features-1600.webp",
+      "/assets/images/products/adjustable-bed-bases/e1/detail/kfy-smart-e1-detail-03-specifications-1600.webp"
+    ]
+  },
+  {
+    "category": "smart-beds",
+    "categoryName": "Smart Beds",
+    "model": "S4",
+    "level": "Flagship",
+    "name": "Smart Bed With Border",
+    "slug": "s4-smart-bed-with-border",
+    "summary": "A flagship upholstered smart bed with a complete border structure for premium B2B projects.",
+    "sizes": "970×2030 / 1370×1900–1903 / 1520×2030 mm; custom sizes supported",
+    "structure": "Full upholstered border, fabric edging, solid wood bed-board base, anti-fall support and wear-resistant edges.",
+    "motor": "Optional motor configuration.",
+    "features": [
+      "Reading position",
+      "TV position",
+      "Anti-snore position",
+      "Zero-gravity position",
+      "Optional vibration massage",
+      "Optional LED",
+      "Optional USB",
+      "Optional Bluetooth"
+    ],
+    "controls": "Control and connectivity options vary by selected configuration.",
+    "customization": "Border, fabric, sizing, motor, accessories, branding and packaging.",
+    "application": "Premium furniture brands, hospitality suites and flagship retail collections.",
+    "mainBases": [
+      "kfy-smart-s4-01-flat-position",
+      "kfy-smart-s4-02-front-view",
+      "kfy-smart-s4-03-adjustable-position",
+      "kfy-smart-s4-04-smart-functions"
+    ],
+    "mainImages": [
+      "/assets/images/products/smart-beds/s4/main/kfy-smart-s4-01-flat-position-1600.webp",
+      "/assets/images/products/smart-beds/s4/main/kfy-smart-s4-02-front-view-1600.webp",
+      "/assets/images/products/smart-beds/s4/main/kfy-smart-s4-03-adjustable-position-1600.webp",
+      "/assets/images/products/smart-beds/s4/main/kfy-smart-s4-04-smart-functions-1600.webp"
+    ],
+    "detailBases": [
+      "kfy-smart-s4-detail-01-overview",
+      "kfy-smart-s4-detail-02-features",
+      "kfy-smart-s4-detail-03-specifications"
+    ],
+    "detailImages": [
+      "/assets/images/products/smart-beds/s4/detail/kfy-smart-s4-detail-01-overview-1600.webp",
+      "/assets/images/products/smart-beds/s4/detail/kfy-smart-s4-detail-02-features-1600.webp",
+      "/assets/images/products/smart-beds/s4/detail/kfy-smart-s4-detail-03-specifications-1600.webp"
+    ]
+  },
+  {
+    "category": "smart-beds",
+    "categoryName": "Smart Beds",
+    "model": "S3",
+    "level": "High-end",
+    "name": "Smart Bed - Main Model",
+    "slug": "s3-smart-bed-main-model",
+    "summary": "The main high-end smart bed model for upholstered B2B collections and flexible projects.",
+    "sizes": "970×2030 / 1370×1900–1903 / 1520×2030 mm; custom sizes supported",
+    "structure": "Fabric edging, solid wood bed board, high-density fabric and anti-collision decorative edge.",
+    "motor": "Optional motor configuration.",
+    "features": [
+      "Reading position",
+      "TV position",
+      "Anti-snore position",
+      "Zero-gravity position",
+      "Optional vibration massage",
+      "Optional LED",
+      "Optional USB",
+      "Optional Bluetooth"
+    ],
+    "controls": "Control and connectivity options vary by selected configuration.",
+    "customization": "Fabric, sizing, motor, accessories, branding and packaging.",
+    "application": "Furniture brands, mattress companies and international retail programs.",
+    "mainBases": [
+      "kfy-smart-s3-01-flat-position",
+      "kfy-smart-s3-02-front-view",
+      "kfy-smart-s3-03-adjustable-position",
+      "kfy-smart-s3-04-smart-functions"
+    ],
+    "mainImages": [
+      "/assets/images/products/smart-beds/s3/main/kfy-smart-s3-01-flat-position-1600.webp",
+      "/assets/images/products/smart-beds/s3/main/kfy-smart-s3-02-front-view-1600.webp",
+      "/assets/images/products/smart-beds/s3/main/kfy-smart-s3-03-adjustable-position-1600.webp",
+      "/assets/images/products/smart-beds/s3/main/kfy-smart-s3-04-smart-functions-1600.webp"
+    ],
+    "detailBases": [
+      "kfy-smart-s3-detail-01-overview",
+      "kfy-smart-s3-detail-02-features",
+      "kfy-smart-s3-detail-03-specifications"
+    ],
+    "detailImages": [
+      "/assets/images/products/smart-beds/s3/detail/kfy-smart-s3-detail-01-overview-1600.webp",
+      "/assets/images/products/smart-beds/s3/detail/kfy-smart-s3-detail-02-features-1600.webp",
+      "/assets/images/products/smart-beds/s3/detail/kfy-smart-s3-detail-03-specifications-1600.webp"
+    ]
+  },
+  {
+    "category": "smart-beds",
+    "categoryName": "Smart Beds",
+    "model": "S2",
+    "level": "Mid-range",
+    "name": "Smart Bed - Wooden Bed Board Basic Model",
+    "slug": "s2-wooden-bed-board-smart-bed",
+    "summary": "A modular smart bed based on a stable wooden bed-board structure.",
+    "sizes": "970×2030 / 1370×1900–1903 / 1520×2030 mm; custom sizes supported",
+    "structure": "Wooden bed-board structure with stable support and a modular/customizable system.",
+    "motor": "Optional motor configuration.",
+    "features": [
+      "Wooden bed-board structure",
+      "Reading position",
+      "TV position",
+      "Anti-snore position",
+      "Zero-gravity position",
+      "Optional vibration massage",
+      "Optional LED",
+      "Optional USB"
+    ],
+    "controls": "Control and connectivity options vary by selected configuration.",
+    "customization": "Wooden board system, sizing, fabric, motor, accessories, branding and packaging.",
+    "application": "Mainstream OEM programs and modular project configurations.",
+    "mainBases": [
+      "kfy-smart-s2-01-flat-position",
+      "kfy-smart-s2-02-front-view",
+      "kfy-smart-s2-03-adjustable-position",
+      "kfy-smart-s2-04-smart-functions"
+    ],
+    "mainImages": [
+      "/assets/images/products/smart-beds/s2/main/kfy-smart-s2-01-flat-position-1600.webp",
+      "/assets/images/products/smart-beds/s2/main/kfy-smart-s2-02-front-view-1600.webp",
+      "/assets/images/products/smart-beds/s2/main/kfy-smart-s2-03-adjustable-position-1600.webp",
+      "/assets/images/products/smart-beds/s2/main/kfy-smart-s2-04-smart-functions-1600.webp"
+    ],
+    "detailBases": [
+      "kfy-smart-s2-detail-01-overview",
+      "kfy-smart-s2-detail-02-features",
+      "kfy-smart-s2-detail-03-specifications"
+    ],
+    "detailImages": [
+      "/assets/images/products/smart-beds/s2/detail/kfy-smart-s2-detail-01-overview-1600.webp",
+      "/assets/images/products/smart-beds/s2/detail/kfy-smart-s2-detail-02-features-1600.webp",
+      "/assets/images/products/smart-beds/s2/detail/kfy-smart-s2-detail-03-specifications-1600.webp"
+    ]
+  },
+  {
+    "category": "smart-beds",
+    "categoryName": "Smart Beds",
+    "model": "S1",
+    "level": "Budget",
+    "name": "Smart Bed - Iron Mesh Bed Plate Basic Model",
+    "slug": "s1-iron-mesh-smart-bed",
+    "summary": "An entry-level smart bed using an iron mesh bed plate and essential lift functions.",
+    "sizes": "970×2030 / 1370×1900–1903 / 1520×2030 mm; custom sizes supported",
+    "structure": "Iron mesh bed plate with a basic frame and adjustable lift structure.",
+    "motor": "Optional motor configuration.",
+    "features": [
+      "Iron mesh bed plate",
+      "Adjustable lift",
+      "Reading position",
+      "TV position",
+      "Anti-snore position",
+      "Zero-gravity position",
+      "Optional LED",
+      "Optional USB"
+    ],
+    "controls": "Control and connectivity options vary by selected configuration.",
+    "customization": "Frame, sizing, fabric, motor, accessories, branding and packaging.",
+    "application": "Entry-level B2B and distributor programs.",
+    "mainBases": [
+      "kfy-smart-s1-01-flat-position",
+      "kfy-smart-s1-02-front-view",
+      "kfy-smart-s1-03-adjustable-position",
+      "kfy-smart-s1-04-smart-functions"
+    ],
+    "mainImages": [
+      "/assets/images/products/smart-beds/s1/main/kfy-smart-s1-01-flat-position-1600.webp",
+      "/assets/images/products/smart-beds/s1/main/kfy-smart-s1-02-front-view-1600.webp",
+      "/assets/images/products/smart-beds/s1/main/kfy-smart-s1-03-adjustable-position-1600.webp",
+      "/assets/images/products/smart-beds/s1/main/kfy-smart-s1-04-smart-functions-1600.webp"
+    ],
+    "detailBases": [
+      "kfy-smart-s1-detail-01-overview",
+      "kfy-smart-s1-detail-02-features",
+      "kfy-smart-s1-detail-03-specifications"
+    ],
+    "detailImages": [
+      "/assets/images/products/smart-beds/s1/detail/kfy-smart-s1-detail-01-overview-1600.webp",
+      "/assets/images/products/smart-beds/s1/detail/kfy-smart-s1-detail-02-features-1600.webp",
+      "/assets/images/products/smart-beds/s1/detail/kfy-smart-s1-detail-03-specifications-1600.webp"
+    ]
+  },
+  {
+    "category": "smart-mattresses",
+    "categoryName": "Smart Mattresses",
+    "model": "W4",
+    "level": "Flagship",
+    "name": "Integrated Care Smart Mattress",
+    "slug": "w4-integrated-care-smart-mattress",
+    "summary": "A flagship integrated care solution combining a PU bed frame, smart mattress and removable side armrests.",
+    "sizes": "90×200 / 120×200 / 135×200 cm",
+    "structure": "PU bed frame and smart mattress integrated structure with removable side armrests, memory-foam upper layer, removable cover and YKK zipper.",
+    "motor": "OKIN motor",
+    "features": [
+      "Head lift",
+      "Foot lift",
+      "One-touch whole-bed lift",
+      "Removable side armrests",
+      "Memory-foam upper layer",
+      "Washable cover"
+    ],
+    "controls": "Control configuration subject to project confirmation.",
+    "customization": "Sizes, armrest configuration, upholstery, branding and packaging.",
+    "application": "Senior care, home care and integrated support projects.",
+    "mainBases": [
+      "kfy-smart-w4-01-flat-position",
+      "kfy-smart-w4-02-perspective-view",
+      "kfy-smart-w4-03-product-structure",
+      "kfy-smart-w4-04-fabric-close-up"
+    ],
+    "mainImages": [
+      "/assets/images/products/smart-mattresses/w4/main/kfy-smart-w4-01-flat-position-1600.webp",
+      "/assets/images/products/smart-mattresses/w4/main/kfy-smart-w4-02-perspective-view-1600.webp",
+      "/assets/images/products/smart-mattresses/w4/main/kfy-smart-w4-03-product-structure-1600.webp",
+      "/assets/images/products/smart-mattresses/w4/main/kfy-smart-w4-04-fabric-close-up-1600.webp"
+    ],
+    "detailBases": [
+      "kfy-smart-w4-detail-01-overview",
+      "kfy-smart-w4-detail-02-features",
+      "kfy-smart-w4-detail-03-specifications"
+    ],
+    "detailImages": [
+      "/assets/images/products/smart-mattresses/w4/detail/kfy-smart-w4-detail-01-overview-1600.webp",
+      "/assets/images/products/smart-mattresses/w4/detail/kfy-smart-w4-detail-02-features-1600.webp",
+      "/assets/images/products/smart-mattresses/w4/detail/kfy-smart-w4-detail-03-specifications-1600.webp"
+    ]
+  },
+  {
+    "category": "smart-mattresses",
+    "categoryName": "Smart Mattresses",
+    "model": "W3",
+    "level": "High-end",
+    "name": "Premium 11-Inch Smart Mattress",
+    "slug": "w3-premium-11-inch-smart-mattress",
+    "summary": "An 11-inch premium smart mattress with synchronized movement, memory modes and massage functions.",
+    "sizes": "90×200 / 120×200 / 150×200 / 180×200 cm",
+    "structure": "11-inch profile, internal memory foam, organic linen, Pillow Top, removable/washable cover and YKK zipper.",
+    "motor": "OKIN motor",
+    "features": [
+      "Head and foot adjustment",
+      "Synchronized lift",
+      "One-touch flat",
+      "Zero gravity",
+      "Anti-snore position",
+      "Reading and TV memory",
+      "10-minute sleep mode",
+      "Three-level vibration massage",
+      "Child lock"
+    ],
+    "controls": "Remote control with preset and massage functions.",
+    "customization": "Sizes, fabric, comfort layers, controls, packaging and branding.",
+    "application": "Premium mattress programs, hotels and high-end retail projects.",
+    "mainBases": [
+      "kfy-smart-w3-01-flat-position",
+      "kfy-smart-w3-02-perspective-view",
+      "kfy-smart-w3-03-product-structure",
+      "kfy-smart-w3-04-fabric-close-up"
+    ],
+    "mainImages": [
+      "/assets/images/products/smart-mattresses/w3/main/kfy-smart-w3-01-flat-position-1600.webp",
+      "/assets/images/products/smart-mattresses/w3/main/kfy-smart-w3-02-perspective-view-1600.webp",
+      "/assets/images/products/smart-mattresses/w3/main/kfy-smart-w3-03-product-structure-1600.webp",
+      "/assets/images/products/smart-mattresses/w3/main/kfy-smart-w3-04-fabric-close-up-1600.webp"
+    ],
+    "detailBases": [
+      "kfy-smart-w3-detail-01-overview",
+      "kfy-smart-w3-detail-02-features",
+      "kfy-smart-w3-detail-03-specifications"
+    ],
+    "detailImages": [
+      "/assets/images/products/smart-mattresses/w3/detail/kfy-smart-w3-detail-01-overview-1600.webp",
+      "/assets/images/products/smart-mattresses/w3/detail/kfy-smart-w3-detail-02-features-1600.webp",
+      "/assets/images/products/smart-mattresses/w3/detail/kfy-smart-w3-detail-03-specifications-1600.webp"
+    ]
+  },
+  {
+    "category": "smart-mattresses",
+    "categoryName": "Smart Mattresses",
+    "model": "W2",
+    "level": "Mid-range",
+    "name": "10-Inch Massage Smart Mattress",
+    "slug": "w2-10-inch-massage-smart-mattress",
+    "summary": "A balanced 10-inch smart mattress combining adjustable movement and three-level massage.",
+    "sizes": "90×200 / 120×200 / 150×200 / 180×200 cm",
+    "structure": "10-inch profile, memory-foam upper layer, removable/washable cover and YKK zipper.",
+    "motor": "OKIN motor",
+    "features": [
+      "Head and foot lift",
+      "Synchronized lift",
+      "One-touch flat",
+      "Zero gravity",
+      "Reading and TV memory",
+      "Sleep mode",
+      "Three-level vibration massage",
+      "Child lock",
+      "Mobile App control"
+    ],
+    "controls": "Remote and mobile App control.",
+    "customization": "Sizes, fabric, comfort layers, controls, packaging and branding.",
+    "application": "Mainstream smart mattress and distributor programs.",
+    "mainBases": [
+      "kfy-smart-w2-01-flat-position",
+      "kfy-smart-w2-02-perspective-view",
+      "kfy-smart-w2-03-product-structure",
+      "kfy-smart-w2-04-fabric-close-up"
+    ],
+    "mainImages": [
+      "/assets/images/products/smart-mattresses/w2/main/kfy-smart-w2-01-flat-position-1600.webp",
+      "/assets/images/products/smart-mattresses/w2/main/kfy-smart-w2-02-perspective-view-1600.webp",
+      "/assets/images/products/smart-mattresses/w2/main/kfy-smart-w2-03-product-structure-1600.webp",
+      "/assets/images/products/smart-mattresses/w2/main/kfy-smart-w2-04-fabric-close-up-1600.webp"
+    ],
+    "detailBases": [
+      "kfy-smart-w2-detail-01-overview",
+      "kfy-smart-w2-detail-02-features",
+      "kfy-smart-w2-detail-03-specifications"
+    ],
+    "detailImages": [
+      "/assets/images/products/smart-mattresses/w2/detail/kfy-smart-w2-detail-01-overview-1600.webp",
+      "/assets/images/products/smart-mattresses/w2/detail/kfy-smart-w2-detail-02-features-1600.webp",
+      "/assets/images/products/smart-mattresses/w2/detail/kfy-smart-w2-detail-03-specifications-1600.webp"
+    ]
+  },
+  {
+    "category": "smart-mattresses",
+    "categoryName": "Smart Mattresses",
+    "model": "W1",
+    "level": "Budget",
+    "name": "10-Inch Smart Mattress",
+    "slug": "w1-10-inch-smart-mattress",
+    "summary": "A 10-inch entry-level smart mattress with essential adjustable comfort and App control.",
+    "sizes": "90×200 / 120×200 / 150×200 / 180×200 cm",
+    "structure": "10-inch profile with 2-inch memory foam, 2-inch PU foam, removable/washable cover and branded zipper.",
+    "motor": "OKIN motor",
+    "features": [
+      "Head and foot lift",
+      "Zero gravity",
+      "One-touch flat",
+      "Memory position",
+      "Child lock",
+      "App control"
+    ],
+    "controls": "Remote and App control.",
+    "customization": "Sizes, fabric, comfort layers, controls, packaging and branding.",
+    "application": "Entry-level private-label smart mattress programs.",
+    "mainBases": [
+      "kfy-smart-w1-01-flat-position",
+      "kfy-smart-w1-02-perspective-view",
+      "kfy-smart-w1-03-product-structure",
+      "kfy-smart-w1-04-fabric-close-up"
+    ],
+    "mainImages": [
+      "/assets/images/products/smart-mattresses/w1/main/kfy-smart-w1-01-flat-position-1600.webp",
+      "/assets/images/products/smart-mattresses/w1/main/kfy-smart-w1-02-perspective-view-1600.webp",
+      "/assets/images/products/smart-mattresses/w1/main/kfy-smart-w1-03-product-structure-1600.webp",
+      "/assets/images/products/smart-mattresses/w1/main/kfy-smart-w1-04-fabric-close-up-1600.webp"
+    ],
+    "detailBases": [
+      "kfy-smart-w1-detail-01-overview",
+      "kfy-smart-w1-detail-02-features",
+      "kfy-smart-w1-detail-03-specifications"
+    ],
+    "detailImages": [
+      "/assets/images/products/smart-mattresses/w1/detail/kfy-smart-w1-detail-01-overview-1600.webp",
+      "/assets/images/products/smart-mattresses/w1/detail/kfy-smart-w1-detail-02-features-1600.webp",
+      "/assets/images/products/smart-mattresses/w1/detail/kfy-smart-w1-detail-03-specifications-1600.webp"
+    ]
+  }
+]
