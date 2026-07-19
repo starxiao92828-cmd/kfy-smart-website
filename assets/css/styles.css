@@ -13,3 +13,4 @@
 @media(max-width:520px){.container{width:min(1440px,calc(100% - 32px))}.brand img{height:31px;width:31px}.matrix-grid,.custom-grid,.process-grid,.footer-grid,.inquiry-options{grid-template-columns:1fr}.hero-controls>button{width:42px;height:42px}.gallery-thumb{flex-basis:72%}.category-hero{padding-top:28px}.category-hero-copy h1{font-size:2.65rem}.product-detail-grid{gap:34px}.actions .btn{width:100%}.article-meta{flex-direction:column;gap:3px}.contact-hero{padding:64px 0}}
 @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;animation:none!important;transition:none!important}}
 html,body{overflow-x:hidden}
+.two-col img{width:100%;height:auto}
