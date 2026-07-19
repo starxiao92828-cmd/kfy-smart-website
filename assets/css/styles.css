@@ -14,3 +14,7 @@
 @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;animation:none!important;transition:none!important}}
 html,body{overflow-x:hidden}
 .two-col img{width:100%;height:auto}
+.about-cooperation{grid-template-columns:minmax(0,1.08fr) minmax(0,.92fr);gap:72px}
+.about-cooperation>img{aspect-ratio:2/1;object-fit:cover;object-position:center}
+@media(max-width:1100px){.about-cooperation{gap:48px}}
+@media(max-width:800px){.about-cooperation{grid-template-columns:1fr;gap:36px}}
