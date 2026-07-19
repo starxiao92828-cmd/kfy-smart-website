@@ -14,7 +14,6 @@
     productsLink.setAttribute('aria-haspopup','true');
     productsLink.setAttribute('aria-expanded','false');
     productsLink.setAttribute('aria-controls','nav-products-menu');
-    productsLink.insertAdjacentHTML('beforeend','<span class="nav-products-caret" aria-hidden="true">⌄</span>');
 
     const menu=document.createElement('div');
     menu.className='nav-products-menu';
@@ -30,8 +29,6 @@
     const setExpanded=open=>productsLink.setAttribute('aria-expanded',String(open));
     productsItem.addEventListener('mouseenter',()=>setExpanded(true));
     productsItem.addEventListener('mouseleave',()=>setExpanded(false));
-    productsItem.addEventListener('focusin',()=>setExpanded(true));
-    productsItem.addEventListener('focusout',()=>requestAnimationFrame(()=>setExpanded(productsItem.contains(document.activeElement))));
 
     menu.querySelectorAll('a').forEach(link=>link.addEventListener('click',()=>{
       nav.classList.remove('open');
