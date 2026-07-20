@@ -24,16 +24,16 @@
     "customization": "Sizes, upholstery, legs, controls, packaging and branding subject to project confirmation.",
     "application": "Premium mattress brands, furniture brands, hospitality and distribution projects.",
     "mainBases": [
-      "kfy-smart-e4-01-premium-main",
-      "kfy-smart-e4-02-premium-bedroom",
-      "kfy-smart-e4-03-futuristic-motion",
-      "kfy-smart-e4-04-flagship-visual"
+      "e4-adjustable-bed-base-01-main-visual",
+      "e4-adjustable-bed-base-02-application-scene",
+      "e4-adjustable-bed-base-03-structure-view",
+      "e4-adjustable-bed-base-04-detail-view"
     ],
     "mainImages": [
-      "/assets/images/products/adjustable-bed-bases/e4/main/kfy-smart-e4-01-premium-main-1600.webp",
-      "/assets/images/products/adjustable-bed-bases/e4/main/kfy-smart-e4-02-premium-bedroom-1600.webp",
-      "/assets/images/products/adjustable-bed-bases/e4/main/kfy-smart-e4-03-futuristic-motion-1600.webp",
-      "/assets/images/products/adjustable-bed-bases/e4/main/kfy-smart-e4-04-flagship-visual-1600.webp"
+      "/assets/images/products/adjustable-bed-bases/e4/e4-adjustable-bed-base-01-main-visual.webp",
+      "/assets/images/products/adjustable-bed-bases/e4/e4-adjustable-bed-base-02-application-scene.webp",
+      "/assets/images/products/adjustable-bed-bases/e4/e4-adjustable-bed-base-03-structure-view.webp",
+      "/assets/images/products/adjustable-bed-bases/e4/e4-adjustable-bed-base-04-detail-view.webp"
     ],
     "detailBases": [
       "kfy-smart-e4-detail-01-overview",
@@ -69,16 +69,16 @@
     "customization": "Sizes, fabrics, legs, controls, packaging and private-label coordination.",
     "application": "Mattress brands, furniture companies and distributors seeking a foldable high-end base.",
     "mainBases": [
-      "kfy-smart-e3-01-flat-position",
-      "kfy-smart-e3-02-head-up",
-      "kfy-smart-e3-03-head-foot-up",
-      "kfy-smart-e3-04-lifestyle"
+      "e3-adjustable-bed-base-01-main-visual",
+      "e3-adjustable-bed-base-02-application-scene",
+      "e3-adjustable-bed-base-03-structure-view",
+      "e3-adjustable-bed-base-04-detail-view"
     ],
     "mainImages": [
-      "/assets/images/products/adjustable-bed-bases/e3/main/kfy-smart-e3-01-flat-position-1600.webp",
-      "/assets/images/products/adjustable-bed-bases/e3/main/kfy-smart-e3-02-head-up-1600.webp",
-      "/assets/images/products/adjustable-bed-bases/e3/main/kfy-smart-e3-03-head-foot-up-1600.webp",
-      "/assets/images/products/adjustable-bed-bases/e3/main/kfy-smart-e3-04-lifestyle-1600.webp"
+      "/assets/images/products/adjustable-bed-bases/e3/e3-adjustable-bed-base-01-main-visual.webp",
+      "/assets/images/products/adjustable-bed-bases/e3/e3-adjustable-bed-base-02-application-scene.webp",
+      "/assets/images/products/adjustable-bed-bases/e3/e3-adjustable-bed-base-03-structure-view.webp",
+      "/assets/images/products/adjustable-bed-bases/e3/e3-adjustable-bed-base-04-detail-view.webp"
     ],
     "detailBases": [
       "kfy-smart-e3-detail-01-overview",
@@ -114,16 +114,16 @@
     "customization": "Sizes, frame configuration, legs, controls, packaging and branding.",
     "application": "Mainstream mattress and furniture programs for international distribution.",
     "mainBases": [
-      "kfy-smart-e2-01-flat-position",
-      "kfy-smart-e2-02-head-up",
-      "kfy-smart-e2-03-head-foot-up",
-      "kfy-smart-e2-04-lifestyle"
+      "e2-adjustable-bed-base-01-main-visual",
+      "e2-adjustable-bed-base-02-application-scene",
+      "e2-adjustable-bed-base-03-structure-view",
+      "e2-adjustable-bed-base-04-detail-view"
     ],
     "mainImages": [
-      "/assets/images/products/adjustable-bed-bases/e2/main/kfy-smart-e2-01-flat-position-1600.webp",
-      "/assets/images/products/adjustable-bed-bases/e2/main/kfy-smart-e2-02-head-up-1600.webp",
-      "/assets/images/products/adjustable-bed-bases/e2/main/kfy-smart-e2-03-head-foot-up-1600.webp",
-      "/assets/images/products/adjustable-bed-bases/e2/main/kfy-smart-e2-04-lifestyle-1600.webp"
+      "/assets/images/products/adjustable-bed-bases/e2/e2-adjustable-bed-base-01-main-visual.webp",
+      "/assets/images/products/adjustable-bed-bases/e2/e2-adjustable-bed-base-02-application-scene.webp",
+      "/assets/images/products/adjustable-bed-bases/e2/e2-adjustable-bed-base-03-structure-view.webp",
+      "/assets/images/products/adjustable-bed-bases/e2/e2-adjustable-bed-base-04-detail-view.webp"
     ],
     "detailBases": [
       "kfy-smart-e2-detail-01-overview",
@@ -159,16 +159,16 @@
     "customization": "Sizes, slat configuration, legs, controls, packaging and branding.",
     "application": "Budget-focused private-label and distribution projects.",
     "mainBases": [
-      "kfy-smart-e1-01-flat-position",
-      "kfy-smart-e1-02-head-up",
-      "kfy-smart-e1-03-head-foot-up",
-      "kfy-smart-e1-04-lifestyle"
+      "e1-adjustable-bed-base-01-main-visual",
+      "e1-adjustable-bed-base-02-application-scene",
+      "e1-adjustable-bed-base-03-structure-view",
+      "e1-adjustable-bed-base-04-detail-view"
     ],
     "mainImages": [
-      "/assets/images/products/adjustable-bed-bases/e1/main/kfy-smart-e1-01-flat-position-1600.webp",
-      "/assets/images/products/adjustable-bed-bases/e1/main/kfy-smart-e1-02-head-up-1600.webp",
-      "/assets/images/products/adjustable-bed-bases/e1/main/kfy-smart-e1-03-head-foot-up-1600.webp",
-      "/assets/images/products/adjustable-bed-bases/e1/main/kfy-smart-e1-04-lifestyle-1600.webp"
+      "/assets/images/products/adjustable-bed-bases/e1/e1-adjustable-bed-base-01-main-visual.webp",
+      "/assets/images/products/adjustable-bed-bases/e1/e1-adjustable-bed-base-02-application-scene.webp",
+      "/assets/images/products/adjustable-bed-bases/e1/e1-adjustable-bed-base-03-structure-view.webp",
+      "/assets/images/products/adjustable-bed-bases/e1/e1-adjustable-bed-base-04-detail-view.webp"
     ],
     "detailBases": [
       "kfy-smart-e1-detail-01-overview",
@@ -206,16 +206,16 @@
     "customization": "Border, fabric, sizing, motor, accessories, branding and packaging.",
     "application": "Premium furniture brands, hospitality suites and flagship retail collections.",
     "mainBases": [
-      "kfy-smart-s4-01-flat-position",
-      "kfy-smart-s4-02-front-view",
-      "kfy-smart-s4-03-adjustable-position",
-      "kfy-smart-s4-04-smart-functions"
+      "s4-smart-bed-01-main-visual",
+      "s4-smart-bed-02-application-scene",
+      "s4-smart-bed-03-structure-view",
+      "s4-smart-bed-04-detail-view"
     ],
     "mainImages": [
-      "/assets/images/products/smart-beds/s4/main/kfy-smart-s4-01-flat-position-1600.webp",
-      "/assets/images/products/smart-beds/s4/main/kfy-smart-s4-02-front-view-1600.webp",
-      "/assets/images/products/smart-beds/s4/main/kfy-smart-s4-03-adjustable-position-1600.webp",
-      "/assets/images/products/smart-beds/s4/main/kfy-smart-s4-04-smart-functions-1600.webp"
+      "/assets/images/products/smart-beds/s4/s4-smart-bed-01-main-visual.webp",
+      "/assets/images/products/smart-beds/s4/s4-smart-bed-02-application-scene.webp",
+      "/assets/images/products/smart-beds/s4/s4-smart-bed-03-structure-view.webp",
+      "/assets/images/products/smart-beds/s4/s4-smart-bed-04-detail-view.webp"
     ],
     "detailBases": [
       "kfy-smart-s4-detail-01-overview",
@@ -253,16 +253,16 @@
     "customization": "Fabric, sizing, motor, accessories, branding and packaging.",
     "application": "Furniture brands, mattress companies and international retail programs.",
     "mainBases": [
-      "kfy-smart-s3-01-flat-position",
-      "kfy-smart-s3-02-front-view",
-      "kfy-smart-s3-03-adjustable-position",
-      "kfy-smart-s3-04-smart-functions"
+      "s3-smart-bed-01-main-visual",
+      "s3-smart-bed-02-application-scene",
+      "s3-smart-bed-03-structure-view",
+      "s3-smart-bed-04-detail-view"
     ],
     "mainImages": [
-      "/assets/images/products/smart-beds/s3/main/kfy-smart-s3-01-flat-position-1600.webp",
-      "/assets/images/products/smart-beds/s3/main/kfy-smart-s3-02-front-view-1600.webp",
-      "/assets/images/products/smart-beds/s3/main/kfy-smart-s3-03-adjustable-position-1600.webp",
-      "/assets/images/products/smart-beds/s3/main/kfy-smart-s3-04-smart-functions-1600.webp"
+      "/assets/images/products/smart-beds/s3/s3-smart-bed-01-main-visual.webp",
+      "/assets/images/products/smart-beds/s3/s3-smart-bed-02-application-scene.webp",
+      "/assets/images/products/smart-beds/s3/s3-smart-bed-03-structure-view.webp",
+      "/assets/images/products/smart-beds/s3/s3-smart-bed-04-detail-view.webp"
     ],
     "detailBases": [
       "kfy-smart-s3-detail-01-overview",
@@ -300,16 +300,16 @@
     "customization": "Wooden board system, sizing, fabric, motor, accessories, branding and packaging.",
     "application": "Mainstream OEM programs and modular project configurations.",
     "mainBases": [
-      "kfy-smart-s2-01-flat-position",
-      "kfy-smart-s2-02-front-view",
-      "kfy-smart-s2-03-adjustable-position",
-      "kfy-smart-s2-04-smart-functions"
+      "s2-smart-bed-01-main-visual",
+      "s2-smart-bed-02-application-scene",
+      "s2-smart-bed-03-structure-view",
+      "s2-smart-bed-04-detail-view"
     ],
     "mainImages": [
-      "/assets/images/products/smart-beds/s2/main/kfy-smart-s2-01-flat-position-1600.webp",
-      "/assets/images/products/smart-beds/s2/main/kfy-smart-s2-02-front-view-1600.webp",
-      "/assets/images/products/smart-beds/s2/main/kfy-smart-s2-03-adjustable-position-1600.webp",
-      "/assets/images/products/smart-beds/s2/main/kfy-smart-s2-04-smart-functions-1600.webp"
+      "/assets/images/products/smart-beds/s2/s2-smart-bed-01-main-visual.webp",
+      "/assets/images/products/smart-beds/s2/s2-smart-bed-02-application-scene.webp",
+      "/assets/images/products/smart-beds/s2/s2-smart-bed-03-structure-view.webp",
+      "/assets/images/products/smart-beds/s2/s2-smart-bed-04-detail-view.webp"
     ],
     "detailBases": [
       "kfy-smart-s2-detail-01-overview",
@@ -347,16 +347,16 @@
     "customization": "Frame, sizing, fabric, motor, accessories, branding and packaging.",
     "application": "Entry-level B2B and distributor programs.",
     "mainBases": [
-      "kfy-smart-s1-01-flat-position",
-      "kfy-smart-s1-02-front-view",
-      "kfy-smart-s1-03-adjustable-position",
-      "kfy-smart-s1-04-smart-functions"
+      "s1-smart-bed-01-main-visual",
+      "s1-smart-bed-02-application-scene",
+      "s1-smart-bed-03-structure-view",
+      "s1-smart-bed-04-detail-view"
     ],
     "mainImages": [
-      "/assets/images/products/smart-beds/s1/main/kfy-smart-s1-01-flat-position-1600.webp",
-      "/assets/images/products/smart-beds/s1/main/kfy-smart-s1-02-front-view-1600.webp",
-      "/assets/images/products/smart-beds/s1/main/kfy-smart-s1-03-adjustable-position-1600.webp",
-      "/assets/images/products/smart-beds/s1/main/kfy-smart-s1-04-smart-functions-1600.webp"
+      "/assets/images/products/smart-beds/s1/s1-smart-bed-01-main-visual.webp",
+      "/assets/images/products/smart-beds/s1/s1-smart-bed-02-application-scene.webp",
+      "/assets/images/products/smart-beds/s1/s1-smart-bed-03-structure-view.webp",
+      "/assets/images/products/smart-beds/s1/s1-smart-bed-04-detail-view.webp"
     ],
     "detailBases": [
       "kfy-smart-s1-detail-01-overview",
@@ -392,16 +392,16 @@
     "customization": "Sizes, armrest configuration, upholstery, branding and packaging.",
     "application": "Senior care, home care and integrated support projects.",
     "mainBases": [
-      "kfy-smart-w4-01-flat-position",
-      "kfy-smart-w4-02-perspective-view",
-      "kfy-smart-w4-03-product-structure",
-      "kfy-smart-w4-04-fabric-close-up"
+      "w4-smart-mattress-01-main-visual",
+      "w4-smart-mattress-02-application-scene",
+      "w4-smart-mattress-03-structure-view",
+      "w4-smart-mattress-04-integrated-care-detail"
     ],
     "mainImages": [
-      "/assets/images/products/smart-mattresses/w4/main/kfy-smart-w4-01-flat-position-1600.webp",
-      "/assets/images/products/smart-mattresses/w4/main/kfy-smart-w4-02-perspective-view-1600.webp",
-      "/assets/images/products/smart-mattresses/w4/main/kfy-smart-w4-03-product-structure-1600.webp",
-      "/assets/images/products/smart-mattresses/w4/main/kfy-smart-w4-04-fabric-close-up-1600.webp"
+      "/assets/images/products/smart-mattresses/w4/w4-smart-mattress-01-main-visual.webp",
+      "/assets/images/products/smart-mattresses/w4/w4-smart-mattress-02-application-scene.webp",
+      "/assets/images/products/smart-mattresses/w4/w4-smart-mattress-03-structure-view.webp",
+      "/assets/images/products/smart-mattresses/w4/w4-smart-mattress-04-integrated-care-detail.webp"
     ],
     "detailBases": [
       "kfy-smart-w4-detail-01-overview",
@@ -440,16 +440,16 @@
     "customization": "Sizes, fabric, comfort layers, controls, packaging and branding.",
     "application": "Premium mattress programs, hotels and high-end retail projects.",
     "mainBases": [
-      "kfy-smart-w3-01-flat-position",
-      "kfy-smart-w3-02-perspective-view",
-      "kfy-smart-w3-03-product-structure",
-      "kfy-smart-w3-04-fabric-close-up"
+      "w3-smart-mattress-01-main-visual",
+      "w3-smart-mattress-02-application-scene",
+      "w3-smart-mattress-03-flat-view",
+      "w3-smart-mattress-04-cover-zipper-detail"
     ],
     "mainImages": [
-      "/assets/images/products/smart-mattresses/w3/main/kfy-smart-w3-01-flat-position-1600.webp",
-      "/assets/images/products/smart-mattresses/w3/main/kfy-smart-w3-02-perspective-view-1600.webp",
-      "/assets/images/products/smart-mattresses/w3/main/kfy-smart-w3-03-product-structure-1600.webp",
-      "/assets/images/products/smart-mattresses/w3/main/kfy-smart-w3-04-fabric-close-up-1600.webp"
+      "/assets/images/products/smart-mattresses/w3/w3-smart-mattress-01-main-visual.webp",
+      "/assets/images/products/smart-mattresses/w3/w3-smart-mattress-02-application-scene.webp",
+      "/assets/images/products/smart-mattresses/w3/w3-smart-mattress-03-flat-view.webp",
+      "/assets/images/products/smart-mattresses/w3/w3-smart-mattress-04-cover-zipper-detail.webp"
     ],
     "detailBases": [
       "kfy-smart-w3-detail-01-overview",
@@ -488,16 +488,16 @@
     "customization": "Sizes, fabric, comfort layers, controls, packaging and branding.",
     "application": "Mainstream smart mattress and distributor programs.",
     "mainBases": [
-      "kfy-smart-w2-01-flat-position",
-      "kfy-smart-w2-02-perspective-view",
-      "kfy-smart-w2-03-product-structure",
-      "kfy-smart-w2-04-fabric-close-up"
+      "w2-smart-mattress-01-main-visual",
+      "w2-smart-mattress-02-application-scene",
+      "w2-smart-mattress-03-flat-view",
+      "w2-smart-mattress-04-massage-control-detail"
     ],
     "mainImages": [
-      "/assets/images/products/smart-mattresses/w2/main/kfy-smart-w2-01-flat-position-1600.webp",
-      "/assets/images/products/smart-mattresses/w2/main/kfy-smart-w2-02-perspective-view-1600.webp",
-      "/assets/images/products/smart-mattresses/w2/main/kfy-smart-w2-03-product-structure-1600.webp",
-      "/assets/images/products/smart-mattresses/w2/main/kfy-smart-w2-04-fabric-close-up-1600.webp"
+      "/assets/images/products/smart-mattresses/w2/w2-smart-mattress-01-main-visual.webp",
+      "/assets/images/products/smart-mattresses/w2/w2-smart-mattress-02-application-scene.webp",
+      "/assets/images/products/smart-mattresses/w2/w2-smart-mattress-03-flat-view.webp",
+      "/assets/images/products/smart-mattresses/w2/w2-smart-mattress-04-massage-control-detail.webp"
     ],
     "detailBases": [
       "kfy-smart-w2-detail-01-overview",
@@ -533,16 +533,16 @@
     "customization": "Sizes, fabric, comfort layers, controls, packaging and branding.",
     "application": "Entry-level private-label smart mattress programs.",
     "mainBases": [
-      "kfy-smart-w1-01-flat-position",
-      "kfy-smart-w1-02-perspective-view",
-      "kfy-smart-w1-03-product-structure",
-      "kfy-smart-w1-04-fabric-close-up"
+      "w1-smart-mattress-01-main-visual",
+      "w1-smart-mattress-02-application-scene",
+      "w1-smart-mattress-03-flat-view",
+      "w1-smart-mattress-04-foam-structure-detail"
     ],
     "mainImages": [
-      "/assets/images/products/smart-mattresses/w1/main/kfy-smart-w1-01-flat-position-1600.webp",
-      "/assets/images/products/smart-mattresses/w1/main/kfy-smart-w1-02-perspective-view-1600.webp",
-      "/assets/images/products/smart-mattresses/w1/main/kfy-smart-w1-03-product-structure-1600.webp",
-      "/assets/images/products/smart-mattresses/w1/main/kfy-smart-w1-04-fabric-close-up-1600.webp"
+      "/assets/images/products/smart-mattresses/w1/w1-smart-mattress-01-main-visual.webp",
+      "/assets/images/products/smart-mattresses/w1/w1-smart-mattress-02-application-scene.webp",
+      "/assets/images/products/smart-mattresses/w1/w1-smart-mattress-03-flat-view.webp",
+      "/assets/images/products/smart-mattresses/w1/w1-smart-mattress-04-foam-structure-detail.webp"
     ],
     "detailBases": [
       "kfy-smart-w1-detail-01-overview",
