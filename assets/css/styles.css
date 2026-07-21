@@ -20,3 +20,7 @@ html,body{overflow-x:hidden}
 .about-cooperation>img{aspect-ratio:2/1;object-fit:cover;object-position:center}
 @media(max-width:1100px){.about-cooperation{gap:48px}}
 @media(max-width:800px){.about-cooperation{grid-template-columns:1fr;gap:36px}}
+
+/* Keep related-product cards compact despite intrinsic image dimensions. */
+.related-grid{grid-template-columns:repeat(3,minmax(0,1fr));align-items:stretch}.related-card{display:flex;min-width:0;flex-direction:column}.related-card>a:first-child{display:block;aspect-ratio:8/5;overflow:hidden;background:#071b34}.related-card>a:first-child img{display:block;width:100%;height:100%;aspect-ratio:auto;object-fit:contain}.related-card>div{display:flex;flex:1;flex-direction:column;align-items:flex-start;gap:12px;padding:20px}.related-card h3{margin:0;line-height:1.3}.related-card .text-link{margin-top:auto}
+@media(max-width:800px){.related-grid{grid-template-columns:1fr}}
