@@ -1,7 +1,22 @@
 {
-  "cleanUrls": true,
+  "cleanUrls": false,
   "trailingSlash": true,
   "redirects": [
+    {
+      "source": "/news.html",
+      "destination": "/news/",
+      "statusCode": 301
+    },
+    {
+      "source": "/about.html",
+      "destination": "/about/",
+      "statusCode": 301
+    },
+    {
+      "source": "/contact.html",
+      "destination": "/contact/",
+      "statusCode": 301
+    },
     {
       "source": "/products.html",
       "destination": "/products/",
