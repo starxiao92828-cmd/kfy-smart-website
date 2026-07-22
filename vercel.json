@@ -1,6 +1,33 @@
 {
   "cleanUrls": true,
   "trailingSlash": true,
+  "redirects": [
+    {
+      "source": "/products.html",
+      "destination": "/products/",
+      "statusCode": 301
+    },
+    {
+      "source": "/technology.html",
+      "destination": "/products/",
+      "statusCode": 301
+    },
+    {
+      "source": "/solutions.html",
+      "destination": "/products/",
+      "statusCode": 301
+    },
+    {
+      "source": "/partner.html",
+      "destination": "/about/",
+      "statusCode": 301
+    },
+    {
+      "source": "/oem-odm.html",
+      "destination": "/about/",
+      "statusCode": 301
+    }
+  ],
   "headers": [
     {
       "source": "/assets/(.*)",
