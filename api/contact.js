@@ -266,6 +266,7 @@ export default async function handler(req, res) {
         Authorization: `Bearer ${resendApiKey}`,
         'Content-Type': 'application/json',
         'Idempotency-Key': submissionId,
+        'User-Agent': 'KFY-SMART-Contact-Form/1.0',
       },
       body: JSON.stringify({
         from: CONTACT_FORM_FROM,
@@ -279,7 +280,9 @@ export default async function handler(req, res) {
     });
 
     if (!resendResponse.ok) {
-      logStatus(submissionId, 'error', `resend_${resendResponse.status}`);
+      const resendError = await resendResponse.json().catch(() => ({}));
+      const resendErrorName = clean(resendError?.name, 50).replace(/[^a-z0-9_-]/gi, '') || 'unknown';
+      logStatus(submissionId, 'error', `resend_${resendResponse.status}_${resendErrorName}`);
       return sendJson(res, 502, { error: GENERAL_ERROR });
     }
 

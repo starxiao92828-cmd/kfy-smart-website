@@ -165,6 +165,7 @@ try {
     assert.equal(calls[0].url, 'https://challenges.cloudflare.com/turnstile/v0/siteverify');
     assert.equal(calls[1].url, 'https://api.resend.com/emails');
     assert.equal(calls[1].options.headers.Authorization, 'Bearer re_test_resend_key');
+    assert.equal(calls[1].options.headers['User-Agent'], 'KFY-SMART-Contact-Form/1.0');
 
     const payload = JSON.parse(calls[1].options.body);
     assert.deepEqual(payload.to, ['liwei@kfygroup.com']);
