@@ -8,6 +8,16 @@ const PRODUCT_INTERESTS = new Set([
   'Hotel / Project Solutions',
   'Other / Not Sure',
 ]);
+const REGION_CODES = 'AD AE AF AG AI AL AM AO AR AS AT AU AW AX AZ BA BB BD BE BF BG BH BI BJ BL BM BN BO BQ BR BS BT BV BW BY BZ CA CC CD CF CG CH CI CK CL CM CN CO CR CU CV CW CX CY CZ DE DJ DK DM DO DZ EC EE EG EH ER ES ET FI FJ FK FM FO FR GA GB GD GE GF GG GH GI GL GM GN GP GQ GR GS GT GU GW GY HK HM HN HR HT HU ID IE IL IM IN IO IQ IR IS IT JE JM JO JP KE KG KH KI KM KN KP KR KW KY KZ LA LB LC LI LK LR LS LT LU LV LY MA MC MD ME MF MG MH MK ML MM MN MO MP MQ MR MS MT MU MV MW MX MY MZ NA NC NE NF NG NI NL NO NP NR NU NZ OM PA PE PF PG PH PK PL PM PN PR PS PT PW PY QA RE RO RS RU RW SA SB SC SD SE SG SH SI SJ SK SL SM SN SO SR SS ST SV SX SY SZ TC TD TF TG TH TJ TK TL TM TN TO TR TT TV TW TZ UA UG UM US UY UZ VA VC VE VG VI VN VU WF WS YE YT ZA ZM ZW'.split(' ');
+const FALLBACK_REGIONS = ['Australia', 'Brazil', 'Canada', 'China', 'France', 'Germany', 'India', 'Italy', 'Japan', 'Mexico', 'Netherlands', 'Saudi Arabia', 'Singapore', 'South Africa', 'South Korea', 'Spain', 'United Arab Emirates', 'United Kingdom', 'United States'];
+const COUNTRY_NAMES = (() => {
+  try {
+    const displayNames = new Intl.DisplayNames(['en'], { type: 'region' });
+    return new Set(REGION_CODES.map((code) => displayNames.of(code)).filter(Boolean));
+  } catch {
+    return new Set(FALLBACK_REGIONS);
+  }
+})();
 
 const EMAIL_PATTERN = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 const MAX_REQUEST_BYTES = 24_000;
@@ -54,6 +64,18 @@ function logStatus(submissionId, status, code) {
   }));
 }
 
+function logResendConfiguration(submissionId, resendKeyPresent, resendKeyPrefixValid, deploymentEnvironment) {
+  console.info(JSON.stringify({
+    scope: 'contact-form',
+    submissionId,
+    status: 'configuration_check',
+    resendKeyPresent,
+    resendKeyPrefixValid,
+    deploymentEnvironment,
+    time: new Date().toISOString(),
+  }));
+}
+
 function validate(body) {
   const values = {
     name: clean(body.name, 100),
@@ -78,7 +100,7 @@ function validate(body) {
   if (values.name.length < 2) errors.name = 'Enter a name between 2 and 100 characters.';
   if (!EMAIL_PATTERN.test(values.businessEmail) || values.businessEmail.length > 254) errors.businessEmail = 'Enter a valid business email address.';
   if (values.companyName.length < 2) errors.companyName = 'Enter a company name between 2 and 150 characters.';
-  if (values.country.length < 2) errors.country = 'Enter a valid country or region.';
+  if (!COUNTRY_NAMES.has(values.country)) errors.country = 'Select a valid country or region from the list.';
   if (!PRODUCT_INTERESTS.has(values.productInterest)) errors.productInterest = 'Select a valid product interest.';
   if (values.message.length < 10) errors.message = 'Enter a message between 10 and 2,000 characters.';
   if (body.privacyAgreement !== true && body.privacyAgreement !== 'true' && body.privacyAgreement !== 'on') {
@@ -185,7 +207,6 @@ export default async function handler(req, res) {
     }
 
     const {
-      RESEND_API_KEY,
       CONTACT_FORM_FROM,
       CONTACT_FORM_TO,
       CONTACT_FORM_CC,
@@ -193,9 +214,13 @@ export default async function handler(req, res) {
       VERCEL_ENV,
     } = process.env;
     const environment = VERCEL_ENV || 'development';
+    const resendApiKey = process.env.RESEND_API_KEY?.trim() || '';
+    const resendKeyPresent = Boolean(resendApiKey);
+    const resendKeyPrefixValid = resendApiKey.startsWith('re_') && resendApiKey.length > 3;
+    logResendConfiguration(submissionId, resendKeyPresent, resendKeyPrefixValid, environment);
     const to = splitRecipients(CONTACT_FORM_TO);
     const cc = splitRecipients(CONTACT_FORM_CC);
-    if (!RESEND_API_KEY || !CONTACT_FORM_FROM || !to.length || !cc.length || !TURNSTILE_SECRET_KEY) {
+    if (!resendKeyPresent || !resendKeyPrefixValid || !CONTACT_FORM_FROM || !to.length || !cc.length || !TURNSTILE_SECRET_KEY) {
       logStatus(submissionId, 'error', 'configuration');
       return sendJson(res, 503, { error: GENERAL_ERROR });
     }
@@ -238,7 +263,7 @@ export default async function handler(req, res) {
     const resendResponse = await fetch('https://api.resend.com/emails', {
       method: 'POST',
       headers: {
-        Authorization: `Bearer ${RESEND_API_KEY}`,
+        Authorization: `Bearer ${resendApiKey}`,
         'Content-Type': 'application/json',
         'Idempotency-Key': submissionId,
       },

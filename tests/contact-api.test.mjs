@@ -4,7 +4,7 @@ import handler from '../api/contact.js';
 const originalFetch = globalThis.fetch;
 const originalEnv = { ...process.env };
 
-process.env.RESEND_API_KEY = 'test-resend-key';
+process.env.RESEND_API_KEY = '  re_test_resend_key  ';
 process.env.CONTACT_FORM_FROM = 'KFY SMART <website@kfysmart.com>';
 process.env.CONTACT_FORM_TO = 'liwei@kfygroup.com';
 process.env.CONTACT_FORM_CC = 'yinquan@kfygroup.com';
@@ -61,6 +61,33 @@ const validBody = {
 };
 
 try {
+  {
+    let calls = 0;
+    globalThis.fetch = async () => {
+      calls += 1;
+      throw new Error('Invalid country must not call an external service');
+    };
+    const res = await runRequest({ body: { ...validBody, country: 'Not a canonical country' } });
+    assert.equal(res.statusCode, 400);
+    assert.equal(res.body.errors.country, 'Select a valid country or region from the list.');
+    assert.equal(calls, 0);
+  }
+
+  {
+    const originalKey = process.env.RESEND_API_KEY;
+    process.env.RESEND_API_KEY = 'invalid-key';
+    let calls = 0;
+    globalThis.fetch = async () => {
+      calls += 1;
+      throw new Error('Malformed Resend key must not call an external service');
+    };
+    const res = await runRequest({ body: validBody });
+    assert.equal(res.statusCode, 503);
+    assert.equal(res.body.error, 'We could not submit your inquiry. Please check the form and try again, or contact us directly by email.');
+    assert.equal(calls, 0);
+    process.env.RESEND_API_KEY = originalKey;
+  }
+
   {
     globalThis.fetch = async () => {
       throw new Error('GET must not call an external service');
@@ -137,6 +164,7 @@ try {
     assert.equal(calls.length, 2);
     assert.equal(calls[0].url, 'https://challenges.cloudflare.com/turnstile/v0/siteverify');
     assert.equal(calls[1].url, 'https://api.resend.com/emails');
+    assert.equal(calls[1].options.headers.Authorization, 'Bearer re_test_resend_key');
 
     const payload = JSON.parse(calls[1].options.body);
     assert.deepEqual(payload.to, ['liwei@kfygroup.com']);
@@ -148,8 +176,8 @@ try {
     assert.match(payload.html, /Source Information/);
     assert.match(payload.text, /UTM Campaign: contact-form-v1/);
     assert.equal(calls[1].options.headers['Idempotency-Key'], res.body.submissionId);
-    assert.doesNotMatch(payload.html, /test-token|test-resend-key/);
-    assert.doesNotMatch(payload.text, /test-token|test-resend-key/);
+    assert.doesNotMatch(payload.html, /test-token|re_test_resend_key/);
+    assert.doesNotMatch(payload.text, /test-token|re_test_resend_key/);
   }
 
   {

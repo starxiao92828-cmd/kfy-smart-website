@@ -13,6 +13,7 @@
     'Hotel / Project Solutions',
     'Other / Not Sure',
   ]);
+  let countryNames = new Set();
   const fields = {
     name: form.elements.name,
     businessEmail: form.elements.businessEmail,
@@ -57,7 +58,7 @@
     if (fieldName === 'name' && (value.length < 2 || value.length > 100)) error = 'Enter a name between 2 and 100 characters.';
     if (fieldName === 'businessEmail' && (!field.validity.valid || value.length > 254)) error = 'Enter a valid business email address.';
     if (fieldName === 'companyName' && (value.length < 2 || value.length > 150)) error = 'Enter a company name between 2 and 150 characters.';
-    if (fieldName === 'country' && value.length < 2) error = 'Enter a valid country or region.';
+    if (fieldName === 'country' && !countryNames.has(value)) error = 'Select a valid country or region from the list.';
     if (fieldName === 'productInterest' && !productOptions.has(value)) error = 'Select a valid product interest.';
     if (fieldName === 'specificProduct' && value.length > 100) error = 'Use 100 characters or fewer.';
     if (fieldName === 'estimatedQuantity' && value.length > 100) error = 'Use 100 characters or fewer.';
@@ -97,6 +98,7 @@
     } catch {
       // The fallback list keeps the datalist usable in older browsers.
     }
+    countryNames = new Set(names);
     datalist.replaceChildren(...names.map((name) => {
       const option = document.createElement('option');
       option.value = name;
