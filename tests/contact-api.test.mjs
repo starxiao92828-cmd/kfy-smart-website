@@ -1,6 +1,7 @@
 import assert from 'node:assert/strict';
 import handler from '../api/contact.js';
 
+// Preview redeploy trigger: runtime behavior is unchanged.
 const originalFetch = globalThis.fetch;
 const originalEnv = { ...process.env };
 
