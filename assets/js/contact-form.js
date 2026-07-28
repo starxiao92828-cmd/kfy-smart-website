@@ -35,6 +35,31 @@
     turnstile: 'Security verification could not be completed. Please verify again and resubmit the form.',
   };
 
+  const hasAnalyticsConsent = () => {
+    try {
+      if (window.localStorage.getItem('kfy_analytics_consent') === 'accepted') return true;
+    } catch {
+      // Fall back to the first-party cookie when localStorage is unavailable.
+    }
+
+    return document.cookie
+      .split(';')
+      .map((cookie) => cookie.trim())
+      .some((cookie) => cookie === 'kfy_analytics_consent=accepted');
+  };
+
+  const pushLeadAnalyticsEvent = (payload) => {
+    if (!hasAnalyticsConsent()) return;
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push({
+      event: 'kfy_generate_lead',
+      product_category: payload.productInterest || 'not_specified',
+      product_model: payload.productModel || 'not_specified',
+      page_path: payload.sourcePage || window.location.pathname,
+      language: document.documentElement.lang || 'en',
+    });
+  };
+
   const setStatus = (message, type = '') => {
     status.textContent = message;
     status.className = `form-status${type ? ` ${type}` : ''}`;
@@ -245,6 +270,7 @@
         return;
       }
 
+      pushLeadAnalyticsEvent(payload);
       form.reset();
       Object.keys(fields).forEach((fieldName) => setFieldError(fieldName));
       setStatus(messages.success, 'success');
