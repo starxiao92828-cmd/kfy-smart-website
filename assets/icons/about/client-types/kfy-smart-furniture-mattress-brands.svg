@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="64" height="64" viewBox="0 0 64 64"
+     role="img" aria-labelledby="title desc"
+     color="#0E70B8">
+  <title id="title">Furniture &amp; Mattress Brands</title>
+  <desc id="desc">A bed and brand label representing furniture and mattress brands.</desc>
+  <style>
+    .icon-stroke {
+      fill: none;
+      stroke: currentColor;
+      stroke-width: 2.4;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      vector-effect: non-scaling-stroke;
+    }
+  </style>
+<g class="icon-stroke">
+    <path d="M8 43h43"/>
+    <path d="M11 43v8M48 43v8"/>
+    <path d="M11 38h40v5H11z"/>
+    <path d="M14 37V25c0-4 3-7 7-7h15c4 0 7 3 7 7v12"/>
+    <path d="M14 30h29"/>
+    <rect x="39" y="9" width="18" height="13" rx="3"/>
+    <path d="M43 14h10M43 18h6"/>
+    <path d="M18 37v-7M39 37v-7"/>
+  </g>
+</svg>

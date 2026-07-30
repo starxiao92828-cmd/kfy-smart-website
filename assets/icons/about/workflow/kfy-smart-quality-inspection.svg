@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="64"
+     height="64"
+     viewBox="0 0 64 64"
+     role="img"
+     aria-labelledby="title desc"
+     color="#0E70B8">
+  <title id="title">Quality Inspection</title>
+  <desc id="desc">Magnifying glass checking a product with an approval mark.</desc>
+  <style>
+    .icon-stroke {
+      fill: none;
+      stroke: currentColor;
+      stroke-width: 2.4;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      vector-effect: non-scaling-stroke;
+    }
+  </style>
+<g class="icon-stroke">
+    <rect x="8" y="12" width="31" height="34" rx="4"/>
+    <path d="M14 20h17M14 27h12M14 34h9"/>
+    <circle cx="42" cy="35" r="10"/>
+    <path d="M49.2 42.2L57 50"/>
+    <path d="M37.5 35.2l3 3 6-6.2"/>
+    <path d="M12 50h21"/>
+  </g>
+</svg>

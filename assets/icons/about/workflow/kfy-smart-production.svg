@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="64"
+     height="64"
+     viewBox="0 0 64 64"
+     role="img"
+     aria-labelledby="title desc"
+     color="#0E70B8">
+  <title id="title">Production</title>
+  <desc id="desc">Production gear and assembly line.</desc>
+  <style>
+    .icon-stroke {
+      fill: none;
+      stroke: currentColor;
+      stroke-width: 2.4;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      vector-effect: non-scaling-stroke;
+    }
+  </style>
+<g class="icon-stroke">
+    <path d="M26 9l2.3 4.5 5-.4 1.8 4.7 4.8 1.5-.7 5 4.2 2.7-2.7 4.2.7 5-4.8 1.5-1.8 4.7-5-.4L26 47l-2.3-4.5-5 .4-1.8-4.7-4.8-1.5.7-5-4.2-2.7 2.7-4.2-.7-5 4.8-1.5 1.8-4.7 5 .4L26 9z"/>
+    <circle cx="26" cy="28" r="7"/>
+    <path d="M42 35h14v12H42z"/>
+    <path d="M39 51h20"/>
+    <circle cx="45" cy="54" r="2.5"/>
+    <circle cx="55" cy="54" r="2.5"/>
+    <path d="M45 39h8M49 35v-6M54 31l4-4"/>
+  </g>
+</svg>

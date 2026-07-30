@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="64"
+     height="64"
+     viewBox="0 0 64 64"
+     role="img"
+     aria-labelledby="title desc"
+     color="#0E70B8">
+  <title id="title">Flexible Customization</title>
+  <desc id="desc">Adjustment sliders, gear and customization mark.</desc>
+  <style>
+    .icon-stroke {
+      fill: none;
+      stroke: currentColor;
+      stroke-width: 2.4;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      vector-effect: non-scaling-stroke;
+    }
+  </style>
+<g class="icon-stroke">
+    <path d="M8 15h26M8 28h18M8 41h29"/>
+    <circle cx="23" cy="15" r="3.5"/>
+    <circle cx="14" cy="28" r="3.5"/>
+    <circle cx="29" cy="41" r="3.5"/>
+    <path d="M46 22l2 4 4.5-.4 1.6 4.2 4.3 1.4-.6 4.5 3.7 2.4-2.4 3.7.6 4.5-4.3 1.4-1.6 4.2-4.5-.4-2 4-2-4-4.5.4-1.6-4.2-4.3-1.4.6-4.5-3.7-2.4 2.4-3.7-.6-4.5 4.3-1.4 1.6-4.2 4.5.4 2-4z"/>
+    <circle cx="46" cy="39" r="5"/>
+    <path d="M43.5 39.2l2 2.1 4-4.3"/>
+  </g>
+</svg>

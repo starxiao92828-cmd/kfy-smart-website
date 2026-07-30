@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="64"
+     height="64"
+     viewBox="0 0 64 64"
+     role="img"
+     aria-labelledby="title desc"
+     color="#0E70B8">
+  <title id="title">Long-Term Approach</title>
+  <desc id="desc">Handshake, circular arrows and growth path.</desc>
+  <style>
+    .icon-stroke {
+      fill: none;
+      stroke: currentColor;
+      stroke-width: 2.4;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      vector-effect: non-scaling-stroke;
+    }
+  </style>
+<g class="icon-stroke">
+    <path d="M12 33l8-7 8 6 8-6 10 8"/>
+    <path d="M14 35l7 7 7-6 7 6 8-7"/>
+    <path d="M21 42l4 4 5-4 5 4"/>
+    <path d="M9 21a23 23 0 0 1 37-8"/>
+    <path d="M45 7l2 7-7-1"/>
+    <path d="M55 43a23 23 0 0 1-37 8"/>
+    <path d="M19 57l-2-7 7 1"/>
+    <path d="M42 24l5-5 4 4 6-8"/>
+  </g>
+</svg>

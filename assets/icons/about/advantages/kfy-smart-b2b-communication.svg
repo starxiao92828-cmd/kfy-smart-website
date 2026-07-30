@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="64"
+     height="64"
+     viewBox="0 0 64 64"
+     role="img"
+     aria-labelledby="title desc"
+     color="#0E70B8">
+  <title id="title">B2B Communication</title>
+  <desc id="desc">Business conversation and partnership icon.</desc>
+  <style>
+    .icon-stroke {
+      fill: none;
+      stroke: currentColor;
+      stroke-width: 2.4;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      vector-effect: non-scaling-stroke;
+    }
+  </style>
+<g class="icon-stroke">
+    <rect x="6" y="10" width="29" height="20" rx="5"/>
+    <path d="M13 30l-4 5 9-3"/>
+    <path d="M12 17h17M12 23h11"/>
+    <rect x="29" y="26" width="29" height="19" rx="5"/>
+    <path d="M50 45l5 5-10-3"/>
+    <path d="M35 33h17M35 39h10"/>
+    <path d="M20 48l6 5 6-5"/>
+    <path d="M15 47c4-4 8-4 11 1M37 48c-3-5-7-5-11 0"/>
+  </g>
+</svg>

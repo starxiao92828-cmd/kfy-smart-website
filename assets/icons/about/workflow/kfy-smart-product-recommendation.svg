@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="64"
+     height="64"
+     viewBox="0 0 64 64"
+     role="img"
+     aria-labelledby="title desc"
+     color="#0E70B8">
+  <title id="title">Product Recommendation</title>
+  <desc id="desc">Adjustable bed product with a recommendation badge.</desc>
+  <style>
+    .icon-stroke {
+      fill: none;
+      stroke: currentColor;
+      stroke-width: 2.4;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      vector-effect: non-scaling-stroke;
+    }
+  </style>
+<g class="icon-stroke">
+    <path d="M8 44h43"/>
+    <path d="M11 44v7M48 44v7"/>
+    <path d="M11 39h40v5H11z"/>
+    <path d="M13 38c5-10 10-15 18-18l6 10c4 0 8 2 11 6"/>
+    <path d="M14 38h33"/>
+    <path d="M34 31l-5 7"/>
+    <circle cx="50" cy="15" r="8"/>
+    <path d="M46.5 15.2l2.3 2.4 4.8-5.1"/>
+    <path d="M50 4v3M39 15h3M58 15h3M42 7l2 2M56 7l-2 2"/>
+  </g>
+</svg>

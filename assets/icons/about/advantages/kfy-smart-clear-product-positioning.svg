@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="64"
+     height="64"
+     viewBox="0 0 64 64"
+     role="img"
+     aria-labelledby="title desc"
+     color="#0E70B8">
+  <title id="title">Clear Product Positioning</title>
+  <desc id="desc">Target and adjustable bed product card icon.</desc>
+  <style>
+    .icon-stroke {
+      fill: none;
+      stroke: currentColor;
+      stroke-width: 2.4;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      vector-effect: non-scaling-stroke;
+    }
+  </style>
+<g class="icon-stroke">
+    <circle cx="45" cy="18" r="11"/>
+    <circle cx="45" cy="18" r="6"/>
+    <circle cx="45" cy="18" r="2"/>
+    <path d="M52 11l7-7"/>
+    <path d="M53 4h6v6"/>
+    <rect x="7" y="30" width="36" height="22" rx="4"/>
+    <path d="M12 45h26"/>
+    <path d="M13 43c5-8 10-12 17-14l5 8c3 0 6 1 8 4"/>
+    <path d="M11 52v5M39 52v5"/>
+  </g>
+</svg>
