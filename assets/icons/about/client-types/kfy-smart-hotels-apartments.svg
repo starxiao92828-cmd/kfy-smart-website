@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="64" height="64" viewBox="0 0 64 64"
+     role="img" aria-labelledby="title desc"
+     color="#0E70B8">
+  <title id="title">Hotels &amp; Apartments</title>
+  <desc id="desc">A hotel building and bed representing hospitality and apartment projects.</desc>
+  <style>
+    .icon-stroke {
+      fill: none;
+      stroke: currentColor;
+      stroke-width: 2.4;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      vector-effect: non-scaling-stroke;
+    }
+  </style>
+<g class="icon-stroke">
+    <path d="M10 51V18h22v33"/>
+    <path d="M32 27h18v24"/>
+    <path d="M7 51h48"/>
+    <path d="M16 24h5M26 24h1M16 31h5M26 31h1M16 38h5M26 38h1"/>
+    <rect x="16" y="43" width="9" height="8" rx="1"/>
+    <path d="M36 39h11v8H36z"/>
+    <path d="M36 35h11v4M38 35v-4M45 35v-4"/>
+    <path d="M36 47v4M47 47v4"/>
+  </g>
+</svg>

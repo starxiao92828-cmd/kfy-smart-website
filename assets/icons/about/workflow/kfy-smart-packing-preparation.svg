@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="64"
+     height="64"
+     viewBox="0 0 64 64"
+     role="img"
+     aria-labelledby="title desc"
+     color="#0E70B8">
+  <title id="title">Packing and Preparation</title>
+  <desc id="desc">Packing box with accessories checklist.</desc>
+  <style>
+    .icon-stroke {
+      fill: none;
+      stroke: currentColor;
+      stroke-width: 2.4;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      vector-effect: non-scaling-stroke;
+    }
+  </style>
+<g class="icon-stroke">
+    <path d="M7 23l15-8 15 8-15 8-15-8z"/>
+    <path d="M7 23v20l15 8 15-8V23"/>
+    <path d="M22 31v20"/>
+    <path d="M15 19l15 8"/>
+    <rect x="39" y="12" width="18" height="29" rx="3"/>
+    <path d="M44 19l2 2 4-5M44 28l2 2 4-5"/>
+    <path d="M52 20h2M52 29h2M43 36h10"/>
+  </g>
+</svg>

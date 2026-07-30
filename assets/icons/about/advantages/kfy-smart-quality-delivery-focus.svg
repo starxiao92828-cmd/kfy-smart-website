@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="64"
+     height="64"
+     viewBox="0 0 64 64"
+     role="img"
+     aria-labelledby="title desc"
+     color="#0E70B8">
+  <title id="title">Quality and Delivery Focus</title>
+  <desc id="desc">Quality shield, package and delivery arrow.</desc>
+  <style>
+    .icon-stroke {
+      fill: none;
+      stroke: currentColor;
+      stroke-width: 2.4;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      vector-effect: non-scaling-stroke;
+    }
+  </style>
+<g class="icon-stroke">
+    <path d="M20 8l12 5v10c0 9-5 15-12 20-7-5-12-11-12-20V13l12-5z"/>
+    <path d="M14.5 24l4 4 7-8"/>
+    <rect x="35" y="27" width="20" height="18" rx="2"/>
+    <path d="M35 34h20M45 27v18"/>
+    <path d="M32 51h24"/>
+    <path d="M49 47l7 4-7 4"/>
+    <path d="M38 45v6"/>
+  </g>
+</svg>

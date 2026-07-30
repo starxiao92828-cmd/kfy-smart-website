@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="64"
+     height="64"
+     viewBox="0 0 64 64"
+     role="img"
+     aria-labelledby="title desc"
+     color="#0E70B8">
+  <title id="title">Sample and Specification Confirmation</title>
+  <desc id="desc">Sample box, measuring ruler, and confirmation check.</desc>
+  <style>
+    .icon-stroke {
+      fill: none;
+      stroke: currentColor;
+      stroke-width: 2.4;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      vector-effect: non-scaling-stroke;
+    }
+  </style>
+<g class="icon-stroke">
+    <path d="M8 20l14-7 14 7-14 7-14-7z"/>
+    <path d="M8 20v18l14 8 14-8V20"/>
+    <path d="M22 27v19"/>
+    <path d="M10 52h34"/>
+    <path d="M12 49v6M18 50v5M24 49v6M30 50v5M36 49v6M42 50v5"/>
+    <circle cx="49" cy="23" r="9"/>
+    <path d="M44.5 23.2l3 3 6-6.3"/>
+    <path d="M41 10h15"/>
+  </g>
+</svg>

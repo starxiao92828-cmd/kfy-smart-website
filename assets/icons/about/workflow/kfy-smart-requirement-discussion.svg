@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="64"
+     height="64"
+     viewBox="0 0 64 64"
+     role="img"
+     aria-labelledby="title desc"
+     color="#0E70B8">
+  <title id="title">Requirement Discussion</title>
+  <desc id="desc">Conversation bubbles and a requirement checklist.</desc>
+  <style>
+    .icon-stroke {
+      fill: none;
+      stroke: currentColor;
+      stroke-width: 2.4;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      vector-effect: non-scaling-stroke;
+    }
+  </style>
+<g class="icon-stroke">
+    <rect x="6" y="8" width="34" height="24" rx="5"/>
+    <path d="M14 32l-5 6 10-4"/>
+    <path d="M13 16l2 2 4-5"/>
+    <path d="M23 16h10"/>
+    <path d="M13 24l2 2 4-5"/>
+    <path d="M23 24h9"/>
+    <rect x="25" y="25" width="33" height="23" rx="5"/>
+    <path d="M50 48l5 6-10-4"/>
+    <path d="M33 33h17"/>
+    <path d="M33 40h12"/>
+  </g>
+</svg>
