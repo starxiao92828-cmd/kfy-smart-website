@@ -30,3 +30,13 @@ html,body{overflow-x:hidden}
 .contact-grid>.contact-card{align-self:start}#inquiry-form{scroll-margin-top:100px}
 @media(max-width:700px){.form-grid{grid-template-columns:1fr}.contact-form-card{padding:28px 22px}.direct-contact-panel{padding:24px 20px}}
 @media(max-width:420px){.contact-form-card{padding:24px 16px}.turnstile-frame{width:100%}}
+
+.article-cover {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: none;
+  aspect-ratio: auto;
+  object-fit: contain;
+  border-radius: 20px;
+}
