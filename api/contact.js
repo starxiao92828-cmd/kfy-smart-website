@@ -20,6 +20,7 @@ const COUNTRY_NAMES = (() => {
 })();
 
 const EMAIL_PATTERN = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+const ADDITIONAL_CC_RECIPIENT = 'jiangshan1@kfygroup.com';
 const MAX_REQUEST_BYTES = 24_000;
 const SUCCESS_MESSAGE = 'Thank you for contacting KFY SMART. Your inquiry has been submitted successfully. Our team will review your requirements and respond within one business day.';
 const GENERAL_ERROR = 'We could not submit your inquiry. Please check the form and try again, or contact us directly by email.';
@@ -220,6 +221,9 @@ export default async function handler(req, res) {
     logResendConfiguration(submissionId, resendKeyPresent, resendKeyPrefixValid, environment);
     const to = splitRecipients(CONTACT_FORM_TO);
     const cc = splitRecipients(CONTACT_FORM_CC);
+    if (!cc.some((address) => address.toLowerCase() === ADDITIONAL_CC_RECIPIENT)) {
+      cc.push(ADDITIONAL_CC_RECIPIENT);
+    }
     if (!resendKeyPresent || !resendKeyPrefixValid || !CONTACT_FORM_FROM || !to.length || !cc.length || !TURNSTILE_SECRET_KEY) {
       logStatus(submissionId, 'error', 'configuration');
       return sendJson(res, 503, { error: GENERAL_ERROR });
