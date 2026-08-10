@@ -2,6 +2,7 @@
   'use strict';
 
   var CONTAINER_ID = 'GTM-MXMDWLG2';
+  var CLARITY_ID = 'y04gc4spmt';
   var STORAGE_KEY = 'kfy_analytics_consent';
   var COOKIE_NAME = 'kfy_analytics_consent';
   var ACCEPTED = 'accepted';
@@ -72,6 +73,13 @@
     return Boolean(
       window.__KFY_ANALYTICS_GTM_LOADED__ ||
         document.querySelector('script[data-kfy-gtm="' + CONTAINER_ID + '"]')
+    );
+  }
+
+  function isClarityLoaded() {
+    return Boolean(
+      window.__KFY_ANALYTICS_CLARITY_LOADED__ ||
+        document.querySelector('script[data-kfy-clarity="' + CLARITY_ID + '"]')
     );
   }
 
@@ -165,6 +173,28 @@
     document.head.appendChild(script);
   }
 
+  function loadClarity() {
+    if (readPreference() !== ACCEPTED || isClarityLoaded()) {
+      return;
+    }
+
+    window.__KFY_ANALYTICS_CLARITY_LOADED__ = true;
+
+    (function (c, l, a, r, i, t, y) {
+      c[a] =
+        c[a] ||
+        function () {
+          (c[a].q = c[a].q || []).push(arguments);
+        };
+      t = l.createElement(r);
+      t.async = true;
+      t.src = 'https://www.clarity.ms/tag/' + i;
+      t.dataset.kfyClarity = i;
+      y = l.getElementsByTagName(r)[0];
+      y.parentNode.insertBefore(t, y);
+    })(window, document, 'clarity', 'script', CLARITY_ID);
+  }
+
   function hideBanner() {
     if (banner) {
       banner.hidden = true;
@@ -210,12 +240,13 @@
         writePreference(ACCEPTED);
         hideBanner();
         loadGtm();
+        loadClarity();
       });
 
     banner
       .querySelector('[data-consent-reject]')
       .addEventListener('click', function () {
-        var mustReload = isGtmLoaded();
+        var mustReload = isGtmLoaded() || isClarityLoaded();
         updateConsent(REJECTED);
         deleteGoogleAnalyticsCookies();
         writePreference(REJECTED);
@@ -262,6 +293,7 @@
   if (storedPreference === ACCEPTED) {
     updateConsent(ACCEPTED);
     loadGtm();
+    loadClarity();
   } else if (storedPreference === REJECTED) {
     updateConsent(REJECTED);
   }
