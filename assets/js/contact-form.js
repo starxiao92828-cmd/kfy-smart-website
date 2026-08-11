@@ -270,7 +270,12 @@
         return;
       }
 
-      pushLeadAnalyticsEvent(payload);
+      const isConfirmedSubmission = response.ok
+        && result
+        && result.ok === true
+        && typeof result.submissionId === 'string'
+        && result.submissionId.trim() !== '';
+      if (isConfirmedSubmission) pushLeadAnalyticsEvent(payload);
       form.reset();
       Object.keys(fields).forEach((fieldName) => setFieldError(fieldName));
       setStatus(messages.success, 'success');
