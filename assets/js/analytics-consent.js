@@ -3,6 +3,7 @@
 
   var CONTAINER_ID = 'GTM-MXMDWLG2';
   var CLARITY_ID = 'y04gc4spmt';
+  var PRODUCTION_HOSTS = ['www.kfysmart.com', 'kfysmart.com'];
   var STORAGE_KEY = 'kfy_analytics_consent';
   var COOKIE_NAME = 'kfy_analytics_consent';
   var ACCEPTED = 'accepted';
@@ -67,6 +68,12 @@
       encodeURIComponent(value) +
       '; Max-Age=31536000; Path=/; SameSite=Lax' +
       (window.location.protocol === 'https:' ? '; Secure' : '');
+  }
+
+  function isProductionHost() {
+    return (
+      PRODUCTION_HOSTS.indexOf(window.location.hostname.toLowerCase()) !== -1
+    );
   }
 
   function isGtmLoaded() {
@@ -153,7 +160,11 @@
   }
 
   function loadGtm() {
-    if (readPreference() !== ACCEPTED || isGtmLoaded()) {
+    if (
+      !isProductionHost() ||
+      readPreference() !== ACCEPTED ||
+      isGtmLoaded()
+    ) {
       return;
     }
 
@@ -174,7 +185,11 @@
   }
 
   function loadClarity() {
-    if (readPreference() !== ACCEPTED || isClarityLoaded()) {
+    if (
+      !isProductionHost() ||
+      readPreference() !== ACCEPTED ||
+      isClarityLoaded()
+    ) {
       return;
     }
 
