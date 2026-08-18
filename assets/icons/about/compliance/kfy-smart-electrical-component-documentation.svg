@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="64"
+     height="64"
+     viewBox="0 0 64 64"
+     role="img"
+     aria-labelledby="title desc"
+     color="#0E70B8">
+  <title id="title">Electrical Component Documentation</title>
+  <desc id="desc">Electrical plug and controller beside a component document.</desc>
+  <style>
+    .icon-stroke {
+      fill: none;
+      stroke: currentColor;
+      stroke-width: 2.4;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      vector-effect: non-scaling-stroke;
+    }
+  </style>
+  <g class="icon-stroke">
+    <path d="M8 18v10a9 9 0 009 9h2"/>
+    <path d="M5 13h6v8H5zM7 9v4M10 9v4"/>
+    <rect x="19" y="27" width="15" height="20" rx="4"/>
+    <circle cx="26.5" cy="34" r="2.5"/>
+    <path d="M24 41h5"/>
+    <path d="M39 10h13l6 6v38H39z"/>
+    <path d="M52 10v7h6M44 27h9M44 34h9M44 41h7"/>
+  </g>
+</svg>

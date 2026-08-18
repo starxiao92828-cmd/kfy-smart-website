@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="64"
+     height="64"
+     viewBox="0 0 64 64"
+     role="img"
+     aria-labelledby="title desc"
+     color="#0E70B8">
+  <title id="title">Project-Specific Compliance Support</title>
+  <desc id="desc">Globe with a checked project document.</desc>
+  <style>
+    .icon-stroke {
+      fill: none;
+      stroke: currentColor;
+      stroke-width: 2.4;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      vector-effect: non-scaling-stroke;
+    }
+  </style>
+  <g class="icon-stroke">
+    <circle cx="22" cy="31" r="15"/>
+    <path d="M7 31h30M22 16c5 5 7 10 7 15s-2 10-7 15M22 16c-5 5-7 10-7 15s2 10 7 15"/>
+    <path d="M39 10h13l6 6v38H39z"/>
+    <path d="M52 10v7h6M44 28h9M44 35h9"/>
+    <path d="M44 44l3 3 6-7"/>
+  </g>
+</svg>

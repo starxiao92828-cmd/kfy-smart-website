@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="64"
+     height="64"
+     viewBox="0 0 64 64"
+     role="img"
+     aria-labelledby="title desc"
+     color="#0E70B8">
+  <title id="title">Material Documentation</title>
+  <desc id="desc">Layered material samples beside a specification document.</desc>
+  <style>
+    .icon-stroke {
+      fill: none;
+      stroke: currentColor;
+      stroke-width: 2.4;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      vector-effect: non-scaling-stroke;
+    }
+  </style>
+  <g class="icon-stroke">
+    <path d="M7 19l14-7 14 7-14 7-14-7z"/>
+    <path d="M7 27l14 7 14-7"/>
+    <path d="M7 35l14 7 14-7"/>
+    <path d="M7 43l14 7 14-7"/>
+    <path d="M39 10h13l6 6v38H39z"/>
+    <path d="M52 10v7h6M44 27h9M44 34h9M44 41h7"/>
+  </g>
+</svg>

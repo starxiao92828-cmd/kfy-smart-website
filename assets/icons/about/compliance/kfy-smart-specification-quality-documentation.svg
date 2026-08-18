@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="64"
+     height="64"
+     viewBox="0 0 64 64"
+     role="img"
+     aria-labelledby="title desc"
+     color="#0E70B8">
+  <title id="title">Specification and Quality Documentation</title>
+  <desc id="desc">Specification clipboard with a quality confirmation check.</desc>
+  <style>
+    .icon-stroke {
+      fill: none;
+      stroke: currentColor;
+      stroke-width: 2.4;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      vector-effect: non-scaling-stroke;
+    }
+  </style>
+  <g class="icon-stroke">
+    <rect x="11" y="12" width="38" height="44" rx="3"/>
+    <path d="M22 12V8h16v4M20 22h20M20 30h14M20 38h10"/>
+    <circle cx="45" cy="43" r="11"/>
+    <path d="M39.5 43.2l3.8 3.8 7.2-7.6"/>
+  </g>
+</svg>
