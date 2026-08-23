@@ -374,9 +374,9 @@
     "categoryName": "Smart Mattresses",
     "model": "W4",
     "level": "Flagship",
-    "name": "Integrated Care Smart Mattress",
+    "name": "Integrated Smart Mattress System",
     "slug": "w4-integrated-care-smart-mattress",
-    "summary": "A flagship integrated care solution combining a PU bed frame, smart mattress and removable side armrests.",
+    "summary": "A flagship residential smart mattress system integrating an upholstered bed body, removable side armrests and whole-bed lift.",
     "sizes": "90×200 / 120×200 / 135×200 cm",
     "structure": "PU bed frame and smart mattress integrated structure with removable side armrests, memory-foam upper layer, removable cover and YKK zipper.",
     "motor": "OKIN motor",
@@ -390,28 +390,28 @@
     ],
     "controls": "Control configuration subject to project confirmation.",
     "customization": "Sizes, armrest configuration, upholstery, branding and packaging.",
-    "application": "Senior care, home care and integrated support projects.",
+    "application": "Premium residential and independent-living product programs.",
     "mainBases": [
-      "w4-smart-mattress-01-main-visual",
-      "w4-smart-mattress-02-application-scene",
-      "w4-smart-mattress-03-structure-view",
-      "w4-smart-mattress-04-integrated-care-detail"
+      "w4-g01-signature-hero",
+      "w4-g02-premium-residential-lifestyle-use",
+      "w4-g03-integrated-smart-sleep-system",
+      "w4-g04-integrated-mattress-bed-structure"
     ],
     "mainImages": [
-      "/assets/images/products/smart-mattresses/w4/w4-smart-mattress-01-main-visual.webp",
-      "/assets/images/products/smart-mattresses/w4/w4-smart-mattress-02-application-scene.webp",
-      "/assets/images/products/smart-mattresses/w4/w4-smart-mattress-03-structure-view.webp",
-      "/assets/images/products/smart-mattresses/w4/w4-smart-mattress-04-integrated-care-detail.webp"
+      "/assets/images/products/smart-mattresses/w4/w4-g01-signature-hero.webp",
+      "/assets/images/products/smart-mattresses/w4/w4-g02-premium-residential-lifestyle-use.webp",
+      "/assets/images/products/smart-mattresses/w4/w4-g03-integrated-smart-sleep-system.webp",
+      "/assets/images/products/smart-mattresses/w4/w4-g04-integrated-mattress-bed-structure.webp"
     ],
     "detailBases": [
-      "kfy-smart-w4-detail-01-overview",
-      "kfy-smart-w4-detail-02-features",
-      "kfy-smart-w4-detail-03-specifications"
+      "w4-d01-integrated-product-beauty-shot",
+      "w4-d02-side-armrest-integrated-structure-detail",
+      "w4-d03-whole-bed-lift-adjustment-detail"
     ],
     "detailImages": [
-      "/assets/images/products/smart-mattresses/w4/detail/kfy-smart-w4-detail-01-overview-1600.webp",
-      "/assets/images/products/smart-mattresses/w4/detail/kfy-smart-w4-detail-02-features-1600.webp",
-      "/assets/images/products/smart-mattresses/w4/detail/kfy-smart-w4-detail-03-specifications-1600.webp"
+      "/assets/images/products/smart-mattresses/w4/w4-d01-integrated-product-beauty-shot.webp",
+      "/assets/images/products/smart-mattresses/w4/w4-d02-side-armrest-integrated-structure-detail.webp",
+      "/assets/images/products/smart-mattresses/w4/w4-d03-whole-bed-lift-adjustment-detail.webp"
     ]
   },
   {
@@ -421,7 +421,7 @@
     "level": "High-end",
     "name": "Premium 11-Inch Smart Mattress",
     "slug": "w3-premium-11-inch-smart-mattress",
-    "summary": "An 11-inch premium smart mattress with synchronized movement, memory modes and massage functions.",
+    "summary": "A premium 11-inch smart mattress with organic linen pillow-top construction and adjustable functions.",
     "sizes": "90×200 / 120×200 / 150×200 / 180×200 cm",
     "structure": "11-inch profile, internal memory foam, organic linen, Pillow Top, removable/washable cover and YKK zipper.",
     "motor": "OKIN motor",
@@ -440,26 +440,26 @@
     "customization": "Sizes, fabric, comfort layers, controls, packaging and branding.",
     "application": "Premium mattress programs, hotels and high-end retail projects.",
     "mainBases": [
-      "w3-smart-mattress-01-main-visual",
-      "w3-smart-mattress-02-application-scene",
-      "w3-smart-mattress-03-flat-view",
-      "w3-smart-mattress-04-cover-zipper-detail"
+      "w3-g01-signature-hero",
+      "w3-g02-premium-comfort-lifestyle-use",
+      "w3-g03-11-inch-pillow-top-comfort-structure",
+      "w3-g04-pillow-top-comfort-layer-construction"
     ],
     "mainImages": [
-      "/assets/images/products/smart-mattresses/w3/w3-smart-mattress-01-main-visual.webp",
-      "/assets/images/products/smart-mattresses/w3/w3-smart-mattress-02-application-scene.webp",
-      "/assets/images/products/smart-mattresses/w3/w3-smart-mattress-03-flat-view.webp",
-      "/assets/images/products/smart-mattresses/w3/w3-smart-mattress-04-cover-zipper-detail.webp"
+      "/assets/images/products/smart-mattresses/w3/w3-g01-signature-hero.webp",
+      "/assets/images/products/smart-mattresses/w3/w3-g02-premium-comfort-lifestyle-use.webp",
+      "/assets/images/products/smart-mattresses/w3/w3-g03-11-inch-pillow-top-comfort-structure.webp",
+      "/assets/images/products/smart-mattresses/w3/w3-g04-pillow-top-comfort-layer-construction.webp"
     ],
     "detailBases": [
-      "kfy-smart-w3-detail-01-overview",
-      "kfy-smart-w3-detail-02-features",
-      "kfy-smart-w3-detail-03-specifications"
+      "w3-d01-premium-pillow-top-beauty-shot",
+      "w3-d02-pillow-top-linen-cover-detail",
+      "w3-d03-comfort-structure-under-adjustment"
     ],
     "detailImages": [
-      "/assets/images/products/smart-mattresses/w3/detail/kfy-smart-w3-detail-01-overview-1600.webp",
-      "/assets/images/products/smart-mattresses/w3/detail/kfy-smart-w3-detail-02-features-1600.webp",
-      "/assets/images/products/smart-mattresses/w3/detail/kfy-smart-w3-detail-03-specifications-1600.webp"
+      "/assets/images/products/smart-mattresses/w3/w3-d01-premium-pillow-top-beauty-shot.webp",
+      "/assets/images/products/smart-mattresses/w3/w3-d02-pillow-top-linen-cover-detail.webp",
+      "/assets/images/products/smart-mattresses/w3/w3-d03-comfort-structure-under-adjustment.webp"
     ]
   },
   {
@@ -469,7 +469,7 @@
     "level": "Mid-range",
     "name": "10-Inch Massage Smart Mattress",
     "slug": "w2-10-inch-massage-smart-mattress",
-    "summary": "A balanced 10-inch smart mattress combining adjustable movement and three-level massage.",
+    "summary": "A functional 10-inch smart mattress with smart motion and confirmed three-level vibration massage.",
     "sizes": "90×200 / 120×200 / 150×200 / 180×200 cm",
     "structure": "10-inch profile, memory-foam upper layer, removable/washable cover and YKK zipper.",
     "motor": "OKIN motor",
@@ -488,26 +488,26 @@
     "customization": "Sizes, fabric, comfort layers, controls, packaging and branding.",
     "application": "Mainstream smart mattress and distributor programs.",
     "mainBases": [
-      "w2-smart-mattress-01-main-visual",
-      "w2-smart-mattress-02-application-scene",
-      "w2-smart-mattress-03-flat-view",
-      "w2-smart-mattress-04-massage-control-detail"
+      "w2-g01-signature-hero",
+      "w2-g02-modern-functional-lifestyle-use",
+      "w2-g03-smart-massage-motion-system",
+      "w2-g04-motion-massage-function-system"
     ],
     "mainImages": [
-      "/assets/images/products/smart-mattresses/w2/w2-smart-mattress-01-main-visual.webp",
-      "/assets/images/products/smart-mattresses/w2/w2-smart-mattress-02-application-scene.webp",
-      "/assets/images/products/smart-mattresses/w2/w2-smart-mattress-03-flat-view.webp",
-      "/assets/images/products/smart-mattresses/w2/w2-smart-mattress-04-massage-control-detail.webp"
+      "/assets/images/products/smart-mattresses/w2/w2-g01-signature-hero.webp",
+      "/assets/images/products/smart-mattresses/w2/w2-g02-modern-functional-lifestyle-use.webp",
+      "/assets/images/products/smart-mattresses/w2/w2-g03-smart-massage-motion-system.webp",
+      "/assets/images/products/smart-mattresses/w2/w2-g04-motion-massage-function-system.webp"
     ],
     "detailBases": [
-      "kfy-smart-w2-detail-01-overview",
-      "kfy-smart-w2-detail-02-features",
-      "kfy-smart-w2-detail-03-specifications"
+      "w2-d01-functional-product-beauty-shot",
+      "w2-d02-massage-function-surface-detail",
+      "w2-d03-smart-motion-adjustment-detail"
     ],
     "detailImages": [
-      "/assets/images/products/smart-mattresses/w2/detail/kfy-smart-w2-detail-01-overview-1600.webp",
-      "/assets/images/products/smart-mattresses/w2/detail/kfy-smart-w2-detail-02-features-1600.webp",
-      "/assets/images/products/smart-mattresses/w2/detail/kfy-smart-w2-detail-03-specifications-1600.webp"
+      "/assets/images/products/smart-mattresses/w2/w2-d01-functional-product-beauty-shot.webp",
+      "/assets/images/products/smart-mattresses/w2/w2-d02-massage-function-surface-detail.webp",
+      "/assets/images/products/smart-mattresses/w2/w2-d03-smart-motion-adjustment-detail.webp"
     ]
   },
   {
@@ -517,7 +517,7 @@
     "level": "Budget",
     "name": "10-Inch Smart Mattress",
     "slug": "w1-10-inch-smart-mattress",
-    "summary": "A 10-inch entry-level smart mattress with essential adjustable comfort and App control.",
+    "summary": "An essential 10-inch smart mattress with head and foot adjustment and confirmed foam structure.",
     "sizes": "90×200 / 120×200 / 150×200 / 180×200 cm",
     "structure": "10-inch profile with 2-inch memory foam, 2-inch PU foam, removable/washable cover and branded zipper.",
     "motor": "OKIN motor",
@@ -533,26 +533,26 @@
     "customization": "Sizes, fabric, comfort layers, controls, packaging and branding.",
     "application": "Entry-level private-label smart mattress programs.",
     "mainBases": [
-      "w1-smart-mattress-01-main-visual",
-      "w1-smart-mattress-02-application-scene",
-      "w1-smart-mattress-03-flat-view",
-      "w1-smart-mattress-04-foam-structure-detail"
+      "w1-g01-signature-hero",
+      "w1-g02-bright-residential-lifestyle-use",
+      "w1-g03-essential-smart-mattress-structure",
+      "w1-g04-essential-mattress-motion-construction"
     ],
     "mainImages": [
-      "/assets/images/products/smart-mattresses/w1/w1-smart-mattress-01-main-visual.webp",
-      "/assets/images/products/smart-mattresses/w1/w1-smart-mattress-02-application-scene.webp",
-      "/assets/images/products/smart-mattresses/w1/w1-smart-mattress-03-flat-view.webp",
-      "/assets/images/products/smart-mattresses/w1/w1-smart-mattress-04-foam-structure-detail.webp"
+      "/assets/images/products/smart-mattresses/w1/w1-g01-signature-hero.webp",
+      "/assets/images/products/smart-mattresses/w1/w1-g02-bright-residential-lifestyle-use.webp",
+      "/assets/images/products/smart-mattresses/w1/w1-g03-essential-smart-mattress-structure.webp",
+      "/assets/images/products/smart-mattresses/w1/w1-g04-essential-mattress-motion-construction.webp"
     ],
     "detailBases": [
-      "kfy-smart-w1-detail-01-overview",
-      "kfy-smart-w1-detail-02-features",
-      "kfy-smart-w1-detail-03-specifications"
+      "w1-d01-essential-product-beauty-shot",
+      "w1-d02-confirmed-foam-mattress-edge-detail",
+      "w1-d03-essential-adjustment-detail"
     ],
     "detailImages": [
-      "/assets/images/products/smart-mattresses/w1/detail/kfy-smart-w1-detail-01-overview-1600.webp",
-      "/assets/images/products/smart-mattresses/w1/detail/kfy-smart-w1-detail-02-features-1600.webp",
-      "/assets/images/products/smart-mattresses/w1/detail/kfy-smart-w1-detail-03-specifications-1600.webp"
+      "/assets/images/products/smart-mattresses/w1/w1-d01-essential-product-beauty-shot.webp",
+      "/assets/images/products/smart-mattresses/w1/w1-d02-confirmed-foam-mattress-edge-detail.webp",
+      "/assets/images/products/smart-mattresses/w1/w1-d03-essential-adjustment-detail.webp"
     ]
   }
 ]
