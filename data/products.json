@@ -24,26 +24,26 @@
     "customization": "Sizes, upholstery, legs, controls, packaging and branding subject to project confirmation.",
     "application": "Premium mattress brands, furniture brands, hospitality and distribution projects.",
     "mainBases": [
-      "e4-adjustable-bed-base-01-main-visual",
-      "e4-adjustable-bed-base-02-application-scene",
-      "e4-adjustable-bed-base-03-structure-view",
-      "e4-adjustable-bed-base-04-detail-view"
+      "e4-g01-signature-hero",
+      "e4-g02-context-overall",
+      "e4-g03-sliding-structure",
+      "e4-g04-engineering-detail"
     ],
     "mainImages": [
-      "/assets/images/products/adjustable-bed-bases/e4/e4-adjustable-bed-base-01-main-visual.webp",
-      "/assets/images/products/adjustable-bed-bases/e4/e4-adjustable-bed-base-02-application-scene.webp",
-      "/assets/images/products/adjustable-bed-bases/e4/e4-adjustable-bed-base-03-structure-view.webp",
-      "/assets/images/products/adjustable-bed-bases/e4/e4-adjustable-bed-base-04-detail-view.webp"
+      "/assets/images/products/adjustable-bed-bases/e4/e4-g01-signature-hero.webp",
+      "/assets/images/products/adjustable-bed-bases/e4/e4-g02-context-overall.webp",
+      "/assets/images/products/adjustable-bed-bases/e4/e4-g03-sliding-structure.webp",
+      "/assets/images/products/adjustable-bed-bases/e4/e4-g04-engineering-detail.webp"
     ],
     "detailBases": [
-      "kfy-smart-e4-detail-01-overview",
-      "kfy-smart-e4-detail-02-features",
-      "kfy-smart-e4-detail-03-specifications"
+      "e4-d01-signature-sliding-structure",
+      "e4-d02-underframe-construction-detail",
+      "e4-d03-underbed-light"
     ],
     "detailImages": [
-      "/assets/images/products/adjustable-bed-bases/e4/detail/kfy-smart-e4-detail-01-overview-1600.webp",
-      "/assets/images/products/adjustable-bed-bases/e4/detail/kfy-smart-e4-detail-02-features-1600.webp",
-      "/assets/images/products/adjustable-bed-bases/e4/detail/kfy-smart-e4-detail-03-specifications-1600.webp"
+      "/assets/images/products/adjustable-bed-bases/e4/e4-d01-signature-sliding-structure.webp",
+      "/assets/images/products/adjustable-bed-bases/e4/e4-d02-underframe-construction-detail.webp",
+      "/assets/images/products/adjustable-bed-bases/e4/e4-d03-underbed-light.webp"
     ]
   },
   {
@@ -69,26 +69,26 @@
     "customization": "Sizes, fabrics, legs, controls, packaging and private-label coordination.",
     "application": "Mattress brands, furniture companies and distributors seeking a foldable high-end base.",
     "mainBases": [
-      "e3-adjustable-bed-base-01-main-visual",
-      "e3-adjustable-bed-base-02-application-scene",
-      "e3-adjustable-bed-base-03-structure-view",
-      "e3-adjustable-bed-base-04-detail-view"
+      "e3-g01-signature-hero",
+      "e3-g02-context-overall",
+      "e3-g03-foldable-structure",
+      "e3-g04-folding-connection-frame-structure"
     ],
     "mainImages": [
-      "/assets/images/products/adjustable-bed-bases/e3/e3-adjustable-bed-base-01-main-visual.webp",
-      "/assets/images/products/adjustable-bed-bases/e3/e3-adjustable-bed-base-02-application-scene.webp",
-      "/assets/images/products/adjustable-bed-bases/e3/e3-adjustable-bed-base-03-structure-view.webp",
-      "/assets/images/products/adjustable-bed-bases/e3/e3-adjustable-bed-base-04-detail-view.webp"
+      "/assets/images/products/adjustable-bed-bases/e3/e3-g01-signature-hero.webp",
+      "/assets/images/products/adjustable-bed-bases/e3/e3-g02-context-overall.webp",
+      "/assets/images/products/adjustable-bed-bases/e3/e3-g03-foldable-structure.webp",
+      "/assets/images/products/adjustable-bed-bases/e3/e3-g04-folding-connection-frame-structure.webp"
     ],
     "detailBases": [
-      "kfy-smart-e3-detail-01-overview",
-      "kfy-smart-e3-detail-02-features",
-      "kfy-smart-e3-detail-03-specifications"
+      "e3-d01-foldable-structure-beauty-shot",
+      "e3-d02-folding-joint-detail",
+      "e3-d03-folded-form"
     ],
     "detailImages": [
-      "/assets/images/products/adjustable-bed-bases/e3/detail/kfy-smart-e3-detail-01-overview-1600.webp",
-      "/assets/images/products/adjustable-bed-bases/e3/detail/kfy-smart-e3-detail-02-features-1600.webp",
-      "/assets/images/products/adjustable-bed-bases/e3/detail/kfy-smart-e3-detail-03-specifications-1600.webp"
+      "/assets/images/products/adjustable-bed-bases/e3/e3-d01-foldable-structure-beauty-shot.webp",
+      "/assets/images/products/adjustable-bed-bases/e3/e3-d02-folding-joint-detail.webp",
+      "/assets/images/products/adjustable-bed-bases/e3/e3-d03-folded-form.webp"
     ]
   },
   {
@@ -114,26 +114,26 @@
     "customization": "Sizes, frame configuration, legs, controls, packaging and branding.",
     "application": "Mainstream mattress and furniture programs for international distribution.",
     "mainBases": [
-      "e2-adjustable-bed-base-01-main-visual",
-      "e2-adjustable-bed-base-02-application-scene",
-      "e2-adjustable-bed-base-03-structure-view",
-      "e2-adjustable-bed-base-04-detail-view"
+      "e2-g01-signature-hero",
+      "e2-g02-context-overall",
+      "e2-g03-full-frame-platform",
+      "e2-g04-frame-platform-construction"
     ],
     "mainImages": [
-      "/assets/images/products/adjustable-bed-bases/e2/e2-adjustable-bed-base-01-main-visual.webp",
-      "/assets/images/products/adjustable-bed-bases/e2/e2-adjustable-bed-base-02-application-scene.webp",
-      "/assets/images/products/adjustable-bed-bases/e2/e2-adjustable-bed-base-03-structure-view.webp",
-      "/assets/images/products/adjustable-bed-bases/e2/e2-adjustable-bed-base-04-detail-view.webp"
+      "/assets/images/products/adjustable-bed-bases/e2/e2-g01-signature-hero.webp",
+      "/assets/images/products/adjustable-bed-bases/e2/e2-g02-context-overall.webp",
+      "/assets/images/products/adjustable-bed-bases/e2/e2-g03-full-frame-platform.webp",
+      "/assets/images/products/adjustable-bed-bases/e2/e2-g04-frame-platform-construction.webp"
     ],
     "detailBases": [
-      "kfy-smart-e2-detail-01-overview",
-      "kfy-smart-e2-detail-02-features",
-      "kfy-smart-e2-detail-03-specifications"
+      "e2-d01-full-frame-structure-beauty-shot",
+      "e2-d02-frame-deck-connection-detail",
+      "e2-d03-finished-full-frame-detail"
     ],
     "detailImages": [
-      "/assets/images/products/adjustable-bed-bases/e2/detail/kfy-smart-e2-detail-01-overview-1600.webp",
-      "/assets/images/products/adjustable-bed-bases/e2/detail/kfy-smart-e2-detail-02-features-1600.webp",
-      "/assets/images/products/adjustable-bed-bases/e2/detail/kfy-smart-e2-detail-03-specifications-1600.webp"
+      "/assets/images/products/adjustable-bed-bases/e2/e2-d01-full-frame-structure-beauty-shot.webp",
+      "/assets/images/products/adjustable-bed-bases/e2/e2-d02-frame-deck-connection-detail.webp",
+      "/assets/images/products/adjustable-bed-bases/e2/e2-d03-finished-full-frame-detail.webp"
     ]
   },
   {
@@ -159,26 +159,26 @@
     "customization": "Sizes, slat configuration, legs, controls, packaging and branding.",
     "application": "Budget-focused private-label and distribution projects.",
     "mainBases": [
-      "e1-adjustable-bed-base-01-main-visual",
-      "e1-adjustable-bed-base-02-application-scene",
-      "e1-adjustable-bed-base-03-structure-view",
-      "e1-adjustable-bed-base-04-detail-view"
+      "e1-g01-signature-hero",
+      "e1-g02-context-overall",
+      "e1-g03-visible-slatted-platform",
+      "e1-g04-slatted-platform-frame-construction"
     ],
     "mainImages": [
-      "/assets/images/products/adjustable-bed-bases/e1/e1-adjustable-bed-base-01-main-visual.webp",
-      "/assets/images/products/adjustable-bed-bases/e1/e1-adjustable-bed-base-02-application-scene.webp",
-      "/assets/images/products/adjustable-bed-bases/e1/e1-adjustable-bed-base-03-structure-view.webp",
-      "/assets/images/products/adjustable-bed-bases/e1/e1-adjustable-bed-base-04-detail-view.webp"
+      "/assets/images/products/adjustable-bed-bases/e1/e1-g01-signature-hero.webp",
+      "/assets/images/products/adjustable-bed-bases/e1/e1-g02-context-overall.webp",
+      "/assets/images/products/adjustable-bed-bases/e1/e1-g03-visible-slatted-platform.webp",
+      "/assets/images/products/adjustable-bed-bases/e1/e1-g04-slatted-platform-frame-construction.webp"
     ],
     "detailBases": [
-      "kfy-smart-e1-detail-01-overview",
-      "kfy-smart-e1-detail-02-features",
-      "kfy-smart-e1-detail-03-specifications"
+      "e1-d01-slatted-structure-beauty-shot",
+      "e1-d02-slat-frame-connection-detail",
+      "e1-d03-slatted-platform-profile"
     ],
     "detailImages": [
-      "/assets/images/products/adjustable-bed-bases/e1/detail/kfy-smart-e1-detail-01-overview-1600.webp",
-      "/assets/images/products/adjustable-bed-bases/e1/detail/kfy-smart-e1-detail-02-features-1600.webp",
-      "/assets/images/products/adjustable-bed-bases/e1/detail/kfy-smart-e1-detail-03-specifications-1600.webp"
+      "/assets/images/products/adjustable-bed-bases/e1/e1-d01-slatted-structure-beauty-shot.webp",
+      "/assets/images/products/adjustable-bed-bases/e1/e1-d02-slat-frame-connection-detail.webp",
+      "/assets/images/products/adjustable-bed-bases/e1/e1-d03-slatted-platform-profile.webp"
     ]
   },
   {
