@@ -1,33 +1,37 @@
-# KFY SMART V3.1 Website Package
+# KFY SMART Website
 
-Static website package for GitHub + Vercel deployment.
+KFY SMART is a static B2B smart-sleep website deployed through GitHub and Vercel.
 
-## Included
-- Home, Products, 3 category pages, 12 product pages
-- News index + 5 articles
-- About, Contact, Terms of Use and 404
-- Final approved WebP/SVG assets
-- Vercel Function inquiry endpoint (disabled in production UI by default)
+## Website
 
-## Local check
+Primary navigation: Products, News, About and Contact.
+
+Product lines:
+
+- Adjustable Bed Bases
+- Smart Beds
+- Smart Mattresses
+
+News is an actively growing content library.
+
+The Contact form is active. Its source of truth is:
+
+- `contact/index.html`
+- `assets/js/contact-form.js`
+- `api/contact.js`
+
+## Local commands
+
 ```bash
 npm run check
-```
-
-## Local preview
-```bash
 npm run dev
 ```
 
-## Deployment
-1. Upload the contents of this folder to a new GitHub branch, recommended: `v3-1-rebuild`.
-2. Import or redeploy the GitHub repository in Vercel.
-3. Keep the production inquiry form disabled until Privacy Policy, Resend domain verification and a real send/receive test are complete.
-4. Verify 1920, 1440, 1024, 768 and 390 px viewports before production.
+## Normal workflow
 
-## Form variables (only when enabling)
-- `RESEND_API_KEY`
-- `INQUIRY_TO_EMAIL=liwei@kfygroup.com`
-- `INQUIRY_FROM_EMAIL=<verified sender>`
-
-The `reference/` folder is excluded from Vercel by `.vercelignore`.
+1. Fetch the latest `origin/main`.
+2. Create a narrow feature branch.
+3. Push the branch and verify the Vercel Preview.
+4. Complete scoped QA.
+5. Fast-forward or otherwise approved-merge to `main`.
+6. Verify the automatic Production deployment.

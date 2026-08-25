@@ -1,13 +1,23 @@
-# Codex Deployment Instructions — KFY SMART V3.1
+# KFY SMART Maintenance Workflow
 
-Use this folder as the repository root. Do not merge old assets back into it.
+## Baseline and branching
 
-1. Run `npm run check`. It must pass before deployment.
-2. Commit all files to a branch named `v3-1-rebuild`.
-3. Create a Vercel Preview deployment.
-4. Review the Home Hero, product matrix, three category pages and all 12 product galleries at 1920 / 1440 / 1024 / 768 / 390 widths.
-5. Confirm the production Contact form remains disabled.
-6. Confirm no `href="//"`, NTK model, Core W1 name, old SmartSleep name, duplicate floating contact or translation button exists.
-7. After approval, merge into the production branch and deploy to `www.kfysmart.com`.
+1. Always fetch `origin/main` before starting work.
+2. If the expected SHA differs, stop and report it. Never overwrite or blindly merge concurrent work.
+3. Create a narrow feature branch from the current clean `main`.
 
-Do not enable the form until Privacy Policy and Resend requirements are complete.
+## Validation and release
+
+1. Run `npm run check`.
+2. Validate only the scope relevant to the task; do not scan or modify unrelated areas unnecessarily.
+3. Push the feature branch and complete Preview QA before Production.
+4. Never merge or deploy Production unless explicitly approved.
+
+## Current source of truth
+
+- Contact: `contact/index.html`, `assets/js/contact-form.js`, `api/contact.js`
+- Products: current product and category HTML pages
+- News: current article HTML pages, `news/index.html`, and `sitemap.xml`
+- Entity: KFY SMART; legal name: Anhui Care For You Network Technology Co., Ltd.
+
+Do not revive deleted legacy JSON/data snapshots or the retired inquiry endpoint.
