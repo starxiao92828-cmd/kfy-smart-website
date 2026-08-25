@@ -36,6 +36,17 @@
     );
   }
 
+  function updateClarityConsent(preference) {
+    if (typeof window.clarity !== 'function') {
+      return;
+    }
+
+    window.clarity('consentv2', {
+      ad_Storage: 'denied',
+      analytics_Storage: preference === ACCEPTED ? 'granted' : 'denied'
+    });
+  }
+
   function readPreference() {
     try {
       var stored = window.localStorage.getItem(STORAGE_KEY);
@@ -201,6 +212,7 @@
         function () {
           (c[a].q = c[a].q || []).push(arguments);
         };
+      updateClarityConsent(ACCEPTED);
       t = l.createElement(r);
       t.async = true;
       t.src = 'https://www.clarity.ms/tag/' + i;
@@ -262,6 +274,7 @@
       .querySelector('[data-consent-reject]')
       .addEventListener('click', function () {
         var mustReload = isGtmLoaded() || isClarityLoaded();
+        updateClarityConsent(REJECTED);
         updateConsent(REJECTED);
         deleteGoogleAnalyticsCookies();
         writePreference(REJECTED);
