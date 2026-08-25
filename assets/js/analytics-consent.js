@@ -241,7 +241,7 @@
     banner.innerHTML =
       '<div class="analytics-consent__copy">' +
       '<h2 id="analytics-consent-title">Analytics cookies</h2>' +
-      '<p>We use Google Analytics cookies to understand how visitors use our website and improve our services. Learn more in our <a href="/privacy-policy/">Privacy Policy</a>.</p>' +
+      '<p>We use analytics technologies, including Google Analytics and Microsoft Clarity, to understand how visitors use our website and improve our services. Learn more in our <a href="/privacy-policy/">Privacy Policy</a>.</p>' +
       '</div>' +
       '<div class="analytics-consent__actions">' +
       '<button class="analytics-consent__accept" type="button" data-consent-accept>Accept Analytics</button>' +
