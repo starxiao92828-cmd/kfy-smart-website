@@ -13,6 +13,24 @@
 3. Push the feature branch and complete Preview QA before Production.
 4. Never merge or deploy Production unless explicitly approved.
 
+## Sitemap lastmod policy
+
+Update `sitemap.xml` lastmod when a task changes primary page content, product or article facts, structured data, meaningful internal links, or significant legal/entity information. Do not update lastmod for CSS-only changes, image optimization without semantic change, formatting-only changes, copyright-year-only changes, or repository documentation changes.
+
+For significant HTML updates, run:
+
+```bash
+npm run sitemap:touch -- <changed-html-paths>
+```
+
+For an explicit historical date, run:
+
+```bash
+npm run sitemap:touch -- --date=YYYY-MM-DD <paths>
+```
+
+Do not manually set all sitemap entries to today's date.
+
 ## Current source of truth
 
 - Contact: `contact/index.html`, `assets/js/contact-form.js`, `api/contact.js`

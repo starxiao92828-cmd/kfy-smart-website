@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "npx serve . -l 3000",
-    "check": "node scripts/check-site.mjs"
+    "check": "node scripts/check-site.mjs",
+    "sitemap:touch": "node scripts/update-sitemap-lastmod.mjs"
   }
 }
