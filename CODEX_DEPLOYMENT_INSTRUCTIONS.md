@@ -31,6 +31,12 @@ npm run sitemap:touch -- --date=YYYY-MM-DD <paths>
 
 Do not manually set all sitemap entries to today's date.
 
+## B2B Product structured data policy
+
+Individual product pages use Product schema. KFY SMART is an RFQ-based B2B site: do not fabricate Offer, price, availability, rating, or review data. Product rich-result warnings caused solely by missing `offers`, `review`, or `aggregateRating` are not automatically site defects.
+
+Only add ecommerce properties when verified visible data supports them. Do not automatically duplicate `model` as `sku` or `mpn`, and do not infer a `manufacturer`. Product brand remains KFY SMART.
+
 ## Current source of truth
 
 - Contact: `contact/index.html`, `assets/js/contact-form.js`, `api/contact.js`
