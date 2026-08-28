@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "npx serve . -l 3000",
     "check": "node scripts/check-site.mjs",
-    "sitemap:touch": "node scripts/update-sitemap-lastmod.mjs"
+    "sitemap:touch": "node scripts/update-sitemap-lastmod.mjs",
+    "indexnow:submit": "node scripts/submit-indexnow.mjs"
   }
 }

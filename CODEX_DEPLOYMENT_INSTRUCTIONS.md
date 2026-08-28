@@ -31,6 +31,24 @@ npm run sitemap:touch -- --date=YYYY-MM-DD <paths>
 
 Do not manually set all sitemap entries to today's date.
 
+## IndexNow publishing policy
+
+Submit only URLs that were actually added, significantly updated, or deleted. Do not submit every sitemap URL after every release, and do not repeatedly submit unchanged URLs.
+
+During feature branch or Preview QA, run only:
+
+```bash
+npm run indexnow:submit -- --dry-run <changed-html-paths>
+```
+
+Never make a real IndexNow submission from Preview. After an approved merge to `main`, a READY Production deployment, and confirmation that the changed URLs are live, run:
+
+```bash
+npm run indexnow:submit -- <changed-html-paths>
+```
+
+For a deleted URL, provide its explicit production URL. Sitemap `lastmod` and IndexNow serve different purposes: for significant HTML changes, run `npm run sitemap:touch -- <changed-html-paths>`, then after Production is READY run `npm run indexnow:submit -- <same-changed-html-paths>`. Do not couple IndexNow HTTP submission to `sitemap:touch`; sitemap updates must remain possible without network side effects.
+
 ## B2B Product structured data policy
 
 Individual product pages use Product schema. KFY SMART is an RFQ-based B2B site: do not fabricate Offer, price, availability, rating, or review data. Product rich-result warnings caused solely by missing `offers`, `review`, or `aggregateRating` are not automatically site defects.
