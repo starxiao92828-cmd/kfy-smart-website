@@ -30,6 +30,8 @@ html,body{overflow-x:hidden}
 .contact-grid>.contact-card{align-self:start}#inquiry-form{scroll-margin-top:100px}
 @media(max-width:700px){.form-grid{grid-template-columns:1fr}.contact-form-card{padding:28px 22px}.direct-contact-panel{padding:24px 20px}}
 @media(max-width:420px){.contact-form-card{padding:24px 16px}.turnstile-frame{width:100%}}
+/* Homepage Hero video */
+.hero-video,.hero-video-static{width:100%;height:100%;display:block;object-fit:contain;object-position:right center;background:#020b18}.hero-video-static{display:none}@media(max-width:800px){.hero-video,.hero-video-static{object-position:center bottom}}@media(prefers-reduced-motion:reduce){.hero-video{display:none}.hero-video-static{display:block}}
 
 /* News article hero images use a 16:9 display frame. Use 1600x900 WebP assets where possible. Never stretch images; use object-fit: cover. */
 .article-cover {
