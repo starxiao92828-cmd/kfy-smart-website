@@ -99,32 +99,54 @@
 
 @media (max-width: 680px) {
   .analytics-consent {
-    right: 16px;
-    bottom: 16px;
-    left: 16px;
-    width: calc(100% - 32px);
-    padding: 18px;
+    right: 12px;
+    bottom: 8px;
+    left: 12px;
+    width: calc(100% - 24px);
+    padding: 12px;
     align-items: stretch;
     flex-direction: column;
-    gap: 16px;
+    gap: 10px;
+  }
+
+  .analytics-consent__copy h2 {
+    margin-bottom: 2px;
+    font-size: 0.95rem;
+  }
+
+  .analytics-consent__copy p {
+    font-size: 0.875rem;
+    line-height: 1.35;
   }
 
   .analytics-consent__actions {
     width: 100%;
+    gap: 8px;
   }
 
   .analytics-consent__actions button {
     flex: 1 1 0;
+    min-height: 44px;
+    padding: 8px 12px;
+  }
+
+  .home-page:has(> .analytics-consent:not([hidden])) .home-hero .actions {
+    flex-wrap: nowrap;
+    gap: 8px;
+  }
+
+  .home-page:has(> .analytics-consent:not([hidden])) .home-hero .actions .btn {
+    flex: 1 1 0;
+    width: auto;
+    min-width: 0;
+    padding-inline: 10px;
+    white-space: nowrap;
   }
 }
 
-@media (max-width: 390px) {
+@media (max-width: 340px) {
   .analytics-consent__actions {
     flex-direction: column;
-  }
-
-  .analytics-consent__actions button {
-    width: 100%;
   }
 }
 
