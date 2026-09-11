@@ -44,3 +44,54 @@ html,body{overflow-x:hidden}
   object-position: center center;
   border-radius: 20px;
 }
+
+/* Homepage B2B commercial positioning */
+.home-page .hero-copy{width:min(36vw,560px)}
+.home-page .hero-copy h1{max-width:17ch}
+.home-page .hero-copy>p:not(.hero-title){max-width:51ch;font-size:clamp(1rem,1.25vw,1.16rem)}
+.procurement-snapshot{padding:34px 0 30px;border-bottom:1px solid var(--line);background:#fff}
+.procurement-heading{display:flex;align-items:baseline;gap:18px;margin-bottom:20px}
+.procurement-heading h2{margin:0;font-size:1.45rem;line-height:1.2}
+.procurement-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));border:1px solid var(--line);border-radius:16px;background:var(--soft);overflow:hidden}
+.procurement-grid article{display:grid;grid-template-columns:auto minmax(0,1fr);gap:13px;align-items:start;padding:20px 22px;border-left:1px solid var(--line);min-width:0}
+.procurement-grid article:first-child{border-left:0}
+.procurement-grid article>span,.home-process-grid article>span{color:#1763bb;font-size:.78rem;font-weight:900;letter-spacing:.12em}
+.procurement-grid h3{margin:0 0 2px;font-size:.95rem;line-height:1.3}
+.procurement-grid p{margin:0;color:#43566d;font-size:.9rem;line-height:1.45}
+.procurement-note{margin:14px 0 0;color:#6a798c;font-size:.8rem;line-height:1.5}
+.home-process{padding:82px 0;background:#fff}
+.home-process .section-head{margin-bottom:36px}
+.home-process-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:18px}
+.home-process-grid article{padding:24px 22px;border:1px solid var(--line);border-top:3px solid #2878e6;border-radius:16px;background:linear-gradient(180deg,#fff,#f7faff);min-width:0}
+.home-process-grid h3{margin:9px 0 8px;font-size:1.08rem;line-height:1.3}
+.home-process-grid p{margin:0;color:var(--muted);font-size:.91rem;line-height:1.55}
+.home-page .scenario{display:flex;flex-direction:column;align-items:center;min-width:0}
+.home-page .scenario h3{margin:0 0 9px;line-height:1.3}
+.home-page .scenario p{margin:0;color:var(--muted);font-size:.9rem;line-height:1.5}
+
+@media(max-width:1100px){
+  .procurement-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .procurement-grid article{border-top:1px solid var(--line)}
+  .procurement-grid article:nth-child(-n+2){border-top:0}
+  .procurement-grid article:nth-child(odd){border-left:0}
+  .home-process-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+
+@media(max-width:800px){
+  .home-page .hero-copy{width:min(640px,100%)}
+  .home-page .hero-copy h1{max-width:16ch}
+  .procurement-snapshot{padding:28px 0 26px}
+  .procurement-heading{display:block;margin-bottom:16px}
+  .procurement-heading h2{margin-top:3px;font-size:1.3rem}
+  .procurement-grid article{padding:18px 16px;grid-template-columns:1fr;gap:6px}
+  .home-process{padding:52px 0}
+  .home-process .section-head{margin-bottom:24px}
+  .home-process .section-head h2{font-size:clamp(1.85rem,8vw,2.3rem)}
+  .home-process-grid{grid-template-columns:1fr;gap:12px}
+  .home-process-grid article{display:grid;grid-template-columns:30px minmax(0,1fr);grid-template-areas:"number title" "number copy";column-gap:12px;padding:12px 0 12px 14px;border:0;border-left:3px solid #2878e6;border-radius:0;background:transparent}
+  .home-process-grid article>span{grid-area:number;padding-top:2px}
+  .home-process-grid h3{grid-area:title;margin:0 0 5px;font-size:1rem}
+  .home-process-grid p{grid-area:copy;font-size:.875rem}
+  .home-page .scenario{display:grid;grid-template-columns:54px minmax(0,1fr);gap:16px;align-items:start;text-align:left;padding:22px}
+  .home-page .scenario img{margin:0}
+}
