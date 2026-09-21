@@ -20,11 +20,8 @@ const COUNTRY_NAMES = (() => {
 })();
 
 const EMAIL_PATTERN = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-const REQUIRED_CC_RECIPIENTS = [
-  'jiangshan1@kfygroup.com',
-  'xiaoxing@kfygroup.com',
-  'yinquan@kfygroup.com',
-];
+const CONTACT_RECIPIENTS = ['yinquan@kfygroup.com'];
+const CONTACT_CC_RECIPIENTS = ['xiaoxing@kfygroup.com'];
 const MAX_REQUEST_BYTES = 24_000;
 const SUCCESS_MESSAGE = 'Thank you for contacting KFY SMART. Your inquiry has been submitted successfully. Our team will review your requirements and respond within one business day.';
 const GENERAL_ERROR = 'We could not submit your inquiry. Please check the form and try again, or contact us directly by email.';
@@ -45,13 +42,6 @@ function escapeHtml(value) {
     .replaceAll('>', '&gt;')
     .replaceAll('"', '&quot;')
     .replaceAll("'", '&#39;');
-}
-
-function splitRecipients(value) {
-  return String(value ?? '')
-    .split(/[;,]/)
-    .map((address) => address.trim())
-    .filter(Boolean);
 }
 
 function sendJson(res, status, payload) {
@@ -213,8 +203,6 @@ export default async function handler(req, res) {
 
     const {
       CONTACT_FORM_FROM,
-      CONTACT_FORM_TO,
-      CONTACT_FORM_CC,
       TURNSTILE_SECRET_KEY,
       VERCEL_ENV,
     } = process.env;
@@ -223,13 +211,8 @@ export default async function handler(req, res) {
     const resendKeyPresent = Boolean(resendApiKey);
     const resendKeyPrefixValid = resendApiKey.startsWith('re_') && resendApiKey.length > 3;
     logResendConfiguration(submissionId, resendKeyPresent, resendKeyPrefixValid, environment);
-    const to = splitRecipients(CONTACT_FORM_TO);
-    const cc = splitRecipients(CONTACT_FORM_CC);
-    for (const requiredRecipient of REQUIRED_CC_RECIPIENTS) {
-      if (!cc.some((address) => address.toLowerCase() === requiredRecipient.toLowerCase())) {
-        cc.push(requiredRecipient);
-      }
-    }
+    const to = CONTACT_RECIPIENTS;
+    const cc = CONTACT_CC_RECIPIENTS;
     if (!resendKeyPresent || !resendKeyPrefixValid || !CONTACT_FORM_FROM || !to.length || !cc.length || !TURNSTILE_SECRET_KEY) {
       logStatus(submissionId, 'error', 'configuration');
       return sendJson(res, 503, { error: GENERAL_ERROR });

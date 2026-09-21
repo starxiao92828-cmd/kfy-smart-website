@@ -169,8 +169,12 @@ try {
     assert.equal(calls[1].options.headers['User-Agent'], 'KFY-SMART-Contact-Form/1.0');
 
     const payload = JSON.parse(calls[1].options.body);
-    assert.deepEqual(payload.to, ['liwei@kfygroup.com']);
-    assert.deepEqual(payload.cc, ['yinquan@kfygroup.com']);
+    assert.deepEqual(payload.to, ['yinquan@kfygroup.com']);
+    assert.deepEqual(payload.cc, ['xiaoxing@kfygroup.com']);
+    assert.equal(payload.to.includes('liwei@kfygroup.com'), false);
+    assert.equal(payload.cc.includes('liwei@kfygroup.com'), false);
+    assert.equal(payload.to.includes('jiangshan1@kfygroup.com'), false);
+    assert.equal(payload.cc.includes('jiangshan1@kfygroup.com'), false);
     assert.equal(payload.reply_to, validBody.businessEmail);
     assert.equal(payload.from, process.env.CONTACT_FORM_FROM);
     assert.equal(payload.subject, '[PREVIEW TEST] New Website Inquiry – PREVIEW TEST – DO NOT FOLLOW UP – Adjustable Bed Bases');
