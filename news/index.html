@@ -5,7 +5,6 @@
   <script src="/assets/js/analytics-consent.js?v=20260811-production-hosts" defer></script>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link rel="preload" as="image" href="/assets/images/news/kfy-smart-news-page-hero-1920x720.webp" type="image/webp" fetchpriority="high">
   <title>News &amp; Insights | KFY SMART</title>
   <meta name="description" content="Product insights, application guidance and verified KFY SMART updates.">
   <link rel="canonical" href="https://www.kfysmart.com/news/">
@@ -44,7 +43,21 @@
   </header>
   <main>
     <section class="page-hero news-page-hero">
-      <img class="page-hero-image" src="/assets/images/news/kfy-smart-news-page-hero-1920x720.webp" alt="" width="1920" height="720" fetchpriority="high" decoding="async">
+      <img
+        class="page-hero-image"
+        src="/assets/images/news/kfy-smart-news-page-hero-1920x720.webp"
+        srcset="
+          /assets/images/news/kfy-smart-news-page-hero-640x240.webp 640w,
+          /assets/images/news/kfy-smart-news-page-hero-960x360.webp 960w,
+          /assets/images/news/kfy-smart-news-page-hero-1280x480.webp 1280w,
+          /assets/images/news/kfy-smart-news-page-hero-1920x720.webp 1920w
+        "
+        sizes="100vw"
+        alt=""
+        width="1920"
+        height="720"
+        fetchpriority="high"
+        decoding="async">
       <div class="container">
         <div class="eyebrow">NEWS &amp; INSIGHTS</div>
         <h1>Ideas for Smarter B2B Sleep Programs</h1>
