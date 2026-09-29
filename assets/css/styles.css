@@ -95,3 +95,4 @@ html,body{overflow-x:hidden}
   .home-page .scenario{display:grid;grid-template-columns:54px minmax(0,1fr);gap:16px;align-items:start;text-align:left;padding:22px}
   .home-page .scenario img{margin:0}
 }
+.news-page-hero{position:relative;overflow:hidden;background:#030e1f}.news-page-hero .page-hero-image{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:0}.news-page-hero::before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(3,14,31,.91),rgba(3,14,31,.38));z-index:1}.news-page-hero>.container{position:relative;z-index:2}
