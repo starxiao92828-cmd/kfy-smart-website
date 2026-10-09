@@ -23,28 +23,25 @@
   <link rel="stylesheet" href="/assets/css/styles.css?v=5f9b6b0">
   <style>.article-content .article-figure{margin:32px 0}.article-content .article-figure img{display:block;width:100%;max-width:100%;height:auto;aspect-ratio:16/9;object-fit:contain;object-position:center;border-radius:20px}.article-content .article-figure figcaption{margin-top:12px;color:#6c7b8e;font-size:.9rem;line-height:1.55}</style>
   <style id="article-conversion-styles">
-    .article-conversion-page{--article-cta-sticky-layer:900;--article-cta-blue:#1763bb;--article-cta-green:#25d366;padding-bottom:96px}
+    .article-conversion-page{--article-cta-sticky-layer:900;padding-bottom:96px}
     .article-conversion-page .floating-contact{display:none}
-    .article-conversion-page .article-conversion-button{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:52px;padding:12px 18px;border-radius:10px;font-size:.95rem;font-weight:800;line-height:1.35;text-align:center;text-decoration:none;transition:background-color .15s ease}
-    .article-conversion-page .article-conversion-button--whatsapp{background:var(--article-cta-green);color:#052418}
-    .article-conversion-page .article-conversion-button--whatsapp:hover{background:#20c15c}
-    .article-conversion-page .article-conversion-button--quote{background:var(--article-cta-blue);color:#fff}
-    .article-conversion-page .article-conversion-button--quote:hover{background:#104f98}
-    .article-conversion-page .article-conversion-button--review{background:#fff;color:#154d8e;border:1px solid #aac3df}
-    .article-conversion-page .article-conversion-button--review:hover{background:#e4effb}
+    .article-conversion-page .article-conversion-button{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:52px;padding:12px 18px;border-radius:11px;font-size:.95rem;font-weight:800;line-height:1.35;text-align:center;text-decoration:none}
+    .article-conversion-page .article-conversion-button--whatsapp{background:linear-gradient(135deg,#20b95a 0%,#25d366 58%,#62df88 100%);color:#082214;border:1px solid rgba(20,160,75,.18);box-shadow:0 9px 22px rgba(37,211,102,.20),inset 0 1px 0 rgba(255,255,255,.30);transition:transform .2s ease-out,box-shadow .2s ease-out}
+    .article-conversion-page .article-conversion-button--whatsapp:hover{transform:translateY(-1px);box-shadow:0 12px 26px rgba(37,211,102,.24),inset 0 1px 0 rgba(255,255,255,.30)}
     .article-conversion-page .article-conversion-button:focus-visible,.article-conversion-page .article-research-card:focus-visible{outline:3px solid #1763bb;outline-offset:4px}
-    .article-conversion-page .article-conversion-dock{position:fixed;z-index:var(--article-cta-sticky-layer);right:24px;bottom:24px;width:340px;padding:8px;display:flex;gap:8px;border-radius:16px;background:#071426;box-shadow:0 3px 8px rgba(3,14,31,.24)}
+    .article-conversion-page .article-conversion-dock{position:fixed;z-index:var(--article-cta-sticky-layer);right:24px;bottom:24px;width:320px;padding:8px;display:flex;gap:8px;border:1px solid rgba(40,120,230,.14);border-radius:20px;background:rgba(255,255,255,.90);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);box-shadow:0 18px 45px rgba(10,32,62,.16),0 5px 14px rgba(10,32,62,.08)}
     .article-conversion-page .article-conversion-dock .article-conversion-button{min-height:48px;padding:10px 12px;font-size:.875rem;white-space:nowrap}
-    .article-conversion-page .article-conversion-dock .article-conversion-button--whatsapp{flex:1}
-    .article-conversion-page .article-conversion-dock .article-conversion-button--quote{flex:1.5}
-    .article-conversion-page .article-conversion-dock .article-conversion-button:focus-visible{outline-color:#75c9ff;outline-offset:2px}
+    .article-conversion-page .article-conversion-dock .article-conversion-button--whatsapp{flex:42 1 0;min-width:0}
+    .article-conversion-page .article-conversion-dock .article-conversion-button--quote{flex:58 1 0;min-width:0}
+    .article-conversion-page .article-conversion-dock .article-conversion-button:focus-visible{outline-offset:2px}
     .article-conversion-page:has(> .analytics-consent:not([hidden])) .article-conversion-dock,.article-conversion-page.menu-open .article-conversion-dock{visibility:hidden;pointer-events:none}
-    .article-conversion-page .article-mid-conversion{margin:32px 0;padding:30px;border:1px solid #c6daf0;border-radius:18px;background:#f0f6fd;box-shadow:0 2px 6px rgba(11,48,88,.05)}
+    .article-conversion-page .article-mid-conversion{margin:32px 0;padding:32px;border:1px solid rgba(40,120,230,.14);border-radius:20px;background:linear-gradient(135deg,rgba(244,249,255,.98),rgba(255,255,255,.98));box-shadow:0 16px 40px rgba(10,32,62,.08)}
     .article-conversion-page .article-mid-conversion h2,.article-conversion-page .article-research h2,.article-conversion-page .article-final-conversion h3{margin:0 0 12px;color:#071426;font-size:1.55rem;line-height:1.25;text-wrap:balance}
     .article-conversion-page .article-mid-conversion p,.article-conversion-page .article-research>p,.article-conversion-page .article-final-conversion>p{margin:0 0 22px;color:#425974;line-height:1.6}
     .article-conversion-page .article-conversion-actions{display:flex;gap:12px}
     .article-conversion-page .article-conversion-actions>a{flex:1;min-width:0}
-    .article-conversion-page .article-conversion-values{display:flex;flex-wrap:wrap;gap:8px 20px;margin:22px 0 0;padding:0;list-style:none;color:#244d78;font-size:.8rem;font-weight:700}
+    .article-conversion-page .article-conversion-values{display:flex;flex-wrap:wrap;gap:8px;margin:22px 0 0;padding:0;list-style:none;color:#4c627c;font-size:.8rem;font-weight:650}
+    .article-conversion-page .article-conversion-values li{padding:5px 10px;border:1px solid #dce5ef;border-radius:999px;background:#f1f6fc}
     .article-conversion-page .article-conversion-values li:before{content:'✓';margin-right:6px;color:#1763bb}
     .article-conversion-page .article-research{margin:36px 0 0}
     .article-conversion-page .article-research h2{font-size:1.35rem}
@@ -53,10 +50,10 @@
     .article-conversion-page .article-research-card:hover{border-color:#1763bb;background:#f5f9fe}
     .article-conversion-page .article-research-card h3{margin:0;font-size:1rem;line-height:1.4;text-wrap:balance}
     .article-conversion-page .article-research-card span{color:#1763bb;font-size:.85rem;font-weight:800;text-decoration:underline;text-underline-offset:3px}
-    .article-conversion-page .article-final-conversion{margin-top:28px;padding:28px;border:1px solid #c6daf0;border-radius:18px;background:#f0f6fd}
+    .article-conversion-page .article-final-conversion{margin-top:28px;padding:28px;border:1px solid rgba(40,120,230,.14);border-radius:20px;background:linear-gradient(135deg,rgba(244,249,255,.98),rgba(255,255,255,.98));box-shadow:0 16px 40px rgba(10,32,62,.08)}
     @media(min-width:801px){.article-conversion-page .article-page{width:min(950px,calc(100% - 400px));margin-left:max(20px,calc((100% - 1330px)/2));margin-right:auto}}
-    @media(max-width:800px){.article-conversion-page{padding-bottom:calc(88px + env(safe-area-inset-bottom,0px))}.article-conversion-page .article-conversion-dock{left:12px;right:12px;bottom:calc(8px + env(safe-area-inset-bottom,0px));width:auto;border-radius:14px}.article-conversion-page .article-conversion-dock .article-conversion-button{min-height:56px;font-size:.9rem}.article-conversion-page .article-conversion-dock .article-conversion-button--whatsapp,.article-conversion-page .article-conversion-dock .article-conversion-button--quote{flex:1}.article-conversion-page .article-dock-arrow{display:none}.article-conversion-page .article-mid-conversion,.article-conversion-page .article-final-conversion{padding:24px 20px}.article-conversion-page .article-conversion-actions{flex-direction:column}.article-conversion-page .article-research-grid{grid-template-columns:1fr}.article-conversion-page .article-research-card{gap:14px}.article-conversion-page .article-conversion-values{gap:8px 14px}}
-    @media(prefers-reduced-motion:reduce){.article-conversion-page .article-conversion-button,.article-conversion-page .article-research-card{transition:none}}
+    @media(max-width:800px){.article-conversion-page{padding-bottom:calc(96px + env(safe-area-inset-bottom,0px))}.article-conversion-page .article-conversion-dock{left:12px;right:12px;bottom:calc(12px + env(safe-area-inset-bottom,0px));width:auto;padding:7px;border-radius:18px;background:rgba(255,255,255,.92);box-shadow:0 16px 38px rgba(10,32,62,.16),0 4px 12px rgba(10,32,62,.08)}.article-conversion-page .article-conversion-dock .article-conversion-button{min-height:56px;font-size:.9rem}.article-conversion-page .article-dock-arrow{display:none}.article-conversion-page .article-mid-conversion,.article-conversion-page .article-final-conversion{padding:24px 20px}.article-conversion-page .article-conversion-actions{flex-direction:column}.article-conversion-page .article-research-grid{grid-template-columns:1fr}.article-conversion-page .article-research-card{gap:14px}.article-conversion-page .article-conversion-values{gap:8px}}
+    @media(prefers-reduced-motion:reduce){.article-conversion-page .article-conversion-button,.article-conversion-page .article-conversion-button:hover,.article-conversion-page .article-research-card{transition:none;transform:none}}
   </style>
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","@id":"https://www.kfysmart.com/#organization","name":"KFY SMART","legalName":"Anhui Care For You Network Technology Co., Ltd.","url":"https://www.kfysmart.com/","sameAs":["https://www.linkedin.com/company/kfy-smart","https://www.facebook.com/kfysmart","https://www.youtube.com/@KFYSMART"]}</script>
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"KFY SMART","url":"https://www.kfysmart.com"}</script>
@@ -127,7 +124,7 @@
             <p>Send us your frame dimensions, drawings or reference photos. We can help review the installation approach for your adjustable-bed program.</p>
             <div class="article-conversion-actions">
               <a class="article-conversion-button article-conversion-button--whatsapp" href="https://wa.me/8618656530921?text=Hi%20KFY%20SMART%2C%20I%27m%20evaluating%20an%20adjustable%20bed%20base%20for%20a%20platform%20bed%20or%20existing%20bed%20frame.%20I%27d%20like%20help%20checking%20compatibility." target="_blank" rel="noopener noreferrer" aria-label="Send specs on WhatsApp (opens in a new tab)" data-article-event="article_whatsapp_click" data-article-position="mid_article" data-article-label="Send Specs on WhatsApp" data-article-destination="whatsapp">Send Specs on WhatsApp</a>
-              <a class="article-conversion-button article-conversion-button--review" href="/contact/?product=adjustable-bed-base" data-article-event="article_quote_click" data-article-position="mid_article" data-article-label="Request Compatibility Review" data-article-destination="contact">Request Compatibility Review <span aria-hidden="true">→</span></a>
+              <a class="btn btn-primary article-conversion-button article-conversion-button--review" href="/contact/?product=adjustable-bed-base" data-article-event="article_quote_click" data-article-position="mid_article" data-article-label="Request Compatibility Review" data-article-destination="contact">Request Compatibility Review <span aria-hidden="true">→</span></a>
             </div>
             <ul class="article-conversion-values" aria-label="Program support"><li>OEM/ODM Available</li><li>Private Label</li><li>Global Delivery Support</li></ul>
           </aside>
@@ -242,7 +239,7 @@
             <h3 id="article-final-conversion-title">Planning an OEM/ODM Adjustable Bed Program?</h3>
             <p>Share your target market, product requirements, expected quantity and furniture/application details with our team.</p>
             <div class="article-conversion-actions">
-              <a class="article-conversion-button article-conversion-button--quote" href="/contact/?product=adjustable-bed-base" data-article-event="article_quote_click" data-article-position="final" data-article-label="Request OEM/ODM Quote" data-article-destination="contact">Request OEM/ODM Quote</a>
+              <a class="btn btn-primary article-conversion-button article-conversion-button--quote" href="/contact/?product=adjustable-bed-base" data-article-event="article_quote_click" data-article-position="final" data-article-label="Request OEM/ODM Quote" data-article-destination="contact">Request OEM/ODM Quote</a>
               <a class="article-conversion-button article-conversion-button--whatsapp" href="https://wa.me/8618656530921?text=Hi%20KFY%20SMART%2C%20I%27m%20evaluating%20an%20adjustable%20bed%20base%20for%20a%20platform%20bed%20or%20existing%20bed%20frame.%20I%27d%20like%20help%20checking%20compatibility." target="_blank" rel="noopener noreferrer" aria-label="Discuss your program on WhatsApp (opens in a new tab)" data-article-event="article_whatsapp_click" data-article-position="final" data-article-label="WhatsApp" data-article-destination="whatsapp">WhatsApp</a>
             </div>
           </div>
@@ -261,7 +258,7 @@
   <div class="floating-contact" data-floating-contact hidden inert aria-hidden="true"><button class="floating-toggle" data-contact-toggle aria-expanded="false" aria-label="Open contact options">＋</button><div class="floating-links"><a href="https://wa.me/8618656530921?text=Hello%20KFY%20SMART%2C%20I%20am%20interested%20in%20your%20smart%20sleep%20products.%20Please%20send%20me%20more%20details." target="_blank" rel="noopener" aria-label="Contact on WhatsApp">WA</a><a href="mailto:yinquan@kfygroup.com" aria-label="Send email">✉</a><a href="https://www.linkedin.com/company/kfy-smart" target="_blank" rel="noopener noreferrer" aria-label="KFY SMART on LinkedIn">in</a></div></div>
   <nav class="article-conversion-dock" aria-label="Contact KFY SMART about bed-frame compatibility">
     <a class="article-conversion-button article-conversion-button--whatsapp" href="https://wa.me/8618656530921?text=Hi%20KFY%20SMART%2C%20I%27m%20evaluating%20an%20adjustable%20bed%20base%20for%20a%20platform%20bed%20or%20existing%20bed%20frame.%20I%27d%20like%20help%20checking%20compatibility." target="_blank" rel="noopener noreferrer" aria-label="WhatsApp compatibility help (opens in a new tab)" data-article-event="article_whatsapp_click" data-article-position="sticky" data-article-label="WhatsApp" data-article-destination="whatsapp">WhatsApp</a>
-    <a class="article-conversion-button article-conversion-button--quote" href="/contact/" data-article-event="article_quote_click" data-article-position="sticky" data-article-label="Get B2B Quote" data-article-destination="contact">Get B2B Quote <span class="article-dock-arrow" aria-hidden="true">→</span></a>
+    <a class="btn btn-primary article-conversion-button article-conversion-button--quote" href="/contact/" data-article-event="article_quote_click" data-article-position="sticky" data-article-label="Get B2B Quote" data-article-destination="contact">Get B2B Quote <span class="article-dock-arrow" aria-hidden="true">→</span></a>
   </nav>
   <script src="/assets/js/site-config.js"></script><script src="/assets/js/main.js" defer></script>
   <script id="article-conversion-tracking">
