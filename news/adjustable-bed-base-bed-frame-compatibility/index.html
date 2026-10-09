@@ -22,12 +22,48 @@
   <link rel="apple-touch-icon" href="/assets/logo/favicon-180.png">
   <link rel="stylesheet" href="/assets/css/styles.css?v=5f9b6b0">
   <style>.article-content .article-figure{margin:32px 0}.article-content .article-figure img{display:block;width:100%;max-width:100%;height:auto;aspect-ratio:16/9;object-fit:contain;object-position:center;border-radius:20px}.article-content .article-figure figcaption{margin-top:12px;color:#6c7b8e;font-size:.9rem;line-height:1.55}</style>
+  <style id="article-conversion-styles">
+    .article-conversion-page{--article-cta-sticky-layer:900;--article-cta-blue:#1763bb;--article-cta-green:#25d366;padding-bottom:96px}
+    .article-conversion-page .floating-contact{display:none}
+    .article-conversion-page .article-conversion-button{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:52px;padding:12px 18px;border-radius:10px;font-size:.95rem;font-weight:800;line-height:1.35;text-align:center;text-decoration:none;transition:background-color .15s ease}
+    .article-conversion-page .article-conversion-button--whatsapp{background:var(--article-cta-green);color:#052418}
+    .article-conversion-page .article-conversion-button--whatsapp:hover{background:#20c15c}
+    .article-conversion-page .article-conversion-button--quote{background:var(--article-cta-blue);color:#fff}
+    .article-conversion-page .article-conversion-button--quote:hover{background:#104f98}
+    .article-conversion-page .article-conversion-button--review{background:#fff;color:#154d8e;border:1px solid #aac3df}
+    .article-conversion-page .article-conversion-button--review:hover{background:#e4effb}
+    .article-conversion-page .article-conversion-button:focus-visible,.article-conversion-page .article-research-card:focus-visible{outline:3px solid #1763bb;outline-offset:4px}
+    .article-conversion-page .article-conversion-dock{position:fixed;z-index:var(--article-cta-sticky-layer);right:24px;bottom:24px;width:340px;padding:8px;display:flex;gap:8px;border-radius:16px;background:#071426;box-shadow:0 3px 8px rgba(3,14,31,.24)}
+    .article-conversion-page .article-conversion-dock .article-conversion-button{min-height:48px;padding:10px 12px;font-size:.875rem;white-space:nowrap}
+    .article-conversion-page .article-conversion-dock .article-conversion-button--whatsapp{flex:1}
+    .article-conversion-page .article-conversion-dock .article-conversion-button--quote{flex:1.5}
+    .article-conversion-page .article-conversion-dock .article-conversion-button:focus-visible{outline-color:#75c9ff;outline-offset:2px}
+    .article-conversion-page:has(> .analytics-consent:not([hidden])) .article-conversion-dock,.article-conversion-page.menu-open .article-conversion-dock{visibility:hidden;pointer-events:none}
+    .article-conversion-page .article-mid-conversion{margin:32px 0;padding:30px;border:1px solid #c6daf0;border-radius:18px;background:#f0f6fd;box-shadow:0 2px 6px rgba(11,48,88,.05)}
+    .article-conversion-page .article-mid-conversion h2,.article-conversion-page .article-research h2,.article-conversion-page .article-final-conversion h3{margin:0 0 12px;color:#071426;font-size:1.55rem;line-height:1.25;text-wrap:balance}
+    .article-conversion-page .article-mid-conversion p,.article-conversion-page .article-research>p,.article-conversion-page .article-final-conversion>p{margin:0 0 22px;color:#425974;line-height:1.6}
+    .article-conversion-page .article-conversion-actions{display:flex;gap:12px}
+    .article-conversion-page .article-conversion-actions>a{flex:1;min-width:0}
+    .article-conversion-page .article-conversion-values{display:flex;flex-wrap:wrap;gap:8px 20px;margin:22px 0 0;padding:0;list-style:none;color:#244d78;font-size:.8rem;font-weight:700}
+    .article-conversion-page .article-conversion-values li:before{content:'✓';margin-right:6px;color:#1763bb}
+    .article-conversion-page .article-research{margin:36px 0 0}
+    .article-conversion-page .article-research h2{font-size:1.35rem}
+    .article-conversion-page .article-research-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+    .article-conversion-page .article-research-card{display:flex;flex-direction:column;justify-content:space-between;gap:20px;min-width:0;padding:20px 16px;border:1px solid #cbd9e9;border-radius:14px;background:#fff;color:#102b4c;text-decoration:none;transition:border-color .15s ease,background-color .15s ease}
+    .article-conversion-page .article-research-card:hover{border-color:#1763bb;background:#f5f9fe}
+    .article-conversion-page .article-research-card h3{margin:0;font-size:1rem;line-height:1.4;text-wrap:balance}
+    .article-conversion-page .article-research-card span{color:#1763bb;font-size:.85rem;font-weight:800;text-decoration:underline;text-underline-offset:3px}
+    .article-conversion-page .article-final-conversion{margin-top:28px;padding:28px;border:1px solid #c6daf0;border-radius:18px;background:#f0f6fd}
+    @media(min-width:801px){.article-conversion-page .article-page{width:min(950px,calc(100% - 400px));margin-left:max(20px,calc((100% - 1330px)/2));margin-right:auto}}
+    @media(max-width:800px){.article-conversion-page{padding-bottom:calc(88px + env(safe-area-inset-bottom,0px))}.article-conversion-page .article-conversion-dock{left:12px;right:12px;bottom:calc(8px + env(safe-area-inset-bottom,0px));width:auto;border-radius:14px}.article-conversion-page .article-conversion-dock .article-conversion-button{min-height:56px;font-size:.9rem}.article-conversion-page .article-conversion-dock .article-conversion-button--whatsapp,.article-conversion-page .article-conversion-dock .article-conversion-button--quote{flex:1}.article-conversion-page .article-dock-arrow{display:none}.article-conversion-page .article-mid-conversion,.article-conversion-page .article-final-conversion{padding:24px 20px}.article-conversion-page .article-conversion-actions{flex-direction:column}.article-conversion-page .article-research-grid{grid-template-columns:1fr}.article-conversion-page .article-research-card{gap:14px}.article-conversion-page .article-conversion-values{gap:8px 14px}}
+    @media(prefers-reduced-motion:reduce){.article-conversion-page .article-conversion-button,.article-conversion-page .article-research-card{transition:none}}
+  </style>
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","@id":"https://www.kfysmart.com/#organization","name":"KFY SMART","legalName":"Anhui Care For You Network Technology Co., Ltd.","url":"https://www.kfysmart.com/","sameAs":["https://www.linkedin.com/company/kfy-smart","https://www.facebook.com/kfysmart","https://www.youtube.com/@KFYSMART"]}</script>
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"KFY SMART","url":"https://www.kfysmart.com"}</script>
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.kfysmart.com/"},{"@type":"ListItem","position":2,"name":"News","item":"https://www.kfysmart.com/news/"},{"@type":"ListItem","position":3,"name":"Can You Use an Adjustable Bed Base With a Platform Bed or Existing Bed Frame?","item":"https://www.kfysmart.com/news/adjustable-bed-base-bed-frame-compatibility/"}]}</script>
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Can You Use an Adjustable Bed Base With a Platform Bed or Existing Bed Frame?","description":"Can an adjustable bed base work with a platform bed? Compare zero-clearance, slat, drop-in and storage-bed setups, plus the B2B fit checks buyers should verify.","datePublished":"2026-08-14","dateModified":"2026-10-09","author":{"@type":"Organization","@id":"https://www.kfysmart.com/#organization","name":"KFY SMART"},"publisher":{"@type":"Organization","@id":"https://www.kfysmart.com/#organization","name":"KFY SMART","logo":{"@type":"ImageObject","url":"https://www.kfysmart.com/assets/logo/favicon-512.png"}},"mainEntityOfPage":{"@type":"WebPage","@id":"https://www.kfysmart.com/news/adjustable-bed-base-bed-frame-compatibility/"},"image":["https://www.kfysmart.com/images/news/adjustable-bed-base-bed-frame-compatibility-kfy-smart.webp"]}</script>
 </head>
-<body>
+<body class="article-conversion-page">
   <header class="site-header" data-site-header><nav class="nav container" aria-label="Main navigation">
     <a class="brand" href="/" aria-label="KFY SMART home"><img src="/assets/logo/kfy-logo-icon-white.png" alt="" width="40" height="40"><span>KFY SMART</span></a>
     <button class="mobile-toggle" data-menu-toggle aria-expanded="false" aria-controls="primary-menu"><span></span><span></span><span></span><b class="sr-only">Open menu</b></button>
@@ -86,6 +122,24 @@
             </tbody>
           </table></div>
           <p>This matrix is a screening tool, not a model approval. A decorative platform is not automatically an engineered support platform. Prototype-fit testing is recommended for B2B programs using the actual base, mattress and furniture combination.</p>
+          <aside class="article-mid-conversion" aria-labelledby="article-mid-conversion-title">
+            <h2 id="article-mid-conversion-title">Need to Check Your Bed Frame Setup?</h2>
+            <p>Send us your frame dimensions, drawings or reference photos. We can help review the installation approach for your adjustable-bed program.</p>
+            <div class="article-conversion-actions">
+              <a class="article-conversion-button article-conversion-button--whatsapp" href="https://wa.me/8618656530921?text=Hi%20KFY%20SMART%2C%20I%27m%20evaluating%20an%20adjustable%20bed%20base%20for%20a%20platform%20bed%20or%20existing%20bed%20frame.%20I%27d%20like%20help%20checking%20compatibility." target="_blank" rel="noopener noreferrer" aria-label="Send specs on WhatsApp (opens in a new tab)" data-article-event="article_whatsapp_click" data-article-position="mid_article" data-article-label="Send Specs on WhatsApp" data-article-destination="whatsapp">Send Specs on WhatsApp</a>
+              <a class="article-conversion-button article-conversion-button--review" href="/contact/?product=adjustable-bed-base" data-article-event="article_quote_click" data-article-position="mid_article" data-article-label="Request Compatibility Review" data-article-destination="contact">Request Compatibility Review <span aria-hidden="true">→</span></a>
+            </div>
+            <ul class="article-conversion-values" aria-label="Program support"><li>OEM/ODM Available</li><li>Private Label</li><li>Global Delivery Support</li></ul>
+          </aside>
+          <section class="article-research" aria-labelledby="article-research-title">
+            <h2 id="article-research-title">Continue Your Research</h2>
+            <p>Explore related guides for adjustable-bed base selection, installation and furniture integration.</p>
+            <div class="article-research-grid">
+              <a class="article-research-card" href="/news/zero-clearance-adjustable-bed-base-b2b-guide/" data-article-event="article_related_click" data-article-position="mid_article" data-article-label="Zero-Clearance Adjustable Bed Base Guide" data-article-destination="related_content"><h3>Zero-Clearance Adjustable Bed Base Guide</h3><span>Read guide →</span></a>
+              <a class="article-research-card" href="/news/videos/adjustable-bed-base-assembly-guide/" data-article-event="article_related_click" data-article-position="mid_article" data-article-label="Adjustable Bed Base Assembly Guide" data-article-destination="related_content"><h3>Adjustable Bed Base Assembly Guide</h3><span>View installation →</span></a>
+              <a class="article-research-card" href="/products/adjustable-bed-bases/" data-article-event="article_related_click" data-article-position="mid_article" data-article-label="Explore Adjustable Bed Bases" data-article-destination="related_content"><h3>Explore Adjustable Bed Bases</h3><span>Compare models →</span></a>
+            </div>
+          </section>
         </section>
         <section><h2>Can an Adjustable Base Sit on Bed Slats?</h2>
           <p>It depends on the base design and the slat system. An adjustable bed base with slats may be possible when the slats form a sufficiently strong, level and closely supported surface, but many bases are not designed to rest directly on widely spaced or flexible slats.</p>
@@ -184,7 +238,14 @@
           <p>Adjustable-base compatibility is not a single dimension. It is the relationship between the moving base, mattress, furniture geometry, support structure, finished height and installation process.</p>
           <p>Planning an adjustable-bed program for your mattress, furniture or distribution business? Send KFY SMART your target market, mattress specifications and furniture dimensions to discuss a compatible OEM/ODM configuration.</p>
           <p><a href="/products/adjustable-bed-bases/">Explore Adjustable Bed Bases</a></p>
-          <p><a href="/contact/">Discuss Your Project</a></p>
+          <div class="article-final-conversion" aria-labelledby="article-final-conversion-title">
+            <h3 id="article-final-conversion-title">Planning an OEM/ODM Adjustable Bed Program?</h3>
+            <p>Share your target market, product requirements, expected quantity and furniture/application details with our team.</p>
+            <div class="article-conversion-actions">
+              <a class="article-conversion-button article-conversion-button--quote" href="/contact/?product=adjustable-bed-base" data-article-event="article_quote_click" data-article-position="final" data-article-label="Request OEM/ODM Quote" data-article-destination="contact">Request OEM/ODM Quote</a>
+              <a class="article-conversion-button article-conversion-button--whatsapp" href="https://wa.me/8618656530921?text=Hi%20KFY%20SMART%2C%20I%27m%20evaluating%20an%20adjustable%20bed%20base%20for%20a%20platform%20bed%20or%20existing%20bed%20frame.%20I%27d%20like%20help%20checking%20compatibility." target="_blank" rel="noopener noreferrer" aria-label="Discuss your program on WhatsApp (opens in a new tab)" data-article-event="article_whatsapp_click" data-article-position="final" data-article-label="WhatsApp" data-article-destination="whatsapp">WhatsApp</a>
+            </div>
+          </div>
         </section>
         <section class="article-sources"><h2>Sources</h2><ol>
           <li><a href="/products/adjustable-bed-bases/">KFY SMART — Adjustable Bed Bases</a></li>
@@ -197,6 +258,48 @@
     <section class="global-cta"><div class="container"><div class="eyebrow">GLOBAL B2B COOPERATION</div><h2>Let’s Build Smarter Sleep Solutions Together</h2><p>Discuss product selection, configuration, private-label requirements and international delivery with our team.</p><div class="actions center"><a class="btn btn-primary" href="/products/">Explore Products</a><a class="btn btn-outline-light" href="/contact/">Get a Quote</a><a class="btn btn-ghost-light" href="https://wa.me/8618656530921?text=Hello%20KFY%20SMART%2C%20I%20am%20interested%20in%20your%20smart%20sleep%20products.%20Please%20send%20me%20more%20details." target="_blank" rel="noopener">Contact on WhatsApp</a></div></div></section>
   </main>
   <footer class="site-footer"><div class="container footer-grid"><div class="footer-intro"><a class="footer-brand" href="/"><img src="/assets/logo/kfy-logo-icon-white.png" alt="" width="40" height="40"><span>KFY SMART</span></a><p>B2B smart sleep product and sourcing solutions for global partners.</p><p class="operator">Operated by Anhui Care For You Network Technology Co., Ltd.<br>A KFY Group company · Hefei, Anhui, China</p><div class="socials"><a href="https://wa.me/8618656530921?text=Hello%20KFY%20SMART%2C%20I%20am%20interested%20in%20your%20smart%20sleep%20products.%20Please%20send%20me%20more%20details." target="_blank" rel="noopener" aria-label="WhatsApp">WA</a><a href="mailto:yinquan@kfygroup.com" aria-label="Email">✉</a><a href="https://www.linkedin.com/company/kfy-smart" target="_blank" rel="noopener noreferrer" aria-label="KFY SMART on LinkedIn">in</a><a href="https://www.facebook.com/kfysmart" target="_blank" rel="noopener noreferrer" aria-label="KFY SMART on Facebook">f</a><a href="https://www.youtube.com/@KFYSMART" target="_blank" rel="noopener noreferrer" aria-label="KFY SMART on YouTube">▶</a></div></div><div><h2>Products</h2><a href="/products/adjustable-bed-bases/">Adjustable Bed Bases</a><a href="/products/smart-beds/">Smart Beds</a><a href="/products/smart-mattresses/">Smart Mattresses</a></div><div><h2>Company</h2><a href="/about/">About</a><a href="/news/">News</a><a href="/contact/">Contact</a></div><div><h2>Contact</h2><a href="mailto:yinquan@kfygroup.com">yinquan@kfygroup.com</a><a href="https://wa.me/8618656530921?text=Hello%20KFY%20SMART%2C%20I%20am%20interested%20in%20your%20smart%20sleep%20products.%20Please%20send%20me%20more%20details." target="_blank" rel="noopener">+86 186 5653 0921</a><a href="https://www.linkedin.com/company/kfy-smart" target="_blank" rel="noopener noreferrer" aria-label="KFY SMART on LinkedIn">KFY SMART</a><span>Hefei, Anhui, China</span></div></div><div class="container copyright"><span><a href="/privacy-policy/">Privacy Policy</a> | <a href="/terms-of-use/">Terms of Use</a></span><span>© 2026 KFY SMART. All Rights Reserved.</span></div></footer>
-  <div class="floating-contact" data-floating-contact><button class="floating-toggle" data-contact-toggle aria-expanded="false" aria-label="Open contact options">＋</button><div class="floating-links"><a href="https://wa.me/8618656530921?text=Hello%20KFY%20SMART%2C%20I%20am%20interested%20in%20your%20smart%20sleep%20products.%20Please%20send%20me%20more%20details." target="_blank" rel="noopener" aria-label="Contact on WhatsApp">WA</a><a href="mailto:yinquan@kfygroup.com" aria-label="Send email">✉</a><a href="https://www.linkedin.com/company/kfy-smart" target="_blank" rel="noopener noreferrer" aria-label="KFY SMART on LinkedIn">in</a></div></div><script src="/assets/js/site-config.js"></script><script src="/assets/js/main.js" defer></script>
+  <div class="floating-contact" data-floating-contact hidden inert aria-hidden="true"><button class="floating-toggle" data-contact-toggle aria-expanded="false" aria-label="Open contact options">＋</button><div class="floating-links"><a href="https://wa.me/8618656530921?text=Hello%20KFY%20SMART%2C%20I%20am%20interested%20in%20your%20smart%20sleep%20products.%20Please%20send%20me%20more%20details." target="_blank" rel="noopener" aria-label="Contact on WhatsApp">WA</a><a href="mailto:yinquan@kfygroup.com" aria-label="Send email">✉</a><a href="https://www.linkedin.com/company/kfy-smart" target="_blank" rel="noopener noreferrer" aria-label="KFY SMART on LinkedIn">in</a></div></div>
+  <nav class="article-conversion-dock" aria-label="Contact KFY SMART about bed-frame compatibility">
+    <a class="article-conversion-button article-conversion-button--whatsapp" href="https://wa.me/8618656530921?text=Hi%20KFY%20SMART%2C%20I%27m%20evaluating%20an%20adjustable%20bed%20base%20for%20a%20platform%20bed%20or%20existing%20bed%20frame.%20I%27d%20like%20help%20checking%20compatibility." target="_blank" rel="noopener noreferrer" aria-label="WhatsApp compatibility help (opens in a new tab)" data-article-event="article_whatsapp_click" data-article-position="sticky" data-article-label="WhatsApp" data-article-destination="whatsapp">WhatsApp</a>
+    <a class="article-conversion-button article-conversion-button--quote" href="/contact/" data-article-event="article_quote_click" data-article-position="sticky" data-article-label="Get B2B Quote" data-article-destination="contact">Get B2B Quote <span class="article-dock-arrow" aria-hidden="true">→</span></a>
+  </nav>
+  <script src="/assets/js/site-config.js"></script><script src="/assets/js/main.js" defer></script>
+  <script id="article-conversion-tracking">
+    (function () {
+      'use strict';
+      function analyticsGranted() {
+        var layer = window.dataLayer;
+        if (!Array.isArray(layer) || typeof layer.push !== 'function') return false;
+        for (var i = layer.length - 1; i >= 0; i--) {
+          var command = layer[i];
+          if (command && command[0] === 'consent' && command[2] && typeof command[2].analytics_storage === 'string') {
+            return command[2].analytics_storage === 'granted';
+          }
+        }
+        return false;
+      }
+      document.addEventListener('click', function (event) {
+        var link = event.target instanceof Element ? event.target.closest('a[data-article-event]') : null;
+        if (!link) return;
+        try {
+          if (!analyticsGranted()) return;
+          var eventName = link.dataset.articleEvent;
+          if (['article_whatsapp_click', 'article_quote_click', 'article_related_click'].indexOf(eventName) === -1) return;
+          var position = link.dataset.articlePosition;
+          if (position === 'sticky') position = window.matchMedia('(max-width:800px)').matches ? 'sticky_mobile' : 'sticky_desktop';
+          window.dataLayer.push({
+            event: eventName,
+            page_type: 'article',
+            article_slug: 'adjustable-bed-base-bed-frame-compatibility',
+            cta_position: position,
+            cta_label: link.dataset.articleLabel,
+            destination_type: link.dataset.articleDestination
+          });
+        } catch (error) {
+          // Analytics must never interrupt a real link's navigation.
+        }
+      });
+    })();
+  </script>
 </body>
 </html>
