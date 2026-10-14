@@ -1,0 +1,99 @@
+.article-toc {
+  margin: 32px 0;
+  padding: 18px 0;
+  border-block: 1px solid var(--line, #dce5ef);
+  color: var(--text, #0d1930);
+}
+
+.article-toc summary {
+  min-height: 44px;
+  padding: 8px 4px;
+  font-weight: 750;
+  cursor: pointer;
+}
+
+.article-toc summary::marker {
+  color: #174a82;
+}
+
+.article-toc ol {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 4px 24px;
+  margin: 8px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.article-toc a {
+  display: flex;
+  align-items: center;
+  min-height: 44px;
+  padding: 6px 4px;
+  color: #174a82;
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+  overflow-wrap: anywhere;
+}
+
+.article-toc a:hover,
+.procurement-guides a:hover {
+  color: #071426;
+}
+
+.article-toc a:focus-visible,
+.article-toc summary:focus-visible,
+.procurement-guides a:focus-visible {
+  outline: 2px solid #1763bb;
+  outline-offset: 3px;
+}
+
+[data-toc-target] {
+  scroll-margin-top: calc(var(--header, 84px) + 24px);
+}
+
+.procurement-guides {
+  margin-top: 36px;
+  padding-top: 24px;
+  border-top: 1px solid var(--line, #dce5ef);
+}
+
+.procurement-guides h3 {
+  margin: 0 0 12px;
+  font-size: 1.25rem;
+}
+
+.procurement-guides ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 28px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.procurement-guides a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  color: #174a82;
+  font-weight: 650;
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+}
+
+@media (max-width: 800px) {
+  .article-toc ol {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .procurement-guides ul {
+    flex-direction: column;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
