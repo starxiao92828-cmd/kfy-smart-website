@@ -16,7 +16,7 @@ function createField(value = '', options = {}) {
   };
 }
 
-async function runScenario(name, postResponse) {
+async function runScenario(name, postResponse, inquiryContext) {
   const fields = {
     name: createField('Preview Test User'),
     businessEmail: createField('preview@example.com'),
@@ -52,9 +52,11 @@ async function runScenario(name, postResponse) {
   const datalist = { replaceChildren() {} };
   const dataLayer = [];
   let fetchCount = 0;
+  let sentPayload;
 
   globalThis.window = {
     dataLayer,
+    KFY_INQUIRY_CONTEXT: inquiryContext ? { get: () => inquiryContext } : undefined,
     localStorage: { getItem: () => 'accepted' },
     location: {
       pathname: '/contact/',
@@ -86,6 +88,7 @@ async function runScenario(name, postResponse) {
     if (!options.method) {
       return { ok: true, async json() { return { turnstileSiteKey: 'test-site-key' }; } };
     }
+    sentPayload = JSON.parse(options.body);
     if (postResponse instanceof Error) throw postResponse;
     return postResponse;
   };
@@ -96,7 +99,7 @@ async function runScenario(name, postResponse) {
   await submitHandler({ preventDefault() {} });
 
   const leadEvents = dataLayer.filter((entry) => entry.event === 'kfy_generate_lead');
-  return { leadEvents, resetCount, status, fetchCount };
+  return { leadEvents, resetCount, status, fetchCount, sentPayload };
 }
 
 const success = await runScenario('success', {
@@ -112,6 +115,22 @@ assert.deepEqual(Object.keys(success.leadEvents[0]).sort(), [
   'product_model',
 ]);
 assert.equal(success.resetCount, 1);
+
+const attributed = await runScenario('attributed-success', {
+  ok: true,
+  async json() { return { ok: true, submissionId: 'attributed-123' }; },
+}, {
+  sourcePage: '/products/smart-mattresses/',
+  landingPage: '/news/smart-mattress-oem-odm-sourcing-china-b2b-guide/',
+  referrer: 'https://www.linkedin.com/feed/',
+  utmSource: 'linkedin', utmMedium: 'social', utmCampaign: 'buyer_guides', utmContent: 'post_a', utmTerm: '',
+});
+assert.equal(attributed.sentPayload.sourcePage, '/products/smart-mattresses/');
+assert.equal(attributed.sentPayload.utmContent, 'post_a');
+assert.equal(attributed.sentPayload.landingPage, '/news/smart-mattress-oem-odm-sourcing-china-b2b-guide/');
+assert.equal(attributed.leadEvents.length, 1);
+assert.equal(attributed.leadEvents[0].page_path, '/contact/');
+assert.equal('businessEmail' in attributed.leadEvents[0], false);
 
 const honeypot = await runScenario('honeypot', {
   ok: true,

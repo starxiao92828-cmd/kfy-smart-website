@@ -55,7 +55,7 @@
       event: 'kfy_generate_lead',
       product_category: payload.productInterest || 'not_specified',
       product_model: payload.productModel || 'not_specified',
-      page_path: payload.sourcePage || window.location.pathname,
+      page_path: window.location.pathname,
       language: document.documentElement.lang || 'en',
     });
   };
@@ -227,6 +227,7 @@
     }
 
     const params = new URLSearchParams(window.location.search);
+    const inquiryContext = window.KFY_INQUIRY_CONTEXT?.get() || {};
     const payload = {
       name: fields.name.value,
       businessEmail: fields.businessEmail.value,
@@ -240,13 +241,16 @@
       privacyAgreement: fields.privacyAgreement.checked,
       website: form.elements.website.value,
       turnstileToken,
-      sourcePage: window.location.pathname,
+      sourcePage: inquiryContext.sourcePage || window.location.pathname,
+      landingPage: inquiryContext.landingPage || window.location.pathname,
       pageUrl: window.location.href,
       productModel: (params.get('model') || params.get('product') || fields.specificProduct.value).slice(0, 100),
-      referrer: document.referrer,
-      utmSource: params.get('utm_source') || '',
-      utmMedium: params.get('utm_medium') || '',
-      utmCampaign: params.get('utm_campaign') || '',
+      referrer: inquiryContext.referrer || document.referrer,
+      utmSource: inquiryContext.utmSource || params.get('utm_source') || '',
+      utmMedium: inquiryContext.utmMedium || params.get('utm_medium') || '',
+      utmCampaign: inquiryContext.utmCampaign || params.get('utm_campaign') || '',
+      utmContent: inquiryContext.utmContent || params.get('utm_content') || '',
+      utmTerm: inquiryContext.utmTerm || params.get('utm_term') || '',
     };
 
     submitButton.disabled = true;
