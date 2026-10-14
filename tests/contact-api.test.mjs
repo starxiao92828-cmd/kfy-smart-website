@@ -53,12 +53,15 @@ const validBody = {
   website: '',
   turnstileToken: 'test-token',
   sourcePage: '/contact/',
+  landingPage: '/news/smart-mattress-oem-odm-sourcing-china-b2b-guide/',
   pageUrl: 'https://preview.example/contact/?utm_source=codex',
   productModel: 'E1',
   referrer: 'https://preview.example/products/',
   utmSource: 'codex',
   utmMedium: 'preview',
   utmCampaign: 'contact-form-v1',
+  utmContent: 'post_a',
+  utmTerm: 'smart mattress',
 };
 
 try {
@@ -181,6 +184,9 @@ try {
     assert.match(payload.html, /Inquiry Details/);
     assert.match(payload.html, /Source Information/);
     assert.match(payload.text, /UTM Campaign: contact-form-v1/);
+    assert.match(payload.text, /UTM Content: post_a/);
+    assert.match(payload.text, /UTM Term: smart mattress/);
+    assert.match(payload.text, /Landing Page: \/news\/smart-mattress-oem-odm-sourcing-china-b2b-guide\//);
     assert.equal(calls[1].options.headers['Idempotency-Key'], res.body.submissionId);
     assert.doesNotMatch(payload.html, /test-token|re_test_resend_key/);
     assert.doesNotMatch(payload.text, /test-token|re_test_resend_key/);

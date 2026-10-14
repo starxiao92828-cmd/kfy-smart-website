@@ -83,12 +83,15 @@ function validate(body) {
     phone: clean(body.phone, 50),
     message: clean(body.message, 2_000),
     sourcePage: clean(body.sourcePage, 300),
+    landingPage: clean(body.landingPage, 300),
     pageUrl: clean(body.pageUrl, 500),
     productModel: clean(body.productModel, 100),
     referrer: clean(body.referrer, 500),
     utmSource: clean(body.utmSource, 150),
     utmMedium: clean(body.utmMedium, 150),
     utmCampaign: clean(body.utmCampaign, 150),
+    utmContent: clean(body.utmContent, 150),
+    utmTerm: clean(body.utmTerm, 150),
   };
 
   const errors = {};
@@ -122,12 +125,15 @@ function buildEmail({ values, submissionId, submissionTime, environment }) {
   ];
   const source = [
     ['Source Page', values.sourcePage || '-'],
+    ['Landing Page', values.landingPage || '-'],
     ['Page URL', values.pageUrl || '-'],
     ['Product Model', values.productModel || values.specificProduct || '-'],
     ['Referrer', values.referrer || '-'],
     ['UTM Source', values.utmSource || '-'],
     ['UTM Medium', values.utmMedium || '-'],
     ['UTM Campaign', values.utmCampaign || '-'],
+    ['UTM Content', values.utmContent || '-'],
+    ['UTM Term', values.utmTerm || '-'],
     ['Language', 'en'],
   ];
 
