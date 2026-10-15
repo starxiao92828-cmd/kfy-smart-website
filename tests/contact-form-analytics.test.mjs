@@ -2,13 +2,15 @@ import assert from 'node:assert/strict';
 
 function createField(value = '', options = {}) {
   const attributes = new Set();
+  const listeners = {};
   return {
+    listeners,
     value,
     checked: Boolean(options.checked),
     type: options.type || 'text',
     tagName: options.tagName || 'INPUT',
     validity: { valid: options.valid !== false },
-    addEventListener() {},
+    addEventListener(name, callback) { listeners[name] = callback; },
     setAttribute(name) { attributes.add(name); },
     removeAttribute(name) { attributes.delete(name); },
     hasAttribute(name) { return attributes.has(name); },
@@ -16,7 +18,7 @@ function createField(value = '', options = {}) {
   };
 }
 
-async function runScenario(name, postResponse, inquiryContext) {
+async function runScenario(name, postResponse, inquiryContext, options = {}) {
   const fields = {
     name: createField('Preview Test User'),
     businessEmail: createField('preview@example.com'),
@@ -30,6 +32,9 @@ async function runScenario(name, postResponse, inquiryContext) {
     privacyAgreement: createField('', { type: 'checkbox', checked: true }),
   };
   const submitButton = { disabled: false, textContent: 'Send Inquiry' };
+  for (const [key, value] of Object.entries(options.values || {})) fields[key].value = value;
+  const guidance = { textContent: '', hidden: true };
+  const messageHelp = { textContent: 'Default message help' };
   const status = { textContent: '', className: 'form-status', focus() {} };
   const turnstileFrame = { focus() {} };
   const errors = Object.fromEntries(Object.keys(fields).map((fieldName) => [fieldName, { textContent: '' }]));
@@ -38,6 +43,8 @@ async function runScenario(name, postResponse, inquiryContext) {
   const form = {
     elements: { ...fields, website: createField('') },
     querySelector(selector) {
+      if (selector === '[data-inquiry-guidance]') return guidance;
+      if (selector === '[data-inquiry-message-help]') return messageHelp;
       if (selector === 'button[type="submit"]') return submitButton;
       if (selector === '[data-form-status]') return status;
       if (selector === '[data-turnstile]') return turnstileFrame;
@@ -60,8 +67,8 @@ async function runScenario(name, postResponse, inquiryContext) {
     localStorage: { getItem: () => 'accepted' },
     location: {
       pathname: '/contact/',
-      href: 'https://www.kfysmart.com/contact/',
-      search: '',
+      href: `https://www.kfysmart.com/contact/${options.search || ''}`,
+      search: options.search || '',
     },
     turnstile: {
       render(_frame, options) {
@@ -96,6 +103,7 @@ async function runScenario(name, postResponse, inquiryContext) {
   await import(`../assets/js/contact-form.js?scenario=${encodeURIComponent(name)}`);
   await new Promise((resolve) => setTimeout(resolve, 0));
   assert.equal(typeof submitHandler, 'function');
+  if (options.inspectOnly) return { fields, guidance, messageHelp, dataLayer };
   await submitHandler({ preventDefault() {} });
 
   const leadEvents = dataLayer.filter((entry) => entry.event === 'kfy_generate_lead');
@@ -150,5 +158,59 @@ assert.equal(httpFailure.resetCount, 0);
 const networkFailure = await runScenario('network-failure', new Error('Mock network failure'));
 assert.equal(networkFailure.leadEvents.length, 0);
 assert.equal(networkFailure.resetCount, 0);
+
+// Guide visitors get relevant prompts without generating a filled-in inquiry or a lead.
+for (const [slug, category, title] of [
+  ['adjustable-bed-base-bed-frame-compatibility', 'Adjustable Bed Bases', 'Bed-frame compatibility review'],
+  ['adjustable-bed-base-manufacturer-china-b2b-guide', 'Adjustable Bed Bases', 'Adjustable bed base sourcing inquiry'],
+  ['smart-mattress-oem-odm-sourcing-china-b2b-guide', 'Smart Mattresses', 'Smart mattress OEM/ODM inquiry'],
+]) {
+  const entry = await runScenario(slug, null, null, {
+    inspectOnly: true,
+    search: `?source=${encodeURIComponent(`/news/${slug}/`)}`,
+    values: { productInterest: '', specificProduct: '', message: '' },
+  });
+  assert.equal(entry.fields.productInterest.value, category);
+  assert.equal(entry.fields.specificProduct.value, '');
+  assert.equal(entry.fields.message.value, '');
+  assert.equal(entry.guidance.textContent, title);
+  assert.equal(entry.guidance.hidden, false);
+  assert(entry.fields.message.placeholder.length > 0);
+  assert.equal(entry.dataLayer.length, 0);
+  entry.fields.message.value = 'My own requirements';
+  entry.fields.productInterest.value = 'Hotel / Project Solutions';
+  entry.fields.productInterest.listeners.change();
+  assert.equal(entry.guidance.hidden, true);
+  assert.equal(entry.messageHelp.textContent, 'Default message help');
+  assert.equal(entry.fields.message.value, 'My own requirements');
+  entry.fields.productInterest.value = category;
+  entry.fields.productInterest.listeners.change();
+  assert.equal(entry.guidance.hidden, false);
+  assert.equal(entry.fields.message.value, 'My own requirements');
+}
+
+const preserved = await runScenario('preserve-visitor-input', null, null, {
+  inspectOnly: true,
+  search: '?model=E3&category=adjustable-bed-bases&source=%2Fnews%2Fadjustable-bed-base-bed-frame-compatibility%2F',
+  values: { specificProduct: 'My shortlisted model', message: 'My project requirements' },
+});
+assert.equal(preserved.fields.specificProduct.value, 'My shortlisted model');
+assert.equal(preserved.fields.message.value, 'My project requirements');
+
+for (const source of ['constructor', '//other.example/', '/news/unknown/', '<img src=x onerror=alert(1)>']) {
+  const unknown = await runScenario(`untrusted-source-${source}`, null, null, {
+    inspectOnly: true, search: `?source=${encodeURIComponent(source)}`,
+  });
+  assert.equal(unknown.guidance.hidden, true);
+  assert.equal(unknown.messageHelp.textContent, 'Default message help');
+}
+
+const anotherCategory = await runScenario('preserve-selected-category', null, null, {
+  inspectOnly: true,
+  search: '?source=%2Fnews%2Fadjustable-bed-base-bed-frame-compatibility%2F',
+  values: { productInterest: 'Smart Beds' },
+});
+assert.equal(anotherCategory.fields.productInterest.value, 'Smart Beds');
+assert.equal(anotherCategory.guidance.hidden, true);
 
 console.log('contact-form analytics targeted tests: passed');

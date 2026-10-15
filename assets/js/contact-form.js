@@ -136,6 +136,28 @@
     const product = (params.get('product') || '').trim();
     const model = (params.get('model') || '').trim();
     const category = (params.get('category') || '').trim().toLowerCase();
+    const guides = {
+      '/news/adjustable-bed-base-bed-frame-compatibility/': {
+        category: 'Adjustable Bed Bases',
+        title: 'Bed-frame compatibility review',
+        help: 'Include the frame’s internal width and length, support type (platform, slats or storage), mattress size and destination market. Mark any undecided detail as “not sure”.',
+        placeholder: 'I would like to check an adjustable base for this bed frame…',
+      },
+      '/news/adjustable-bed-base-manufacturer-china-b2b-guide/': {
+        category: 'Adjustable Bed Bases',
+        title: 'Adjustable bed base sourcing inquiry',
+        help: 'Include your target market, sales channel, required sizes and functions, estimated quantity and private-label needs. Mark any undecided detail as “not sure”.',
+        placeholder: 'We are sourcing adjustable bed bases for…',
+      },
+      '/news/smart-mattress-oem-odm-sourcing-china-b2b-guide/': {
+        category: 'Smart Mattresses',
+        title: 'Smart mattress OEM/ODM inquiry',
+        help: 'Include your target market, mattress sizes, required functions, estimated quantity and sample needs. If you have not chosen a W1–W4 platform, tell us what your project needs.',
+        placeholder: 'We are planning a smart mattress program for…',
+      },
+    };
+    const source = (params.get('source') || '').trim();
+    const guide = Object.hasOwn(guides, source) ? guides[source] : null;
     const categoryMap = {
       'adjustable-bed-bases': 'Adjustable Bed Bases',
       'adjustable bed bases': 'Adjustable Bed Bases',
@@ -149,14 +171,34 @@
       'hotel / project solutions': 'Hotel / Project Solutions',
     };
     const modelValue = (model || product).slice(0, 100);
-    if (modelValue) fields.specificProduct.value = modelValue;
+    if (modelValue && !fields.specificProduct.value) fields.specificProduct.value = modelValue;
 
     let interest = categoryMap[category];
     if (!interest && modelValue) {
       const prefix = modelValue.charAt(0).toUpperCase();
       interest = { E: 'Adjustable Bed Bases', S: 'Smart Beds', W: 'Smart Mattresses' }[prefix];
     }
-    if (interest && productOptions.has(interest)) fields.productInterest.value = interest;
+    if (!interest && guide) interest = guide.category;
+    if (interest && productOptions.has(interest) && !fields.productInterest.value) fields.productInterest.value = interest;
+
+    // Only known guide paths select copy. Visitor text is never prefilled or replaced.
+    if (guide) {
+      const guidance = form.querySelector('[data-inquiry-guidance]');
+      const messageHelp = form.querySelector('[data-inquiry-message-help]');
+      const defaultHelp = messageHelp?.textContent || '';
+      const defaultPlaceholder = fields.message.placeholder || '';
+      const refreshGuidance = () => {
+        const matches = fields.productInterest.value === guide.category;
+        if (guidance) {
+          guidance.textContent = matches ? guide.title : '';
+          guidance.hidden = !matches;
+        }
+        if (messageHelp) messageHelp.textContent = matches ? guide.help : defaultHelp;
+        fields.message.placeholder = matches ? guide.placeholder : defaultPlaceholder;
+      };
+      refreshGuidance();
+      fields.productInterest.addEventListener('change', refreshGuidance);
+    }
   };
 
   const loadTurnstile = () => {
