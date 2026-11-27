@@ -1622,3 +1622,29 @@
     transform: none;
   }
 }
+
+/* Business-model copy and buyer questions. */
+.about-hero-copy h1 {
+  max-width: 100%;
+  font-size: clamp(2.25rem, 3.6vw, 3.7rem);
+  line-height: 1.07;
+}
+.about-business-copy,
+.about-business-faq {
+  max-width: 860px;
+  margin: 0 auto;
+}
+.about-business-copy p,
+.about-business-faq p {
+  color: var(--muted);
+  font-size: 1.05rem;
+  line-height: 1.7;
+}
+.about-business-faq article + article {
+  margin-top: 28px;
+  padding-top: 28px;
+  border-top: 1px solid var(--about-line);
+}
+.about-business-faq h3 {
+  font-size: 1.25rem;
+}
